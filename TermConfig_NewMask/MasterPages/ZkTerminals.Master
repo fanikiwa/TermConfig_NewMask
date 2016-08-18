@@ -1,0 +1,124 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ZkTerminals.master.cs" ClientIDMode="Static" Inherits="TermConfig_NewMask.MasterPages.ZkTerminals" %>
+
+<%@ Register Assembly="DevExpress.Web.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="../Scripts/moment.js"></script>
+    <script src="../Scripts/jquery-3.0.0.js"></script>
+    <script src="../Scripts/ZkTerminals.js"></script>
+    <link href="../Styles/ZkTerminals.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="MainForm" runat="server">
+        <div id="dashboardmain">
+            <div id="mainmenutop">
+                <div id="MainHeader">
+                    <section class="MainheaderSec">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True" ScriptMode="Release">
+                        </asp:ScriptManager>
+                        <asp:Button ID="btnDashboard" runat="server" Text="Dashboard" CssClass="btnDashboard" OnClick="btnDashboard_Click" />
+                    </section>
+                    <section class="MainheaderSec1">
+                        <section class="secPlaceHolder"></section>
+                    </section>
+                    <section class="MainheaderSec2">
+                        <asp:Label ID="PageTitleLbl" runat="server" Text="" CssClass="companylbl"></asp:Label>
+                        <asp:Label ID="pagenamelbl" runat="server" Text="" CssClass="pagenamelbl"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="" CssClass="solutionversionlbl"></asp:Label>
+                    </section>
+                    <section class="MainheaderSec3">
+                        <asp:Button ID="btnLogout" runat="server" Text="Login/Logout" CssClass="btnLogoutsolution" />
+                    </section>
+                </div>
+            </div>
+            <div id="companyDetails">
+                <div class="dvnsLeft">
+                    <div id="contentarea">
+                        <div id="navcontentarea" class="NavPanel">
+                            <dx:ASPxNavBar ID="ASPxNavBar2" runat="server" Font-Names="Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif" Font-Size="12px" Style="min-width: 150px" Height="100%" CssClass="navigatetop" GroupSpacing="0px">
+                                <Groups>
+
+                                    <dx:NavBarGroup Name="Zeiterfassung" Text="Zeiterfassung Terminals" AllowExpanding="false" ShowExpandButton="False" HeaderStyle-CssClass="newheight">
+
+                                        <Items>
+                                            <dx:NavBarItem Name="TM 560bc" Text="TM 560bc">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="TM 560tc" Text="TM 560tc">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="TM 680tc" Text="TM 680tc" NavigateUrl="../Content/TM680tc.aspx">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="TM 680bc" Text="TM 680bc" NavigateUrl="../Content/TM680bc.aspx">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="TM 900bc" Text="TM 900bc" NavigateUrl="../Content/TM900bc.aspx">
+                                            </dx:NavBarItem>
+                                        </Items>
+                                        <HeaderStyle BackColor="#006158" />
+                                        <HeaderStyle ForeColor="White" />
+
+                                    </dx:NavBarGroup>
+                                    <dx:NavBarGroup Name="Zutritt" Text="Zutritt Terminals" AllowExpanding="false" ShowExpandButton="False" HeaderStyle-CssClass="newheight">
+
+                                        <Items>
+                                            <dx:NavBarItem Name="SC403" Text="SC403">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="SCR 100" Text="SCR 100">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="MA300out" Text="MA300out">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="TF 1700" Text="TF 1700">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="ZB702in" Text="ZB702in">
+                                            </dx:NavBarItem>
+
+                                            <dx:NavBarItem Name="ZB703in" Text="ZB703in">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="ZBBi-402" Text="ZBBi-402">
+                                            </dx:NavBarItem>
+                                            <dx:NavBarItem Name="ZBBi-404" Text="ZBBi-404">
+                                            </dx:NavBarItem>
+
+                                        </Items>
+                                        <HeaderStyle BackColor="#C19A57" />
+                                        <HeaderStyle ForeColor="White" />
+
+                                    </dx:NavBarGroup>
+                                </Groups>
+                            </dx:ASPxNavBar>
+
+                            <asp:ContentPlaceHolder ID="ModuleNavBar" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <div class="dvnsRight">
+
+                    <section class="secContHolder">
+                        <asp:ContentPlaceHolder ID="ContentHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                    <section class="footer">
+                        <section class="footerLeft">
+                            <asp:ContentPlaceHolder ID="FooterLeft" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                        <section class="footerRight">
+                            <asp:ContentPlaceHolder ID="FooterRight" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="Contentbottomarea" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>

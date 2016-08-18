@@ -1,0 +1,1902 @@
+﻿.newbtnfooterblue:hover:enabled, .editbtnfooterorange:hover:enabled, .savebtnfootergreen:hover:enabled, .deletebtnfooterred:hover:enabled, .helpbtnfooterblue:hover:enabled, .backbtnfooterred:hover:enabled {
+    background-color: transparent !important;
+    cursor: pointer;
+    border: none !important;
+}
+
+.allbtnpep:hover:enabled {
+    background-color: transparent !important;
+    cursor: pointer !important;
+    border: none !important;
+}
+
+.newbtnfooterblue {
+    width: 98px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: darkblue !important;
+}
+
+.editbtnfooterorange {
+    width: 140px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: rgb(255,88,0) !important;
+}
+
+.savebtnfootergreen {
+    width: 135px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: forestgreen !important;
+}
+
+.deletebtnfooterred {
+    width: 125px;
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 4px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+}
+
+.helpbtnfooterblue {
+    width: 36px;
+    height: 30px;
+    border-radius: 5px;
+    float: right;
+    margin: 5px 4px 0 0;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: none !important;
+    text-align: right !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: darkblue !important;
+}
+
+.backbtnfooterred {
+    width: 66px;
+    height: 30px;
+    border-radius: 5px;
+    float: right;
+    margin: 5px 4px 0 0;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: none !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    color: red !important;
+}
+
+
+
+@media only screen and (min-width: 200px) {
+    .navigatetop {
+        margin: 0;
+        padding: 0 !important;
+        width: 100% !important;
+        margin-top: 2px !important;
+    }
+
+    .dvnsLeft {
+        width: 14% !important;
+        height: 100%;
+        float: left;
+        min-width: 210px;
+    }
+
+    .dvnsRight {
+        width: 83.3% !important;
+        height: 100%;
+        float: left;
+    }
+
+    .secContHolder {
+        width: 100%;
+        float: left;
+        height: 93% !important;
+    }
+
+    .mainholdingarea {
+        width: 100%;
+        clear: none;
+        float: left;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+
+    .mainholdingareatop {
+        height: 7%;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+        width: 100%;
+        float: left;
+        clear: both;
+    }
+
+
+    .mainholdingareabottom {
+        height: 90%;
+        width: 100%;
+        float: left;
+        margin-top: 1%;
+        clear: both;
+    }
+
+
+    .mainholdingareabottomleft {
+        width: 65.2%;
+        height: 100%;
+        clear: none;
+        float: left;
+        margin-right: 0px;
+        margin-left: 1px;
+        border: 1px solid grey;
+        margin-top: 4px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .companylbl {
+        min-width: 200px;
+        text-align: right;
+        width: 33%;
+        font-size: 16px;
+        padding-top: 1%;
+        float: left;
+        height: 81%;
+        font-weight: 600;
+        display: inline-block;
+        color: white;
+    }
+
+    .solutionversionlbl {
+        min-width: 200px;
+        text-align: center;
+        width: 30%;
+        font-size: 16px;
+        padding-top: 1%;
+        float: left;
+        height: 81%;
+        font-weight: 600;
+        display: inline-block;
+        color: white;
+    }
+
+    .pagenamelbl {
+        min-width: 200px;
+        text-align: center !important;
+        width: 30%;
+        font-size: 16px;
+        float: left;
+        padding-top: 2%;
+        height: 76%;
+        font-weight: 600;
+        background-color: #d9390f !important;
+        display: inline-block;
+        color: #ffffff !important;
+    }
+
+    html, body {
+        min-width: 1366px;
+        min-height: 768px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-family: 'Segoe UI', Arial, Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+    }
+
+    #companyDetails {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 95%;
+        margin-left: 5px;
+        border-width: 0px;
+        background-color: #ffffff;
+    }
+
+
+
+    .footer {
+        width: 100%;
+        height: 5%;
+        float: left;
+        min-height: 40px;
+    }
+
+    .footerLeft {
+        width: 70%;
+        height: 100%;
+        float: left;
+    }
+
+    .footerRight {
+        width: 30%;
+        height: 100%;
+        float: right;
+    }
+
+    .MainheaderSec1 {
+        width: 14%;
+        float: left;
+        height: 100%;
+        margin-left: 0px;
+        min-width: 190px;
+    }
+
+    .MainheaderSec2 {
+        width: 48%;
+        height: 100%;
+        float: left;
+    }
+
+    .MainheaderSec3 {
+        width: 25%;
+        height: 100%;
+        float: right;
+        margin-right: 1%;
+    }
+
+
+    .secPlaceHolder {
+        width: 25%;
+        float: left;
+        height: 100%;
+        background-color: #006158;
+        padding-right: 2px;
+    }
+
+
+    .btnDashboard {
+        width: 100%;
+        height: 55px;
+        min-width: 140px;
+        float: left;
+        padding-left: 1px;
+        padding-top: 0px;
+        margin-top: 0px;
+        vertical-align: top !important;
+        margin-left: 0px;
+        background-color: #d9390f;
+        color: white;
+        border: 1px solid gray;
+        border-radius: 0px;
+    }
+
+        .btnDashboard:hover:enabled {
+            cursor: pointer;
+            border: 1px solid black;
+        }
+
+    .MainheaderSec {
+        width: 8%;
+        float: left;
+        height: 54px;
+        min-width: 140px;
+    }
+
+    #MainHeader {
+        height: 5%;
+        margin-left: 5px;
+        min-height: 55px;
+        color: black;
+        min-width: 1366px;
+        border-radius: 0;
+        margin-right: 5px;
+        display: block;
+        background: -moz-linear-gradient(0% 50% 0deg,rgba(183, 222, 219, 1) 0%,rgba(32, 154, 143, 1) 44.09%,rgba(9, 143, 131, 1) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        background: -webkit-gradient(linear,0% 50%,100% 50%,color-stop(0,rgba(183, 222, 219, 1) ),color-stop(0.4409,rgba(32, 154, 143, 1) ),color-stop(1,rgba(9, 143, 131, 1) ));
+        background: -o-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        background: -ms-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#B7DEDB', endColorstr='#098F83' ,GradientType=0)";
+        background: linear-gradient(90deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B7DEDB',endColorstr='#098F83', GradientType=1);
+    }
+
+    .dashboarduser {
+        float: left;
+        clear: none;
+        width: 16%;
+        height: 100%;
+        margin: 0 auto;
+        min-width: 210px;
+        background-color: lightCoral;
+        margin-left: 5%;
+        display: block;
+    }
+
+    #mainmenutop {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 5%;
+        min-height: 55px;
+        margin: 0 auto;
+    }
+
+    #MainForm {
+        height: 100%;
+        min-width: 1366px;
+        width: 100%;
+        display: block;
+    }
+
+    #dashboardmain {
+        background: #f1f1f1 url('../Images/FormImages/zutdashboardpic.jpg') no-repeat right 50%;
+        background-size: cover;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        left: 0px;
+    }
+
+
+
+
+
+    .secCompOne {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secCompTwo {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    .secCompThree {
+        width: 10%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLeftOne {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secMid {
+        width: 20%;
+        float: left;
+        height: 100%;
+    }
+
+    .lblCompName {
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-top: 4%;
+        color: red;
+        font-size: 17px;
+    }
+
+    .secRight {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+
+    #contentarea {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 100%;
+    }
+
+    .userNameSec {
+        width: 85%;
+        height: 20%;
+        float: left;
+        background-color: seagreen;
+        margin-left: 10%;
+    }
+
+    .contPlcHolder {
+        width: 79%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLeftDVNS {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secOneHeader {
+        width: 100%;
+        height: 5%;
+        min-height: 25px;
+        float: left;
+        margin-top: 7%;
+    }
+
+    .secOne {
+        width: 100%;
+        height: 16%;
+        min-height: 25px;
+        float: left;
+    }
+
+    .secRightDVNS {
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    .slnModules {
+        width: 100%;
+        height: 70%;
+        background-color: rgba(255, 255, 255, 1);
+        float: left;
+    }
+
+    .topuserbar {
+        height: 60%;
+        width: 100%;
+        float: left;
+        clear: both;
+        box-shadow: 2px gray;
+    }
+
+    .lbldashboard {
+        display: block;
+        text-align: left;
+        width: 97%;
+        padding-top: 0px;
+        font-size: 14px;
+        color: #ffffff;
+        padding-left: 3%;
+        text-wrap: normal;
+    }
+
+    .slns {
+        width: 100%;
+        height: 50%;
+        float: left;
+    }
+
+    .slnsLeft {
+        width: 55%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .secSlnHeader {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .lblKrutecSftwr {
+        width: 95%;
+        float: left;
+        margin-left: 4%;
+        font-size: 18px;
+    }
+
+    .secSlnContent {
+        width: 100%;
+        height: 80%;
+        float: left;
+    }
+
+    .modules {
+        width: 100%;
+        height: 80%;
+        float: left;
+    }
+
+    .nameModule {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .lblNameOfModule {
+        width: 7%;
+        float: left;
+        margin-right: 1%;
+    }
+
+    .slnsMid {
+        width: 19%;
+        height: 100%;
+        float: left;
+    }
+
+    .slnsRight {
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+
+    .usertitle {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 39%;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .btnSln {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-right: 4px;
+        margin-left: 4%;
+        margin-top: 17px;
+    }
+
+    .btnSlnSft {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-right: 3px;
+        margin-left: 4%;
+        margin-top: 7px;
+    }
+
+    .btnSln2 {
+        width: 80px;
+        height: 80px;
+        float: right;
+        margin-right: 4px;
+        margin-top: 17px;
+    }
+
+    #Time_Attendance_NavBar.dxnbLite {
+        color: black;
+        background-color: white;
+        font: 12px Tahoma, Geneva, sans-serif;
+        list-style: none none outside;
+        margin: 0;
+        padding: 0px;
+        float: left;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .NavPanel {
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .btnLogoutsolution {
+        float: right;
+        margin: 9px 20px 0 0;
+        width: 200px;
+        height: 40px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-position-x: 15px;
+        background-position-y: center;
+        background-image: url('../Images/FormImages/Keys.png');
+        background-repeat: no-repeat;
+    }
+
+        .btnLogoutsolution:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+    .lblDateDisplay {
+        width: 50%;
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 6%;
+        text-align: left;
+        color: green;
+    }
+
+
+    .lblDateName {
+        width: 42%;
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 6%;
+        text-align: right;
+        padding-right: 5px;
+        color: green;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .navigatetop {
+        margin: 0;
+        padding: 0 !important;
+        width: 100% !important;
+        margin-top: 2px !important;
+    }
+
+    .dvnsLeft {
+        width: 12% !important;
+        height: 100%;
+        float: left;
+        min-width: 200px;
+    }
+
+    .dvnsRight {
+        width: 87.3% !important;
+        height: 100%;
+        float: left;
+    }
+
+    .secContHolder {
+        width: 100%;
+        float: left;
+        height: 93% !important;
+    }
+
+    .mainholdingarea {
+        width: 100%;
+        clear: none;
+        float: left;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+
+    .mainholdingareatop {
+        height: 7%;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+        width: 100%;
+        float: left;
+        clear: both;
+    }
+
+
+    .mainholdingareabottom {
+        height: 90%;
+        width: 100%;
+        float: left;
+        margin-top: 1%;
+        clear: both;
+    }
+
+
+    .mainholdingareabottomleft {
+        width: 65.2%;
+        height: 100%;
+        clear: none;
+        float: left;
+        margin-right: 0px;
+        margin-left: 1px;
+        border: 1px solid grey;
+        margin-top: 4px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .companylbl {
+        min-width: 200px;
+        text-align: right;
+        width: 33%;
+        font-size: 16px;
+        padding-top: 1%;
+        float: left;
+        height: 81%;
+        font-weight: 600;
+        display: inline-block;
+        color: white;
+    }
+
+    .solutionversionlbl {
+        min-width: 200px;
+        text-align: center;
+        width: 30%;
+        font-size: 16px;
+        padding-top: 1%;
+        float: left;
+        height: 81%;
+        font-weight: 600;
+        display: inline-block;
+        color: white;
+    }
+
+    .pagenamelbl {
+        min-width: 200px;
+        text-align: center !important;
+        width: 30%;
+        font-size: 16px;
+        float: left;
+        padding-top: 2%;
+        height: 70%;
+        font-weight: 600;
+        background-color: #d9390f !important;
+        display: inline-block;
+        color: #ffffff !important;
+    }
+
+    html, body {
+        min-width: 1366px;
+        min-height: 768px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-family: 'Segoe UI', Arial, Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+    }
+
+    #companyDetails {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 95%;
+        margin-left: 5px;
+        border-width: 0px;
+        background-color: #ffffff;
+    }
+
+
+    .footer {
+        width: 100%;
+        height: 5%;
+        float: left;
+        min-height: 40px;
+    }
+
+    .footerLeft {
+        width: 70%;
+        height: 100%;
+        float: left;
+    }
+
+    .footerRight {
+        width: 30%;
+        height: 100%;
+        float: right;
+    }
+
+    .MainheaderSec1 {
+        width: 14%;
+        float: left;
+        height: 100%;
+        margin-left: 0px;
+        min-width: 190px;
+    }
+
+
+
+    .MainheaderSec2 {
+        width: 48%;
+        height: 100%;
+        float: left;
+    }
+
+    .MainheaderSec3 {
+        width: 25%;
+        height: 100%;
+        float: right;
+        margin-right: 1%;
+    }
+
+
+    .secPlaceHolder {
+        width: 36%;
+        float: left;
+        height: 100%;
+        background-color: #006158;
+        padding-right: 1px;
+    }
+
+
+    .btnDashboard {
+        width: 100%;
+        height: 55px;
+        min-width: 140px;
+        float: left;
+        padding-left: 1px;
+        padding-top: 0px;
+        margin-top: 0px;
+        vertical-align: top !important;
+        margin-left: 0px;
+        background-color: #d9390f;
+        color: white;
+        border: 1px solid gray;
+        border-radius: 0px;
+    }
+
+        .btnDashboard:hover:enabled {
+            cursor: pointer;
+            border: 1px solid black;
+        }
+
+    .MainheaderSec {
+        width: 8%;
+        float: left;
+        height: 54px;
+        min-width: 140px;
+    }
+
+    #MainHeader {
+        height: 5%;
+        margin-left: 5px;
+        min-height: 55px;
+        color: black;
+        min-width: 1366px;
+        border-radius: 0;
+        margin-right: 5px;
+        display: block;
+        background: -moz-linear-gradient(0% 50% 0deg,rgba(183, 222, 219, 1) 0%,rgba(32, 154, 143, 1) 44.09%,rgba(9, 143, 131, 1) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        background: -webkit-gradient(linear,0% 50%,100% 50%,color-stop(0,rgba(183, 222, 219, 1) ),color-stop(0.4409,rgba(32, 154, 143, 1) ),color-stop(1,rgba(9, 143, 131, 1) ));
+        background: -o-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        background: -ms-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#B7DEDB', endColorstr='#098F83' ,GradientType=0)";
+        background: linear-gradient(90deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B7DEDB',endColorstr='#098F83', GradientType=1);
+    }
+
+    .dashboarduser {
+        float: left;
+        clear: none;
+        width: 16%;
+        height: 100%;
+        margin: 0 auto;
+        min-width: 210px;
+        background-color: lightCoral;
+        margin-left: 5%;
+        display: block;
+    }
+
+    #mainmenutop {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 5%;
+        min-height: 55px;
+        margin: 0 auto;
+    }
+
+    #MainForm {
+        height: 100%;
+        min-width: 1366px;
+        width: 100%;
+        display: block;
+    }
+
+    #dashboardmain {
+        background: #f1f1f1 url('../Images/FormImages/zutdashboardpic.jpg') no-repeat right 50%;
+        background-size: cover;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        left: 0px;
+    }
+
+
+
+    .secCompOne {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secCompTwo {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    .secCompThree {
+        width: 10%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLeftOne {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secMid {
+        width: 20%;
+        float: left;
+        height: 100%;
+    }
+
+    .lblCompName {
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-top: 4%;
+        color: red;
+        font-size: 17px;
+    }
+
+    .secRight {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+
+    #contentarea {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 100%;
+    }
+
+    .userNameSec {
+        width: 83%;
+        height: 20%;
+        float: left;
+        background-color: seagreen;
+        margin-left: 10%;
+    }
+
+    .contPlcHolder {
+        width: 79%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLeftDVNS {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secOneHeader {
+        width: 100%;
+        height: 5%;
+        min-height: 25px;
+        float: left;
+        margin-top: 7%;
+    }
+
+    .secOne {
+        width: 100%;
+        height: 16%;
+        min-height: 25px;
+        float: left;
+    }
+
+    .secRightDVNS {
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    .slnModules {
+        width: 100%;
+        height: 70%;
+        background-color: rgba(255, 255, 255, 1);
+        float: left;
+    }
+
+    .topuserbar {
+        height: 60%;
+        width: 100%;
+        float: left;
+        clear: both;
+        box-shadow: 2px gray;
+    }
+
+    .lbldashboard {
+        display: block;
+        text-align: left;
+        width: 97%;
+        padding-top: 0px;
+        font-size: 14px;
+        color: #ffffff;
+        padding-left: 3%;
+        text-wrap: normal;
+    }
+
+    .slns {
+        width: 100%;
+        height: 50%;
+        float: left;
+    }
+
+    .slnsLeft {
+        width: 55%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .secSlnHeader {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .lblKrutecSftwr {
+        width: 95%;
+        float: left;
+        margin-left: 4%;
+        font-size: 18px;
+    }
+
+    .secSlnContent {
+        width: 100%;
+        height: 80%;
+        float: left;
+    }
+
+    .modules {
+        width: 100%;
+        height: 80%;
+        float: left;
+    }
+
+    .nameModule {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .lblNameOfModule {
+        width: 7%;
+        float: left;
+        margin-right: 1%;
+    }
+
+    .slnsMid {
+        width: 19%;
+        height: 100%;
+        float: left;
+    }
+
+    .slnsRight {
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+
+    .usertitle {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 39%;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .btnSln {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-right: 4px;
+        margin-left: 4%;
+        margin-top: 17px;
+    }
+
+    .btnSlnSft {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-right: 3px;
+        margin-left: 4%;
+        margin-top: 7px;
+    }
+
+    .btnSln2 {
+        width: 80px;
+        height: 80px;
+        float: right;
+        margin-right: 4px;
+        margin-top: 17px;
+    }
+
+    #Time_Attendance_NavBar.dxnbLite {
+        color: black;
+        background-color: white;
+        font: 12px Tahoma, Geneva, sans-serif;
+        list-style: none none outside;
+        margin: 0;
+        padding: 0px;
+        float: left;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .NavPanel {
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .btnLogoutsolution {
+        float: right;
+        margin: 9px 20px 0 0;
+        width: 200px;
+        height: 40px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-position-x: 15px;
+        background-position-y: center;
+        background-image: url('../Images/FormImages/Keys.png');
+        background-repeat: no-repeat;
+    }
+
+        .btnLogoutsolution:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+    .lblDateDisplay {
+        width: 50%;
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 6%;
+        text-align: left;
+        color: green;
+    }
+
+
+    .lblDateName {
+        width: 42%;
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 6%;
+        text-align: right;
+        padding-right: 5px;
+        color: green;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .navigatetop {
+        margin: 0;
+        padding: 0 !important;
+        width: 100% !important;
+        margin-top: 2px !important;
+    }
+
+    .dvnsLeft {
+        width: 11% !important;
+        height: 100%;
+        float: left;
+        min-width: 150px;
+    }
+
+    .dvnsRight {
+        width: 88.3% !important;
+        height: 100%;
+        float: left;
+    }
+
+    .secContHolder {
+        width: 100%;
+        float: left;
+        height: 93% !important;
+    }
+
+    .mainholdingarea {
+        width: 100%;
+        clear: none;
+        float: left;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+
+    .mainholdingareatop {
+        height: 7%;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+        width: 100%;
+        float: left;
+        clear: both;
+    }
+
+
+    .mainholdingareabottom {
+        height: 90%;
+        width: 100%;
+        float: left;
+        margin-top: 1%;
+        clear: both;
+    }
+
+
+    .mainholdingareabottomleft {
+        width: 65.2%;
+        height: 100%;
+        clear: none;
+        float: left;
+        margin-right: 0px;
+        margin-left: 1px;
+        border: 1px solid grey;
+        margin-top: 4px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(186,186,186,0.75);
+        -webkit-box-shadow: 0 1px 10px #777;
+        -moz-box-shadow: 1 1px 10px #777;
+        box-shadow: 0px 1px 10px #777;
+        border-bottom: none !important;
+    }
+
+    .companylbl {
+        min-width: 200px;
+        text-align: right;
+        width: 33%;
+        font-size: 16px;
+        float: left;
+        padding-top: 1%;
+        height: 81%;
+        font-weight: 600;
+        display: inline-block;
+        color: white;
+    }
+
+    .solutionversionlbl {
+        min-width: 200px;
+        text-align: center;
+        width: 30%;
+        font-size: 16px;
+        float: left;
+        padding-top: 1%;
+        height: 81%;
+        font-weight: 600;
+        display: inline-block;
+        color: white;
+    }
+
+    .pagenamelbl {
+        min-width: 200px;
+        text-align: center !important;
+        width: 30%;
+        font-size: 16px;
+        float: left;
+        padding-top: 2%;
+        height: 67%;
+        font-weight: 600;
+        background-color: #d9390f !important;
+        display: inline-block;
+        color: #ffffff !important;
+    }
+
+    html, body {
+        min-width: 1366px;
+        min-height: 768px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-family: 'Segoe UI', Arial, Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+    }
+
+    #companyDetails {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 95%;
+        margin-left: 5px;
+        border-width: 0px;
+        background-color: #ffffff;
+    }
+
+
+
+    .footer {
+        width: 100%;
+        height: 5%;
+        float: left;
+        min-height: 40px;
+    }
+
+    .footerLeft {
+        width: 70%;
+        height: 100%;
+        float: left;
+    }
+
+    .footerRight {
+        width: 30%;
+        height: 100%;
+        float: right;
+    }
+
+    .MainheaderSec1 {
+        width: 14%;
+        float: left;
+        height: 100%;
+        margin-left: 0px;
+        min-width: 315px;
+    }
+
+    .MainheaderSec2 {
+        width: 48%;
+        height: 100%;
+        float: left;
+    }
+
+    .MainheaderSec3 {
+        width: 25%;
+        height: 100%;
+        float: right;
+        margin-right: 1%;
+    }
+
+
+    .secPlaceHolder {
+        width: 36%;
+        float: left;
+        height: 100%;
+        background-color: #006158;
+        padding-right: 1px;
+    }
+
+
+    .btnDashboard {
+        width: 100%;
+        height: 55px;
+        min-width: 140px;
+        float: left;
+        padding-left: 1px;
+        padding-top: 0px;
+        margin-top: 0px;
+        vertical-align: top !important;
+        margin-left: 0px;
+        background-color: #d9390f;
+        color: white;
+        border: 1px solid gray;
+        border-radius: 0px;
+    }
+
+        .btnDashboard:hover:enabled {
+            cursor: pointer;
+            border: 1px solid black;
+        }
+
+    .MainheaderSec {
+        width: 8%;
+        float: left;
+        height: 54px;
+        min-width: 140px;
+    }
+
+    #MainHeader {
+        height: 5%;
+        margin-left: 5px;
+        min-height: 55px;
+        color: black;
+        min-width: 1366px;
+        border-radius: 0;
+        margin-right: 5px;
+        display: block;
+        background: -moz-linear-gradient(0% 50% 0deg,rgba(183, 222, 219, 1) 0%,rgba(32, 154, 143, 1) 44.09%,rgba(9, 143, 131, 1) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        background: -webkit-gradient(linear,0% 50%,100% 50%,color-stop(0,rgba(183, 222, 219, 1) ),color-stop(0.4409,rgba(32, 154, 143, 1) ),color-stop(1,rgba(9, 143, 131, 1) ));
+        background: -o-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        background: -ms-linear-gradient(0deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#B7DEDB', endColorstr='#098F83' ,GradientType=0)";
+        background: linear-gradient(90deg, rgba(183, 222, 219, 1) 0%, rgba(32, 154, 143, 1) 44.09%, rgba(9, 143, 131, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B7DEDB',endColorstr='#098F83', GradientType=1);
+    }
+
+    .dashboarduser {
+        float: left;
+        clear: none;
+        width: 16%;
+        height: 100%;
+        margin: 0 auto;
+        min-width: 210px;
+        background-color: lightCoral;
+        margin-left: 5%;
+        display: block;
+    }
+
+    #mainmenutop {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 5%;
+        min-height: 55px;
+        margin: 0 auto;
+    }
+
+    #MainForm {
+        height: 100%;
+        min-width: 1366px;
+        width: 100%;
+        display: block;
+    }
+
+    #dashboardmain {
+        background: #f1f1f1 url('../Images/FormImages/zutdashboardpic.jpg') no-repeat right 50%;
+        background-size: cover;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        left: 0px;
+    }
+
+
+
+
+    .secCompOne {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secCompTwo {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    .secCompThree {
+        width: 10%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLeftOne {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secMid {
+        width: 20%;
+        float: left;
+        height: 100%;
+    }
+
+    .lblCompName {
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-top: 4%;
+        color: red;
+        font-size: 17px;
+    }
+
+    .secRight {
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+
+    #contentarea {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 100%;
+    }
+
+    .userNameSec {
+        width: 83%;
+        height: 20%;
+        float: left;
+        background-color: seagreen;
+        margin-left: 10%;
+    }
+
+    .contPlcHolder {
+        width: 79%;
+        height: 100%;
+        float: left;
+    }
+
+    .secLeftDVNS {
+        width: 60%;
+        height: 100%;
+        float: left;
+    }
+
+    .secOneHeader {
+        width: 100%;
+        height: 5%;
+        min-height: 25px;
+        float: left;
+        margin-top: 7%;
+    }
+
+    .secOne {
+        width: 100%;
+        height: 16%;
+        min-height: 25px;
+        float: left;
+    }
+
+    .secRightDVNS {
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    .slnModules {
+        width: 100%;
+        height: 70%;
+        background-color: rgba(255, 255, 255, 1);
+        float: left;
+    }
+
+    .topuserbar {
+        height: 60%;
+        width: 100%;
+        float: left;
+        clear: both;
+        box-shadow: 2px gray;
+    }
+
+    .lbldashboard {
+        display: block;
+        text-align: left;
+        width: 97%;
+        padding-top: 0px;
+        font-size: 14px;
+        color: #ffffff;
+        padding-left: 3%;
+        text-wrap: normal;
+    }
+
+    .slns {
+        width: 100%;
+        height: 50%;
+        float: left;
+    }
+
+    .slnsLeft {
+        width: 55%;
+        height: 100%;
+        float: left;
+    }
+
+
+    .secSlnHeader {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .lblKrutecSftwr {
+        width: 95%;
+        float: left;
+        margin-left: 4%;
+        font-size: 18px;
+    }
+
+    .secSlnContent {
+        width: 100%;
+        height: 80%;
+        float: left;
+    }
+
+    .modules {
+        width: 100%;
+        height: 80%;
+        float: left;
+    }
+
+    .nameModule {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .lblNameOfModule {
+        width: 7%;
+        float: left;
+        margin-right: 1%;
+    }
+
+    .slnsMid {
+        width: 19%;
+        height: 100%;
+        float: left;
+    }
+
+    .slnsRight {
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+
+    .usertitle {
+        float: left;
+        clear: both;
+        width: 100%;
+        height: 39%;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .btnSln {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-right: 4px;
+        margin-left: 4%;
+        margin-top: 17px;
+    }
+
+    .btnSlnSft {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-right: 3px;
+        margin-left: 4%;
+        margin-top: 7px;
+    }
+
+    .btnSln2 {
+        width: 80px;
+        height: 80px;
+        float: right;
+        margin-right: 4px;
+        margin-top: 17px;
+    }
+
+    #Time_Attendance_NavBar.dxnbLite {
+        color: black;
+        background-color: white;
+        font: 12px Tahoma, Geneva, sans-serif;
+        list-style: none none outside;
+        margin: 0;
+        padding: 0px;
+        float: left;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .NavPanel {
+        width: 85%;
+        height: 100%;
+        float: left;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+    }
+
+
+    .btnLogoutsolution {
+        float: right;
+        margin: 9px 20px 0 0;
+        width: 200px;
+        height: 40px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-position-x: 15px;
+        background-position-y: center;
+        background-image: url('../Images/FormImages/Keys.png');
+        background-repeat: no-repeat;
+    }
+
+        .btnLogoutsolution:hover:enabled {
+            cursor: pointer;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+    .lblDateDisplay {
+        width: 50%;
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 6%;
+        text-align: left;
+        color: green;
+    }
+
+
+    .lblDateName {
+        width: 42%;
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 6%;
+        text-align: right;
+        padding-right: 5px;
+        color: green;
+    }
+}
+
+.newstandardbutton {
+    border: none !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+    background-image: none !important;
+    color: #009bd8 !important;
+}
+
+/*Prompt Styling*/
+.promptWrapper {
+    z-index: 532825578999;
+    position: absolute;
+    top: 32%;
+    left: 42%;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: red;
+    border: 1px solid black;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    /*background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );*/
+}
+
+.secPromptImg {
+    display: block;
+    height: 42%;
+    width: 100%;
+}
+
+.secPromptMsg {
+    display: block;
+    height: 33%;
+    margin-top: 7%;
+    width: 100%;
+}
+
+
+.secPromptFooter {
+    display: block;
+    height: 14%;
+    width: 100%;
+}
+
+.promptButton {
+    display: block;
+    width: 90px;
+    height: 30px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 5px 10px 0 0;
+}
+
+    .promptButton:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+.promptButtonCancel {
+    margin-right: 0;
+}
+
+#btnInfoPromptOk {
+    float: right;
+}
+
+.promptImg {
+}
+/*End Prompt Controls Styling*/
+.dxnbLite .dxnb-content {
+    list-style: none none outside;
+    margin: 0;
+    padding: 5px;
+    border: none !important;
+    overflow: hidden;
+    /*border-top: 0 solid #A8A8A8;
+    border-right: 1px solid #A8A8A8;
+    border-bottom: 1px solid #A8A8A8;
+    border-left: 1px solid #A8A8A8;*/
+}
+
+.navClass {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}

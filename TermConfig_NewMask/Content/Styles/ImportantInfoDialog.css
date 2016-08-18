@@ -1,0 +1,393 @@
+﻿#overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flame {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#dialogBox {
+      width: 500px;
+    height: 230px;
+    padding: 10px;
+    /*margin: auto;*/
+    margin-top: 45px;
+    margin-left: 47%;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#dialogBoxCustom {
+       width: 500px;
+    height: 230px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#dialogBox2 {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+.greeninfo {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 15px;
+}
+
+
+#btnOk {
+    display: block;
+    width: 90px;
+    height: 30px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#btnOkCustom {
+    display: block;
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnOkCustom:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnOk:enabled:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+#btnNo {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnNo:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnCancel {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnCancel:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+.terminalPointerHide {
+    display: none;
+}
+
+.stopPic {
+    margin-bottom: 20px;
+}
+
+/*Back button confirm*/
+
+#overlayBack {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flameBack {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#dialogBoxBack {
+      width: 500px;
+    height: 230px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#btnOkBack {
+    display: block;
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnOkBack:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnNoBack {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnNoBack:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnCancelBack {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnCancelBack:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+.stopPicBack {
+    margin-bottom: 20px;
+}
+
+
+/*Delete button confirm*/
+
+#overlayDelete {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flameDelete {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#dialogBoxDelete {
+         width: 500px;
+    height: 230px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+    font-size: 16px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+#btnOkDelete {
+    display: block;
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnOkDelete:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnNoDelete {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnNoDelete:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnCancelDelete {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnCancelDelete:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+.stopPicDelete {
+    margin-bottom: 4px;
+
+
+      /*width: 50px !important;
+    height: 50px !important;
+    float: left;
+    padding: 5px;
+    clear: both;*/
+}
+
+.stopPicDeleteTest {
+    color: black;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-weight: 600;
+}
+
+.stopPicDeleteTop1Message {
+    font-size: 19px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+}
+
+.stopPicDeleteTop2Message {
+    font-size: 19px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+
+
+
+/*NEW STANDARD DESIGN*/
+#promptbtnclose {
+    width: 25px;
+    float: right;
+    margin-right: 8px;
+    clear: none;
+    height: 25px;
+    background-image: url('../../Images/FormImages/promptclose.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none !important;
+    cursor: pointer;
+}
+ 

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b44217076c3447218cf878bca6be86a2" Name="Diagram1">
+        <EntityTypeShape EntityType="PZE_Model.Absence" Width="1.5" PointX="29.25" PointY="19.375" />
+        <EntityTypeShape EntityType="PZE_Model.AC_PermissionMapping" Width="1.5" PointX="41" PointY="31" />
+        <EntityTypeShape EntityType="PZE_Model.AC_PermissionProfile" Width="1.5" PointX="38.75" PointY="28" />
+        <EntityTypeShape EntityType="PZE_Model.AC_Permissions" Width="1.5" PointX="38.75" PointY="31.25" />
+        <EntityTypeShape EntityType="PZE_Model.AC_PersPasswords" Width="1.5" PointX="0.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.AC_PersProfileMapping" Width="1.5" PointX="41" PointY="28.25" />
+        <EntityTypeShape EntityType="PZE_Model.AC_Reports" Width="1.5" PointX="43.75" PointY="33.875" />
+        <EntityTypeShape EntityType="PZE_Model.AC_ReportSettings" Width="1.5" PointX="46" PointY="35.5" />
+        <EntityTypeShape EntityType="PZE_Model.AccessCalendar" Width="1.5" PointX="3.75" PointY="9.875" />
+        <EntityTypeShape EntityType="PZE_Model.AccessCalendarMonth" Width="1.5" PointX="6" PointY="96" />
+        <EntityTypeShape EntityType="PZE_Model.AccessCalendarProfile" Width="1.5" PointX="0.75" PointY="9.5" />
+        <EntityTypeShape EntityType="PZE_Model.AccessControlLog" Width="1.5" PointX="0.75" PointY="12.5" />
+        <EntityTypeShape EntityType="PZE_Model.AccessGroup" Width="1.5" PointX="3.75" PointY="58.625" />
+        <EntityTypeShape EntityType="PZE_Model.AccessGroupEmployee" Width="1.5" PointX="31.5" PointY="36.125" />
+        <EntityTypeShape EntityType="PZE_Model.AccessPlanGroupDoorMapping" Width="1.5" PointX="11.25" PointY="3.25" />
+        <EntityTypeShape EntityType="PZE_Model.AccessProfileAccessGroupMapping" Width="1.5" PointX="11.25" PointY="62" />
+        <EntityTypeShape EntityType="PZE_Model.Account" Width="1.5" PointX="29.25" PointY="7.25" />
+        <EntityTypeShape EntityType="PZE_Model.Accounts_Day" Width="1.5" PointX="33.75" PointY="35.25" />
+        <EntityTypeShape EntityType="PZE_Model.Accounts_Month" Width="1.5" PointX="36" PointY="35.875" />
+        <EntityTypeShape EntityType="PZE_Model.Accounts_Week" Width="1.5" PointX="36" PointY="43.875" />
+        <EntityTypeShape EntityType="PZE_Model.Accounts_Year" Width="1.5" PointX="36" PointY="27.75" />
+        <EntityTypeShape EntityType="PZE_Model.Address" Width="1.5" PointX="31.5" PointY="23.375" />
+        <EntityTypeShape EntityType="PZE_Model.Area" Width="1.5" PointX="16" PointY="13.875" />
+        <EntityTypeShape EntityType="PZE_Model.BookingPair" Width="1.5" PointX="13.75" PointY="5.5" />
+        <EntityTypeShape EntityType="PZE_Model.Break" Width="1.5" PointX="36" PointY="22.375" />
+        <EntityTypeShape EntityType="PZE_Model.BreaksMapped" Width="1.5" PointX="0.75" PointY="16.5" />
+        <EntityTypeShape EntityType="PZE_Model.BreaksType" Width="1.5" PointX="7.75" PointY="16.5" />
+        <EntityTypeShape EntityType="PZE_Model.BuildingPlan" Width="1.5" PointX="3.75" PointY="5.625" />
+        <EntityTypeShape EntityType="PZE_Model.CCAccount" Width="1.5" PointX="18.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.CellPhoneMaster" Width="1.5" PointX="0.75" PointY="32.5" />
+        <EntityTypeShape EntityType="PZE_Model.Client" Width="1.5" PointX="20.5" PointY="5.375" />
+        <EntityTypeShape EntityType="PZE_Model.Color" Width="1.5" PointX="2.75" PointY="19.5" />
+        <EntityTypeShape EntityType="PZE_Model.CostCenter" Width="1.5" PointX="24.75" PointY="12" />
+        <EntityTypeShape EntityType="PZE_Model.Country" Width="1.5" PointX="4.75" PointY="19.5" />
+        <EntityTypeShape EntityType="PZE_Model.Customer" Width="1.5" PointX="5.75" PointY="10.5" />
+        <EntityTypeShape EntityType="PZE_Model.DailyAccountTime" Width="1.5" PointX="31.5" PointY="14.25" />
+        <EntityTypeShape EntityType="PZE_Model.DailyBooking" Width="1.5" PointX="24.75" PointY="21.5" />
+        <EntityTypeShape EntityType="PZE_Model.DailyBookingsReport" Width="1.5" PointX="18.75" PointY="13.5" />
+        <EntityTypeShape EntityType="PZE_Model.DailyCalendar" Width="1.5" PointX="27.25" PointY="35.625" />
+        <EntityTypeShape EntityType="PZE_Model.DailyCalendarMapped" Width="1.5" PointX="24.75" PointY="47.5" />
+        <EntityTypeShape EntityType="PZE_Model.DailyProgramMapped" Width="1.5" PointX="36" PointY="12.125" />
+        <EntityTypeShape EntityType="PZE_Model.DailyProgram" Width="1.5" PointX="33.75" PointY="17" />
+        <EntityTypeShape EntityType="PZE_Model.DatafoxTerminalInstance" Width="1.5" PointX="43.75" PointY="28.75" />
+        <EntityTypeShape EntityType="PZE_Model.DatafoxTerminalReader" Width="1.5" PointX="46" PointY="29" />
+        <EntityTypeShape EntityType="PZE_Model.Department" Width="1.5" PointX="13.75" PointY="15" />
+        <EntityTypeShape EntityType="PZE_Model.DP_Shifts" Width="1.5" PointX="36" PointY="15.125" />
+        <EntityTypeShape EntityType="PZE_Model.DynamicColumn" Width="1.5" PointX="15.75" PointY="10.75" />
+        <EntityTypeShape EntityType="PZE_Model.DynamicField" Width="1.5" PointX="12.75" PointY="21.5" />
+        <EntityTypeShape EntityType="PZE_Model.DynamicFieldsMember" Width="1.5" PointX="14.75" PointY="21.5" />
+        <EntityTypeShape EntityType="PZE_Model.EmpAdditionalInfo" Width="1.5" PointX="18" PointY="10.625" />
+        <EntityTypeShape EntityType="PZE_Model.Employee" Width="1.5" PointX="29.25" PointY="12.875" />
+        <EntityTypeShape EntityType="PZE_Model.EmployeeAbsence" Width="1.5" PointX="31.5" PointY="17.25" />
+        <EntityTypeShape EntityType="PZE_Model.EmployeeInfo" Width="1.5" PointX="27" PointY="10.875" />
+        <EntityTypeShape EntityType="PZE_Model.EmployeePhoto" Width="1.5" PointX="22.75" PointY="26.5" />
+        <EntityTypeShape EntityType="PZE_Model.EmployeeTariff" Width="1.5" PointX="31.5" PointY="11.375" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_Anrede" Width="1.5" PointX="0.75" PointY="25.375" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_KAnsprechp" Width="1.5" PointX="3" PointY="46.125" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_Kunden" Width="1.5" PointX="13.75" PointY="38.5" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_KundenGr" Width="1.5" PointX="29.75" PointY="31.5" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_KundenGrMark" Width="1.5" PointX="26.75" PointY="24.5" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_KundenMark" Width="1.5" PointX="7.75" PointY="32.5" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_Länder" Width="1.5" PointX="9.75" PointY="32.5" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_SoftwareContractStatus" Width="1.5" PointX="28.75" PointY="24.5" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_SoftwareModules" Width="1.5" PointX="31.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.ERP_SoftwareUpdateService" Width="1.5" PointX="0.75" PointY="38.5" />
+        <EntityTypeShape EntityType="PZE_Model.FingerprintPassword" Width="1.5" PointX="31.75" PointY="31.5" />
+        <EntityTypeShape EntityType="PZE_Model.FingerPrint" Width="1.5" PointX="19.75" PointY="39.5" />
+        <EntityTypeShape EntityType="PZE_Model.Global_Settings" Width="1.5" PointX="22.75" PointY="36.5" />
+        <EntityTypeShape EntityType="PZE_Model.GroupAccessProfile" Width="1.5" PointX="24.75" PointY="40.5" />
+        <EntityTypeShape EntityType="PZE_Model.Holiday" Width="1.5" PointX="40.75" PointY="15.5" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayCalendar" Width="1.5" PointX="1.5" PointY="5.75" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayCalendarMonth" Width="1.5" PointX="3.75" PointY="66.375" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayPlanAccessProfileMonth" Width="1.5" PointX="6" PointY="78.125" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayPlanCalendar" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayPlanCalendarMapped" Width="1.5" PointX="43.75" PointY="15.75" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayPlanCalendarMonth" Width="1.5" PointX="6" PointY="86.625" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayPlanCalendarMonthMapped" Width="1.5" PointX="46" PointY="12.875" />
+        <EntityTypeShape EntityType="PZE_Model.JC_Activities" Width="1.5" PointX="44" PointY="22.75" />
+        <EntityTypeShape EntityType="PZE_Model.JC_Currency" Width="1.5" PointX="41.75" PointY="23.75" />
+        <EntityTypeShape EntityType="PZE_Model.Location" Width="1.5" PointX="19.75" PointY="43.5" />
+        <EntityTypeShape EntityType="PZE_Model.LocationsFederalState" Width="1.5" PointX="18.25" PointY="6.5" />
+        <EntityTypeShape EntityType="PZE_Model.MapCalendar" Width="1.5" PointX="38.75" PointY="46.625" />
+        <EntityTypeShape EntityType="PZE_Model.MapCalendarMapped" Width="1.5" PointX="27" PointY="44.125" />
+        <EntityTypeShape EntityType="PZE_Model.MapCalendarMonth" Width="1.5" PointX="41" PointY="43.875" />
+        <EntityTypeShape EntityType="PZE_Model.MapCalendarMonthMapped" Width="1.5" PointX="29.25" PointY="40.625" />
+        <EntityTypeShape EntityType="PZE_Model.MemberAccessGroup" Width="1.5" PointX="8.25" PointY="21.75" />
+        <EntityTypeShape EntityType="PZE_Model.MemberCommonInfo" Width="1.5" PointX="5.25" PointY="22.125" />
+        <EntityTypeShape EntityType="PZE_Model.MemberDrivingLicense" Width="1.5" PointX="5.25" PointY="34.75" />
+        <EntityTypeShape EntityType="PZE_Model.MemberDuration" Width="1.5" PointX="0.75" PointY="22.125" />
+        <EntityTypeShape EntityType="PZE_Model.MemberDynamicField" Width="1.5" PointX="5.25" PointY="38.25" />
+        <EntityTypeShape EntityType="PZE_Model.MemberGroup" Width="1.5" PointX="21.75" PointY="44.5" />
+        <EntityTypeShape EntityType="PZE_Model.MemberHealthCard" Width="1.5" PointX="5.25" PointY="15.125" />
+        <EntityTypeShape EntityType="PZE_Model.MemberIdentityCard" Width="1.5" PointX="5.25" PointY="41" />
+        <EntityTypeShape EntityType="PZE_Model.MemberPassport" Width="1.5" PointX="5.25" PointY="28.375" />
+        <EntityTypeShape EntityType="PZE_Model.MembersAccessPlanMapping" Width="1.5" PointX="8.25" PointY="25.75" />
+        <EntityTypeShape EntityType="PZE_Model.MembersData" Width="1.5" PointX="3" PointY="22.875" />
+        <EntityTypeShape EntityType="PZE_Model.MembersTransponder" Width="1.5" PointX="5.25" PointY="44.875" />
+        <EntityTypeShape EntityType="PZE_Model.MenuTable" Width="1.5" PointX="31.75" PointY="45.5" />
+        <EntityTypeShape EntityType="PZE_Model.MonthlyCalendar" Width="1.5" PointX="22.75" PointY="30.875" />
+        <EntityTypeShape EntityType="PZE_Model.MonthlyCalendarMapped" Width="1.5" PointX="24.75" PointY="51.375" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_AccessGroups" Width="1.5" PointX="8.25" PointY="12.75" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_AccessPlanDuration" Width="1.5" PointX="23.75" PointY="44.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_AdditionalInfo" Width="1.5" PointX="43.75" PointY="42.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Client" Width="1.5" PointX="22.75" PointY="1.625" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Contact" Width="1.5" PointX="45.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_CostCenters" Width="1.5" PointX="27" PointY="8.375" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Departments" Width="1.5" PointX="16" PointY="18.75" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_DrivingLicense" Width="1.5" PointX="45.75" PointY="7.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_DynamicFields" Width="1.5" PointX="0.75" PointY="43.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_HealthCard" Width="1.5" PointX="45.75" PointY="41.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_IdentityCard" Width="1.5" PointX="45.75" PointY="45.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Locations" Width="1.5" PointX="10.75" PointY="48.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Passport" Width="1.5" PointX="15.75" PointY="48.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Photo" Width="1.5" PointX="17.75" PointY="48.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_PinCode" Width="1.5" PointX="46.75" PointY="21.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Transponders" Width="1.5" PointX="19.75" PointY="48.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Type" Width="1.5" PointX="6.5" PointY="51.125" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Vehicles" Width="1.5" PointX="11" PointY="18.125" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Visitors" Width="1.5" PointX="21.75" PointY="48.5" />
+        <EntityTypeShape EntityType="PZE_Model.Personal" Width="1.5" PointX="8.75" PointY="49.625" />
+        <EntityTypeShape EntityType="PZE_Model.PersonnelTariff" Width="1.5" PointX="34.5" PointY="52.875" />
+        <EntityTypeShape EntityType="PZE_Model.PlannedCalendar" Width="1.5" PointX="25" PointY="30.375" />
+        <EntityTypeShape EntityType="PZE_Model.PlannedCalendarMapped" Width="1.5" PointX="27" PointY="48.875" />
+        <EntityTypeShape EntityType="PZE_Model.PlannedCalendarTime" Width="1.5" PointX="27.25" PointY="27.125" />
+        <EntityTypeShape EntityType="PZE_Model.PlannedCalendarTimeMapped" Width="1.5" PointX="29.25" PointY="54.625" />
+        <EntityTypeShape EntityType="PZE_Model.Portal_Audit" Width="1.5" PointX="46.75" PointY="24.5" />
+        <EntityTypeShape EntityType="PZE_Model.Portal_PermissionMapping" Width="1.5" PointX="43.25" PointY="9.375" />
+        <EntityTypeShape EntityType="PZE_Model.Portal_PermissionProfile" Width="1.5" PointX="41" PointY="9.375" />
+        <EntityTypeShape EntityType="PZE_Model.Portal_Permissions" Width="1.5" PointX="41" PointY="12.5" />
+        <EntityTypeShape EntityType="PZE_Model.Portal_ProfileUSerMapping" Width="1.5" PointX="43.25" PointY="4.375" />
+        <EntityTypeShape EntityType="PZE_Model.Portal_Users" Width="1.5" PointX="41" PointY="2.75" />
+        <EntityTypeShape EntityType="PZE_Model.RawBooking" Width="1.5" PointX="47.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.ReaderAccessPlan" Width="1.5" PointX="22.75" PointY="40.25" />
+        <EntityTypeShape EntityType="PZE_Model.ReaderAssigned" Width="1.5" PointX="22.75" PointY="13.75" />
+        <EntityTypeShape EntityType="PZE_Model.ReaderVisitorPlan" Width="1.5" PointX="22.75" PointY="22.75" />
+        <EntityTypeShape EntityType="PZE_Model.ResourceEvent" Width="1.5" PointX="41.25" PointY="18.875" />
+        <EntityTypeShape EntityType="PZE_Model.ResourceEventMapped" Width="1.5" PointX="38.25" PointY="18.625" />
+        <EntityTypeShape EntityType="PZE_Model.Room" Width="1.5" PointX="47.75" PointY="6.5" />
+        <EntityTypeShape EntityType="PZE_Model.Session" Width="1.5" PointX="47.75" PointY="41.5" />
+        <EntityTypeShape EntityType="PZE_Model.Shift_Breaks" Width="1.5" PointX="38.25" PointY="15.625" />
+        <EntityTypeShape EntityType="PZE_Model.ShiftResource" Width="1.5" PointX="39" PointY="22.875" />
+        <EntityTypeShape EntityType="PZE_Model.Shift" Width="1.5" PointX="36" PointY="19.125" />
+        <EntityTypeShape EntityType="PZE_Model.Specialday" Width="1.5" PointX="31.5" PointY="20.25" />
+        <EntityTypeShape EntityType="PZE_Model.Status_Static" Width="1.5" PointX="47.75" PointY="9.5" />
+        <EntityTypeShape EntityType="PZE_Model.Supplier" Width="1.5" PointX="6.75" PointY="19.5" />
+        <EntityTypeShape EntityType="PZE_Model.SurchargeDay" Width="1.5" PointX="27" PointY="2.875" />
+        <EntityTypeShape EntityType="PZE_Model.SurchargeMapped" Width="1.5" PointX="27" PointY="56.25" />
+        <EntityTypeShape EntityType="PZE_Model.Surcharge" Width="1.5" PointX="29.25" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.SurchargesAccountsMapping" Width="1.5" PointX="31.5" PointY="8.25" />
+        <EntityTypeShape EntityType="PZE_Model.SwitchCalendar" Width="1.5" PointX="3.75" PointY="62.75" />
+        <EntityTypeShape EntityType="PZE_Model.SwitchCalendarMapped" Width="1.5" PointX="38.75" PointY="37.75" />
+        <EntityTypeShape EntityType="PZE_Model.SwitchCalendarMonth" Width="1.5" PointX="6" PointY="69" />
+        <EntityTypeShape EntityType="PZE_Model.SwitchCalendarMonthMapped" Width="1.5" PointX="41" PointY="34.875" />
+        <EntityTypeShape EntityType="PZE_Model.SwitchPlan" Width="1.5" PointX="6" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.SwitchProfilePair" Width="1.5" PointX="47.75" PointY="45.5" />
+        <EntityTypeShape EntityType="PZE_Model.SwitchProfile" Width="1.5" PointX="45.75" PointY="49.5" />
+        <EntityTypeShape EntityType="PZE_Model.sysdiagram" Width="1.5" PointX="47.75" PointY="49.5" />
+        <EntityTypeShape EntityType="PZE_Model.TA_BookingsReport" Width="1.5" PointX="33.75" PointY="5.375" />
+        <EntityTypeShape EntityType="PZE_Model.TA_BookingsReportAbsences" Width="1.5" PointX="36" PointY="2.875" />
+        <EntityTypeShape EntityType="PZE_Model.TA_BookingsReportAccounts" Width="1.5" PointX="36" PointY="8.375" />
+        <EntityTypeShape EntityType="PZE_Model.TA_BookingsReportTitles" Width="1.5" PointX="36" PointY="5.625" />
+        <EntityTypeShape EntityType="PZE_Model.TA_BookingsReportTypes" Width="1.5" PointX="48.75" PointY="12.5" />
+        <EntityTypeShape EntityType="PZE_Model.TA_PersonalGroupMapping" Width="1.5" PointX="20.5" PointY="36.125" />
+        <EntityTypeShape EntityType="PZE_Model.TA_TerminalGroupMapping" Width="1.5" PointX="20.5" PointY="27.875" />
+        <EntityTypeShape EntityType="PZE_Model.TA_TerminalGroups" Width="1.5" PointX="18.25" PointY="33" />
+        <EntityTypeShape EntityType="PZE_Model.Tariff" Width="1.5" PointX="29.25" PointY="49.375" />
+        <EntityTypeShape EntityType="PZE_Model.TariffCalendar" Width="1.5" PointX="31.5" PointY="50.125" />
+        <EntityTypeShape EntityType="PZE_Model.TbAccessPlan" Width="1.5" PointX="6" PointY="58.125" />
+        <EntityTypeShape EntityType="PZE_Model.TbAccessPlanGroup" Width="1.5" PointX="6" PointY="6.375" />
+        <EntityTypeShape EntityType="PZE_Model.TbAccessPlanMembersMapping" Width="1.5" PointX="8.25" PointY="29" />
+        <EntityTypeShape EntityType="PZE_Model.TbAccessPlanPersMapping" Width="1.5" PointX="8.25" PointY="58.75" />
+        <EntityTypeShape EntityType="PZE_Model.TbAcessPlanReaderMapping" Width="1.5" PointX="48.75" PointY="15.5" />
+        <EntityTypeShape EntityType="PZE_Model.TbVisitorPlan" Width="1.5" PointX="20.5" PointY="16.5" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalBookingRawData" Width="1.5" PointX="48.75" PointY="18.5" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalConfig" Width="1.5" PointX="15.25" PointY="25.875" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalConnect" Width="1.5" PointX="13" PointY="25" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalConnectionType" Width="1.5" PointX="20.75" PointY="11.5" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalDatafoxFunction" Width="1.5" PointX="17.5" PointY="25.25" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalFunctionKey" Width="1.5" PointX="17.5" PointY="38.625" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalGroupMapping" Width="1.5" PointX="17.5" PointY="30" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalGroup" Width="1.5" PointX="15.25" PointY="33.125" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalInfo" Width="1.5" PointX="13" PointY="28.875" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalInfoText" Width="1.5" PointX="17.5" PointY="41.375" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalOEM" Width="1.5" PointX="10.75" PointY="20.75" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalReader" Width="1.5" PointX="20.5" PointY="21.25" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalReadersStatic" Width="1.5" PointX="18.25" PointY="21.875" />
+        <EntityTypeShape EntityType="PZE_Model.Terminal" Width="1.5" PointX="13" PointY="33.875" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalUtility" Width="1.5" PointX="17.5" PointY="44.125" />
+        <EntityTypeShape EntityType="PZE_Model.TimeRanx" Width="1.5" PointX="48.75" PointY="22.5" />
+        <EntityTypeShape EntityType="PZE_Model.Transponder" Width="1.5" PointX="48.75" PointY="25.5" />
+        <EntityTypeShape EntityType="PZE_Model.UserRole" Width="1.5" PointX="38.75" PointY="4.625" />
+        <EntityTypeShape EntityType="PZE_Model.VehicleType" Width="1.5" PointX="8.75" PointY="9.25" />
+        <EntityTypeShape EntityType="PZE_Model.VirtualPersonalGroupsMapping" Width="1.5" PointX="16" PointY="2.625" />
+        <EntityTypeShape EntityType="PZE_Model.VirtualTerminal" Width="1.5" PointX="48.75" PointY="28.5" />
+        <EntityTypeShape EntityType="PZE_Model.VirtualTerminalCommunicationSetting" Width="1.5" PointX="48.75" PointY="34.5" />
+        <EntityTypeShape EntityType="PZE_Model.VirtualTerminalFunctionKey" Width="1.5" PointX="49.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.VirtualTerminalGroup" Width="1.5" PointX="13.75" PointY="2.625" />
+        <EntityTypeShape EntityType="PZE_Model.VirtualTerminalGroupsMapping" Width="1.5" PointX="48.75" PointY="38.5" />
+        <EntityTypeShape EntityType="PZE_Model.VirtualTerminalInputSetting" Width="1.5" PointX="49.75" PointY="8.5" />
+        <EntityTypeShape EntityType="PZE_Model.Visitor_Vehicle" Width="1.5" PointX="11" PointY="15.625" />
+        <EntityTypeShape EntityType="PZE_Model.VisitorAccessTime" Width="1.5" PointX="22.75" PointY="4.75" />
+        <EntityTypeShape EntityType="PZE_Model.VisitorAdditionalInfo" Width="1.5" PointX="10" PointY="38.875" />
+        <EntityTypeShape EntityType="PZE_Model.VisitorApplication" Width="1.5" PointX="7.75" PointY="40.125" />
+        <EntityTypeShape EntityType="PZE_Model.VisitorCompanyTb" Width="1.5" PointX="8.75" PointY="3.75" />
+        <EntityTypeShape EntityType="PZE_Model.VisitorContact" Width="1.5" PointX="10" PointY="42.625" />
+        <EntityTypeShape EntityType="PZE_Model.VisitorPlanGroup" Width="1.5" PointX="10.75" PointY="51.5" />
+        <EntityTypeShape EntityType="PZE_Model.Visitor" Width="1.5" PointX="11" PointY="7.5" />
+        <EntityTypeShape EntityType="PZE_Model.VisitorTransponder" Width="1.5" PointX="13.25" PointY="9" />
+        <EntityTypeShape EntityType="PZE_Model.VisitorType" Width="1.5" PointX="21.75" PointY="51.5" />
+        <EntityTypeShape EntityType="PZE_Model.WorkedHoursAcc" Width="1.5" PointX="31.5" PointY="28" />
+        <EntityTypeShape EntityType="PZE_Model.ZuttritProfile" Width="1.5" PointX="6" PointY="64" />
+        <EntityTypeShape EntityType="PZE_Model.ZuttritProfilesTimeFrame" Width="1.5" PointX="8.25" PointY="63.375" />
+        <EntityTypeShape EntityType="PZE_Model.AuditHist" Width="1.5" PointX="49.75" PointY="41.5" />
+        <EntityTypeShape EntityType="PZE_Model.JC_Projects" Width="1.5" PointX="49.75" PointY="44.5" />
+        <EntityTypeShape EntityType="PZE_Model.Pers_Archive" Width="1.5" PointX="49.75" PointY="49.5" />
+        <EntityTypeShape EntityType="PZE_Model.ShiftResourceBac" Width="1.5" PointX="50.75" PointY="12.5" />
+        <EntityTypeShape EntityType="PZE_Model.Status_Dynamic" Width="1.5" PointX="50.75" PointY="15.5" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalOEMNew" Width="1.5" PointX="15.75" PointY="52.5" />
+        <EntityTypeShape EntityType="PZE_Model.TerminalsNew" Width="1.5" PointX="50.75" PointY="18.5" />
+        <EntityTypeShape EntityType="PZE_Model.AC_PersPasswordsProfile" Width="1.5" PointX="17.75" PointY="52.5" />
+        <EntityTypeShape EntityType="PZE_Model.AC_vwPersonelAccessPlan" Width="1.5" PointX="50.75" PointY="22.5" />
+        <EntityTypeShape EntityType="PZE_Model.DF_TIME" Width="1.5" PointX="50.75" PointY="34.5" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayAccessPlam_with_DateTime" Width="1.5" PointX="36.75" PointY="52.5" />
+        <EntityTypeShape EntityType="PZE_Model.HolidayCalendar_with_DateTime" Width="1.5" PointX="50.75" PointY="37.5" />
+        <EntityTypeShape EntityType="PZE_Model.MV_AccessControlLogs" Width="1.5" PointX="38.75" PointY="52.5" />
+        <EntityTypeShape EntityType="PZE_Model.MV_AccessControlTransactionPersonel" Width="1.5" PointX="40.75" PointY="52.5" />
+        <EntityTypeShape EntityType="PZE_Model.MV_TerminalReaderBuildingPlans" Width="1.5" PointX="45.75" PointY="52.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_AccessPlanAccessCalendar" Width="1.5" PointX="51.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_AccessPlanPersonnel" Width="1.5" PointX="51.75" PointY="40.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_AccessProfilesPerTerminal" Width="1.5" PointX="51.75" PointY="44.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_HolidayCalendar" Width="1.5" PointX="51.75" PointY="51.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_HolidayCalendarAccessPlan" Width="1.5" PointX="52.75" PointY="11.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_HolidayCalendarNames" Width="1.5" PointX="2.75" PointY="32.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_HolidayPlanAccessPlan" Width="1.5" PointX="52.75" PointY="20.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_HolidayPlanAccessProfilesPerTerminal" Width="1.5" PointX="10.75" PointY="54.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_HolidayPlanPerTerminal" Width="1.5" PointX="19.75" PointY="54.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_HolidayPlanSwitchPlan" Width="1.5" PointX="21.75" PointY="54.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_SwitchPlanSwitchCalendar" Width="1.5" PointX="52.75" PointY="31.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_SwitchProfileGroupedPerTerminal" Width="1.5" PointX="42.75" PointY="54.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_VisitorPlanAccessCalendar" Width="1.5" PointX="47.75" PointY="54.5" />
+        <EntityTypeShape EntityType="PZE_Model.RV_VisitorPlanVisitors" Width="1.5" PointX="5.75" PointY="54.5" />
+        <EntityTypeShape EntityType="PZE_Model.SCP" Width="1.5" PointX="53.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.SwitchCalendarProfile" Width="1.5" PointX="53.75" PointY="5.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_AccessCalendarProfiles" Width="1.5" PointX="53.75" PointY="8.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_AccessLogs" Width="1.5" PointX="53.75" PointY="40.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_CardAllocationOverview" Width="1.5" PointX="53.75" PointY="46.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_DFHoliday" Width="1.5" PointX="7.75" PointY="55.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_ERPSoftwareUpdateService" Width="1.5" PointX="53.75" PointY="52.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_MemberAccessLog" Width="1.5" PointX="54.75" PointY="11.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_ReaderBuildingPlan" Width="1.5" PointX="54.75" PointY="16.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_SwitchTimes" Width="1.5" PointX="15.75" PointY="56.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_SwitchTimesCalendarProfiles" Width="1.5" PointX="54.75" PointY="20.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_TeminalInformation" Width="1.5" PointX="54.75" PointY="23.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_TerminalAccessProfiles" Width="1.5" PointX="23.75" PointY="56.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_TerminalFunction" Width="1.5" PointX="4.75" PointY="32.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_TerminalHolidays" Width="1.5" PointX="54.75" PointY="31.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_TerminalReader" Width="1.5" PointX="33.75" PointY="56.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_Transponders" Width="1.5" PointX="54.75" PointY="34.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_VisitorAccessLog" Width="1.5" PointX="44.75" PointY="56.5" />
+        <EntityTypeShape EntityType="PZE_Model.View_VisitorEntryLog" Width="1.5" PointX="55.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.ViewMemberCardsInfo" Width="1.5" PointX="55.75" PointY="6.5" />
+        <EntityTypeShape EntityType="PZE_Model.ViewTA_TerminalGroupMapping" Width="1.5" PointX="35.75" PointY="57.5" />
+        <EntityTypeShape EntityType="PZE_Model.ViewTerminalGroupMapping" Width="1.5" PointX="55.75" PointY="38.5" />
+        <EntityTypeShape EntityType="PZE_Model.vw_PermissionMapping" Width="1.5" PointX="37.75" PointY="57.5" />
+        <EntityTypeShape EntityType="PZE_Model.vw_PortalKunden" Width="1.5" PointX="39.75" PointY="57.5" />
+        <EntityTypeShape EntityType="PZE_Model.vw_PortalUserProfile" Width="1.5" PointX="55.75" PointY="42.5" />
+        <EntityTypeShape EntityType="PZE_Model.vw_PortalUsersProfilePermissionMapping" Width="1.5" PointX="55.75" PointY="45.5" />
+        <EntityTypeShape EntityType="PZE_Model.vw_users" Width="1.5" PointX="55.75" PointY="48.5" />
+        <EntityTypeShape EntityType="PZE_Model.VwHolidayCalender" Width="1.5" PointX="55.75" PointY="55.5" />
+        <EntityTypeShape EntityType="PZE_Model.VwPersDataZUT" Width="1.5" PointX="0.75" PointY="58.5" />
+        <EntityTypeShape EntityType="PZE_Model.VwPersonnelData" Width="1.5" PointX="56.75" PointY="11.5" />
+        <EntityTypeShape EntityType="PZE_Model.vwPersPinCode" Width="1.5" PointX="56.75" PointY="30.5" />
+        <EntityTypeShape EntityType="PZE_Model.vwSwitchProfile" Width="1.5" PointX="57.75" PointY="2.5" />
+        <EntityTypeShape EntityType="PZE_Model.vwVisitorCompany" Width="1.5" PointX="25.75" PointY="59.5" />
+        <AssociationConnector Association="PZE_Model.FK_EmployeeAbsence_Absences" />
+        <AssociationConnector Association="PZE_Model.FK_Specialdays_Absences" />
+        <AssociationConnector Association="PZE_Model.FK_AC_PermissionMapping_AC_PermissionProfile" />
+        <AssociationConnector Association="PZE_Model.FK_AC_PermissionMapping_AC_Permissions" />
+        <AssociationConnector Association="PZE_Model.FK_AC_PersProfileMapping_AC_PermissionProfile" />
+        <AssociationConnector Association="PZE_Model.FK_AC_ReportSettings_AC_Reports" />
+        <AssociationConnector Association="PZE_Model.FK_AccessCalendarMonth_AccessCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlanGroup_AccessCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_TbVisitorPlan_AccessCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_AccessGroup_AccessProfileAccessGroupMapping" />
+        <AssociationConnector Association="PZE_Model.FK_AccessGroupEmployee_AccessGroup" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlan_TbAccessGroup" />
+        <AssociationConnector Association="PZE_Model.FK_ZuttritProfiles_AccessGroup" />
+        <AssociationConnector Association="PZE_Model.FK_AccessGroupEmployee_Employee" />
+        <AssociationConnector Association="PZE_Model.FK_AccessPlanGroupDoorMapping_BuildingPlan" />
+        <AssociationConnector Association="PZE_Model.FK_AccessPlanGroupDoorMapping_TbAccessPLanGroup" />
+        <AssociationConnector Association="PZE_Model.FK_AccessProfile_AccessProfileAccessGroupMapping" />
+        <AssociationConnector Association="PZE_Model.FK_DailyAccountTime_Accounts" />
+        <AssociationConnector Association="PZE_Model.FK_SurchargesAccountsMapping_Accounts" />
+        <AssociationConnector Association="PZE_Model.FK_Accounts_Month_Accounts_Day" />
+        <AssociationConnector Association="PZE_Model.FK_Accounts_Week_Accounts_Day" />
+        <AssociationConnector Association="PZE_Model.FK_Accounts_Year_Accounts_Day" />
+        <AssociationConnector Association="PZE_Model.FK_Addresses_Employees" />
+        <AssociationConnector Association="PZE_Model.FK_Areas_Departments" />
+        <AssociationConnector Association="PZE_Model.FK_Shift_Breaks_Breaks" />
+        <AssociationConnector Association="PZE_Model.FK_ReaderAssigned_BuildingPlan" />
+        <AssociationConnector Association="PZE_Model.FK_SwitchPlan_BuildingPlan" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlan_BuildingPlan" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlanGroup_BuildingPlan" />
+        <AssociationConnector Association="PZE_Model.FK_TbVisitorPlan_BuildingPlan" />
+        <AssociationConnector Association="PZE_Model.FK_Clients_Clients" />
+        <AssociationConnector Association="PZE_Model.FK_Pers_Client_Clients" />
+        <AssociationConnector Association="PZE_Model.FK_VisitorAccessTime_Clients" />
+        <AssociationConnector Association="PZE_Model.FK_EmployeesInfo_CostCenters" />
+        <AssociationConnector Association="PZE_Model.FK_Pers_CostCenters_CostCenters" />
+        <AssociationConnector Association="PZE_Model.FK_DailyAccountTime_Employee" />
+        <AssociationConnector Association="PZE_Model.FK_DailyCalendar_Calendar" />
+        <AssociationConnector Association="PZE_Model.FK_PlannedCalendar_DailyCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_DailyCalendarMapped_PlannedCalendarMapped" />
+        <AssociationConnector Association="PZE_Model.FK_PlannedCalendarMapped_DailyCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_ResourceEventMapped_DailyProgramMapped" />
+        <AssociationConnector Association="PZE_Model.FK_DP_Shifts_DailyPrograms" />
+        <AssociationConnector Association="PZE_Model.FK_Shifts_DailyPrograms" />
+        <AssociationConnector Association="PZE_Model.FK_DatafoxTerminalReaders_DatafoxTerminalInstances" />
+        <AssociationConnector Association="PZE_Model.FK_Pers_Department_Departments" />
+        <AssociationConnector Association="PZE_Model.FK_Shift_Breaks_DP_Shifts" />
+        <AssociationConnector Association="PZE_Model.FK_EmpAdditionalInfo_DynamicColumns" />
+        <AssociationConnector Association="PZE_Model.FK_Employee_EmployeeInfo" />
+        <AssociationConnector Association="PZE_Model.FK_EmployeeAbsence_Employee" />
+        <AssociationConnector Association="PZE_Model.FK_EmployeeTariff_Employee" />
+        <AssociationConnector Association="PZE_Model.FK_WorkedHoursAcc_Employees" />
+        <AssociationConnector Association="PZE_Model.FK_EmployeeTariff_Tariff" />
+        <AssociationConnector Association="PZE_Model.FK_KAnsprechp_Anrede" />
+        <AssociationConnector Association="PZE_Model.FK_MembersData_ERP_Anrede" />
+        <AssociationConnector Association="PZE_Model.FK_HolidayCalendarMonth_HolidayCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_HolidayPlanCalendar_HolidayCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_HolidayPlanAccessProfileMonth_HolidayPlanCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_HolidayPlanCalendarMonth_HolidayPlanCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_SwitchPlan_HolidayPlanCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlan_HolidayPlanCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlanGroup_HolidayPlanCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_TbVisitorPlan_HolidayPlanCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_HolidayPlanCalendarMonthMapped_HolidayPlanCalendarMapped" />
+        <AssociationConnector Association="PZE_Model.FK_JC_Activities_JC_Currency" />
+        <AssociationConnector Association="PZE_Model.FK_MapCalendarMonth_MapCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_MapCalendarMonthMapped_MapCalendarMapped" />
+        <AssociationConnector Association="PZE_Model.FK_Tariff_MapCalendarMapped" />
+        <AssociationConnector Association="PZE_Model.FK_MemberAccessGroups_AccessGroup" />
+        <AssociationConnector Association="PZE_Model.FK_MemberAccessGroups_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MemberCommonInfo_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MemberDrivingLicense_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MembersData_MemberDuration" />
+        <AssociationConnector Association="PZE_Model.FK_MemberDynamicFields_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MemberHealthCard_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MemberIdentityCard_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MemberPassport_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MembersAccessPlanMapping_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MembersAccessPlanMapping_TbAccessPlan" />
+        <AssociationConnector Association="PZE_Model.FK_MembersTransponders_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlanMembersMapping_MembersData" />
+        <AssociationConnector Association="PZE_Model.FK_MonthlyCalendar_MonthlyCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_PlannedCalendar_MonthlyCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_MonthlyCalendarMapped_PlannedCalendarMapped" />
+        <AssociationConnector Association="PZE_Model.FK_PlannedCalendarMapped_MonthlyCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_Pers_AccessGroups_AccessGroup" />
+        <AssociationConnector Association="PZE_Model.FK_Personal_PersType" />
+        <AssociationConnector Association="PZE_Model.FK_Pers_Vehicles_VehicleTypes" />
+        <AssociationConnector Association="PZE_Model.FK_PersonnelTariff_Personal" />
+        <AssociationConnector Association="PZE_Model.FK_Visitors_Personal" />
+        <AssociationConnector Association="PZE_Model.FK_PersonnelTariff_Tariff" />
+        <AssociationConnector Association="PZE_Model.FK_PlannedCalendarTime_PlannedCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_PlannedCalendarTimeMapped_PlannedCalendarMapped" />
+        <AssociationConnector Association="PZE_Model.FK_Tariff_PlannedCalendarMapped" />
+        <AssociationConnector Association="PZE_Model.FK_Portal_PermissionMapping_Portal_PermissionProfile" />
+        <AssociationConnector Association="PZE_Model.FK_Portal_PermissionMapping_Portal_Permissions" />
+        <AssociationConnector Association="PZE_Model.FK_Portal_ProfileUSerMapping_Portal_PermissionProfile" />
+        <AssociationConnector Association="PZE_Model.FK_Portal_ProfileUSerMapping_Portal_Users" />
+        <AssociationConnector Association="PZE_Model.FK_Users_UserRoles" />
+        <AssociationConnector Association="PZE_Model.FK_ReaderAccessPlan_TbAccessPlan" />
+        <AssociationConnector Association="PZE_Model.FK_ReaderAccessPlan_TerminalReaders" />
+        <AssociationConnector Association="PZE_Model.FK_ReaderAssigned_TerminalReaders" />
+        <AssociationConnector Association="PZE_Model.FK_ReaderVisitorPlan_TbVisitorPlan" />
+        <AssociationConnector Association="PZE_Model.FK_ReaderVisitorPlan_TerminalReaders" />
+        <AssociationConnector Association="PZE_Model.FK_ResourceEvent_ShiftResource" />
+        <AssociationConnector Association="PZE_Model.FK_ResourceEvent_Shifts" />
+        <AssociationConnector Association="PZE_Model.FK_ResourceEventMapped_ShiftResource" />
+        <AssociationConnector Association="PZE_Model.FK_ResourceEventMapped_Shifts" />
+        <AssociationConnector Association="PZE_Model.FK_Surcharges_SurchargeDays" />
+        <AssociationConnector Association="PZE_Model.FK_Tariff_SurchargeMapped" />
+        <AssociationConnector Association="PZE_Model.FK_SurchargesAccountsMapping_Surcharges" />
+        <AssociationConnector Association="PZE_Model.FK_SwitchCalendarMonth_SwitchCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_SwitchPlan_SwitchCalendar" />
+        <AssociationConnector Association="PZE_Model.FK_SwitchCalendarMonthMapped_SwitchCalendarMapped" />
+        <AssociationConnector Association="PZE_Model.FK_TA_BookingsReportAbsences_TA_BookingsReport" />
+        <AssociationConnector Association="PZE_Model.FK_TA_BookingsReportAccounts_TA_BookingsReport" />
+        <AssociationConnector Association="PZE_Model.FK_TA_BookingsReportTitles_TA_BookingsReport" />
+        <AssociationConnector Association="PZE_Model.FK_TA_PersonalGroupMapping_TA_TerminalGroups" />
+        <AssociationConnector Association="PZE_Model.FK_TA_TerminalGroupMapping_TA_TerminalGroups" />
+        <AssociationConnector Association="PZE_Model.FK_TA_TerminalGroupMapping_TerminalConfig" />
+        <AssociationConnector Association="PZE_Model.FK_TariffCalendar_Tariff" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlanMembersMapping_TbAccessPlan" />
+        <AssociationConnector Association="PZE_Model.FK_TbAccessPlanPersMapping_TbAccessPlan" />
+        <AssociationConnector Association="PZE_Model.FK_VisitorAccessTime_TbVisitorPlan" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalConfig_TerminalConnect" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalConfig_TerminalInfo" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalConfig_TerminalOEM" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalConfig_Terminals" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalDatafoxFunction_TerminalConfig" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalFunctionKeys_TerminalConfig" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalGroupMapping_TerminalConfig" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalInfoText_TerminalConfig" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalReaders_TerminalConfig" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalUtilities_TerminalConfig" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalGroupMapping_TerminalGroups" />
+        <AssociationConnector Association="PZE_Model.FK_Terminals_TerminalOEM" />
+        <AssociationConnector Association="PZE_Model.FK_TerminalReaders_TerminalReadersStatic" />
+        <AssociationConnector Association="PZE_Model.FK_Visitor_Vehicle_Visitor_Vehicle" />
+        <AssociationConnector Association="PZE_Model.FK_Visitors_VehicleTypes" />
+        <AssociationConnector Association="PZE_Model.FK_VirtualPersonalGroupsMapping_VirtualTerminalGroups" />
+        <AssociationConnector Association="PZE_Model.FK_VisitorAccessTime_Visitors" />
+        <AssociationConnector Association="PZE_Model.FK_VisitorAdditionalInfo_VisitorApplications" />
+        <AssociationConnector Association="PZE_Model.FK_VisitorContacts_VisitorApplications" />
+        <AssociationConnector Association="PZE_Model.FK_Visitors_VisitorCompanyTb" />
+        <AssociationConnector Association="PZE_Model.FK_VisitorTransponders_Visitors" />
+        <AssociationConnector Association="PZE_Model.FK_ZuttritProfilesTimeFrames_ZuttritProfiles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

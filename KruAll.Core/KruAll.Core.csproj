@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C087803-5D15-4CFA-A463-6B2A021F89E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KruAll.Core</RootNamespace>
+    <AssemblyName>KruAll.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\TermConfig_NewMask\Dlls\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\TermConfig_NewMask\Dlls\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Absence.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Abteilungen.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccessCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccessCalendarMonth.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccessCalendarProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccessControlLog.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccessGroup.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccessGroupEmployee.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccessPlanGroupDoorMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccessProfileAccessGroupMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Account.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Accounts_Day.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Accounts_Month.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Accounts_Week.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Accounts_Year.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_PermissionMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_PermissionProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_Permissions.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_PersPasswords.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_PersPasswordsProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_PersProfileMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_Reports.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_ReportSettings.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AC_vwPersonelAccessPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Address.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Area.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AuditHist.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BookingPair.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Break.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BreaksMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BreaksType.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BuildingPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CCAccount.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CellPhoneMaster.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Client.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Color.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CommSetting.cs" />
+    <Compile Include="Models\ConvertToTime_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CostCenter.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Country.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Customer.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DailyAccountTime.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DailyBooking.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DailyBookingsReport.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DailyCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DailyCalendarMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DailyProgram.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DailyProgramMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DatafoxTerminalInstance.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DatafoxTerminalReader.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Department.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DF_TIME.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DP_Shifts.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DynamicColumn.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DynamicField.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DynamicFieldsMember.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmpAdditionalInfo.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Employee.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmployeeAbsence.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmployeeInfo.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmployeePhoto.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmployeeTariff.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERG_Konten.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_Anrede.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_KAnsprechp.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_Kunden.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_KundenGr.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_KundenGrMark.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_KundenMark.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_Länder.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_SoftwareContractStatus.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_SoftwareModules.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ERP_SoftwareUpdateService.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FingerPrint.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\FingerprintPassword.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetDailyPrograms_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetDepartments_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetPersonalDailyAccounts_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetPersonalDailyPrograms_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetPersonalStammByDeptId_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetPersonalStammByLocationId_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetPersonalStammCostCentre_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetPersonalStammLocation_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GetPersonnelList_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Global_Settings.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\GroupAccessProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Handy.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HardwareConfig.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Holiday.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayAccessPlam_with_DateTime.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayCalendarMonth.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayCalendar_with_DateTime.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayPlanAccessProfileMonth.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayPlanCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayPlanCalendarMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayPlanCalendarMonth.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HolidayPlanCalendarMonthMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\JC_Activities.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\JC_Currency.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\JC_Projects.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Konten.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Kostenstellen.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KrutecPZEEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KrutecPZEEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KrutecPZEEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KrutecPZEEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KrutecPZEEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Location.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LocationsFederalState.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Mandanten.cs" />
+    <Compile Include="Models\MapCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MapCalendarMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MapCalendarMonth.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MapCalendarMonthMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberAccessGroup.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberCommonInfo.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberDrivingLicense.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberDuration.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberDynamicField.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberGroup.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberHealthCard.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberIdentityCard.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MemberPassport.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MembersAccessPlanMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MembersData.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MembersTransponder.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MenuTable.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MonthlyCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MonthlyCalendarMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MV_AccessControlLogs.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MV_AccessControlTransactionPersonel.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MV_TerminalReaderBuildingPlans.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Personal.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Personalstamm.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PersonalStammeList.cs" />
+    <Compile Include="Models\PersonalstammListen.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PersonnelTariff.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_AccessGroups.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_AccessPlanDuration.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_AdditionalInfo.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Archive.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Client.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Contact.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_CostCenters.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Departments.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_DrivingLicense.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_DynamicFields.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_HealthCard.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_IdentityCard.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Locations.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Passport.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Photo.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_PinCode.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Transponders.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Type.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Vehicles.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pers_Visitors.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PlannedCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PlannedCalendarMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PlannedCalendarTime.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PlannedCalendarTimeMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Portal_Audit.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Portal_PermissionMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Portal_PermissionProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Portal_Permissions.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Portal_ProfileUSerMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Portal_Users.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProcGetPersonalStamm_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PZE_Entities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PZE_Entities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PZE_Entities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PZE_Entities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PZE_Entities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RawBooking.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReaderAccessPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReaderAssigned.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReaderVisitorPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RealTimeSetting.cs" />
+    <Compile Include="Models\RealTimeSettingsGet.cs" />
+    <Compile Include="Models\RealTimeTerminalMigration.cs" />
+    <Compile Include="Models\ResourceEvent.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ResourceEventMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Room.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_AccessPlanAccessCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_AccessPlanPersonnel.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_AccessProfilesPerTerminal.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_HolidayCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_HolidayCalendarAccessPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_HolidayCalendarNames.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_HolidayPlanAccessPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_HolidayPlanAccessProfilesPerTerminal.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_HolidayPlanPerTerminal.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_HolidayPlanSwitchPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_SwitchPlanSwitchCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_SwitchProfileGroupedPerTerminal.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_VisitorPlanAccessCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\RV_VisitorPlanVisitors.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SCP.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Session.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Shift.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShiftResource.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ShiftResourceBac.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Shift_Breaks.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Specialday.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Split_Result.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Status.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Status_Dynamic.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Status_Static.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Supplier.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Surcharge.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SurchargeDay.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SurchargeMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SurchargesAccountsMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SwitchCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SwitchCalendarMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SwitchCalendarMonth.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SwitchCalendarMonthMapped.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SwitchCalendarProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SwitchPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SwitchProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SwitchProfilePair.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TabSystemDaten.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Tagesprogramme.cs" />
+    <Compile Include="Models\Tariff.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TariffCalendar.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TA_BookingsReport.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TA_BookingsReportAbsences.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TA_BookingsReportAccounts.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TA_BookingsReportTitles.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TA_BookingsReportTypes.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TA_PersonalGroupMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TA_TerminalGroupMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TA_TerminalGroups.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TbAccessPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TbAccessPlanGroup.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TbAccessPlanMembersMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TbAccessPlanPersMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TbAcessPlanReaderMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TbVisitorPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Terminal.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalBookingRawData.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalConfig.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalConnect.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalConnectionType.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalDatafoxFunction.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalFunctionKey.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalGroup.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalGroupMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalInfo.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalInfoText.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalOEM.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalOEMNew.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalReader.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalReadersStatic.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalsNew.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TerminalUtility.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TimeRanx.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Transponder.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UserRole.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VehicleType.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ViewMemberCardsInfo.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ViewTA_TerminalGroupMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ViewTerminalGroupMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_AccessCalendarProfiles.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_AccessLogs.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_CardAllocationOverview.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_DFHoliday.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_ERPSoftwareUpdateService.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_MemberAccessLog.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_ReaderBuildingPlan.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_SwitchTimes.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_SwitchTimesCalendarProfiles.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_TeminalInformation.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_TerminalAccessProfiles.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_TerminalFunction.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_TerminalHolidays.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_TerminalReader.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_Transponders.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_VisitorAccessLog.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\View_VisitorEntryLog.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VirtualPersonalGroupsMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VirtualTerminal.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VirtualTerminalCommunicationSetting.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VirtualTerminalFunctionKey.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VirtualTerminalGroup.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VirtualTerminalGroupsMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VirtualTerminalInputSetting.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Visitor.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisitorAccessTime.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisitorAdditionalInfo.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisitorApplication.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisitorCompanyTb.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisitorContact.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisitorPlanGroup.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisitorTransponder.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VisitorType.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Visitor_Vehicle.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Vorlauftasten.cs" />
+    <Compile Include="Models\VwHolidayCalender.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VwPersDataZUT.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\VwPersonnelData.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vwPersPinCode.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vwSwitchProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vwVisitorCompany.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vw_PermissionMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vw_PortalKunden.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vw_PortalUserProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vw_PortalUsersProfilePermissionMapping.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\vw_users.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Werke.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WorkedHoursAcc.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ZITERM_V20_Vorlauftasten.cs">
+      <DependentUpon>KrutecPZEEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ZuttritProfile.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ZuttritProfilesTimeFrame.cs">
+      <DependentUpon>PZE_Entities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Base\KruAllBaseRepository.cs" />
+    <Compile Include="Repositories\Base\KruallPZEBaseRepository.cs" />
+    <Compile Include="Repositories\CostCenterRepository.cs" />
+    <Compile Include="Repositories\DatafoxTerminalInstanceRepository.cs" />
+    <Compile Include="Repositories\DatafoxTerminalReadersRepository.cs" />
+    <Compile Include="Repositories\DepartmentRepository.cs" />
+    <Compile Include="Repositories\FingerprintreadRepository.cs" />
+    <Compile Include="Repositories\GlobalSettingRepository.cs" />
+    <Compile Include="Repositories\HandyRepository.cs" />
+    <Compile Include="Repositories\HardWareConfigRepository.cs" />
+    <Compile Include="Repositories\KruAllEmployeeRepository.cs" />
+    <Compile Include="Repositories\KruAllTerminalBookingRawDataRepository.cs" />
+    <Compile Include="Repositories\KruAllTerminalRepository.cs" />
+    <Compile Include="Repositories\LocationsRepository.cs" />
+    <Compile Include="Repositories\PermissionMappingRepository.cs" />
+    <Compile Include="Repositories\PersonalStammeListRepository.cs" />
+    <Compile Include="Repositories\PersonalStammeRepository.cs" />
+    <Compile Include="Repositories\PersPasswordsRepository.cs" />
+    <Compile Include="Repositories\Status_DynamicRepository.cs" />
+    <Compile Include="Repositories\Status_StaticRepository.cs" />
+    <Compile Include="Repositories\TabSystemDatenRepository.cs" />
+    <Compile Include="Repositories\TA_PersonalGroupMappingRepository.cs" />
+    <Compile Include="Repositories\TA_TerminalGroupMappingRepository.cs" />
+    <Compile Include="Repositories\TA_TerminalGroupsRepository.cs" />
+    <Compile Include="Repositories\TerminalAccessProfilesRepository.cs" />
+    <Compile Include="Repositories\TerminalConfigRepository.cs" />
+    <Compile Include="Repositories\TerminalConnectionRepository.cs" />
+    <Compile Include="Repositories\TerminalConnectRepository.cs" />
+    <Compile Include="Repositories\TerminalDatafoxFunctionRepository.cs" />
+    <Compile Include="Repositories\TerminalFunctionKeyRespository.cs" />
+    <Compile Include="Repositories\TerminalFunctionsRepository.cs" />
+    <Compile Include="Repositories\TerminalGroupMappingRepository.cs" />
+    <Compile Include="Repositories\TerminalGroupsRepository.cs" />
+    <Compile Include="Repositories\TerminalInfoTextRepository.cs" />
+    <Compile Include="Repositories\TerminalReaderRepository.cs" />
+    <Compile Include="Repositories\TerminalReadersStaticRepository.cs" />
+    <Compile Include="Repositories\TerminalRepository.cs" />
+    <Compile Include="Repositories\TerminalsNewRepository.cs" />
+    <Compile Include="Repositories\TerminalUtilityRepository.cs" />
+    <Compile Include="Repositories\ViewTA_TerminalGroupMappingRepository.cs" />
+    <Compile Include="Repositories\ViewTerminalGroupMappingRepository.cs" />
+    <Compile Include="Repositories\ViewTerminalReaderRepository.cs" />
+    <Compile Include="Repositories\VirtualTerminalRepository.cs" />
+    <Compile Include="Repositories\VtermPersonalGroupMappingRepository.cs" />
+    <Compile Include="Repositories\vwAccessProfileRepository.cs" />
+    <Compile Include="Repositories\vwPersPasswordsProfileRepository.cs" />
+    <Compile Include="Repositories\vwSwitchProfileRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="Models\PZE_Entities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PZE_Entities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <EntityDeploy Include="Models\KrutecPZEEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>KrutecPZEEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\KrutecPZEEntities.edmx.diagram">
+      <DependentUpon>KrutecPZEEntities.edmx</DependentUpon>
+    </None>
+    <None Include="Models\PZE_Entities.edmx.diagram">
+      <DependentUpon>PZE_Entities.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Models\KrutecPZEEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>KrutecPZEEntities.edmx</DependentUpon>
+      <LastGenOutput>KrutecPZEEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\KrutecPZEEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>KrutecPZEEntities.edmx</DependentUpon>
+      <LastGenOutput>KrutecPZEEntities.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\PZE_Entities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PZE_Entities.edmx</DependentUpon>
+      <LastGenOutput>PZE_Entities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\PZE_Entities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PZE_Entities.edmx</DependentUpon>
+      <LastGenOutput>PZE_Entities.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

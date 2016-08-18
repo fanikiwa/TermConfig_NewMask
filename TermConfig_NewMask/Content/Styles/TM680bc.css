@@ -1,0 +1,2654 @@
+﻿.divcontentBottom {
+    width: 100%;
+    /*width: 100%;*/
+    height: 98%;
+}
+.cmbnewarea {
+     height: 23px;
+}
+.divcontentBottomLeft {
+  width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 2px;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+.lblbttmsecbttmnew {
+    width: 49%;
+    height: 23px;
+    float: right;
+    margin-top: 6px;
+    margin-left: 7px;
+    font-weight: 600;
+}
+.bttmsec1 {
+    width: 98%;
+    /*height: 43%;*/
+      height: 40%;
+    margin-top: 2px;
+    margin-left: 0px;
+    float: left;
+    min-height: 266px;
+}
+
+.bttmsec1left {
+    width: 49%;
+    height: 99%;
+    margin-top: 0px;
+    margin-left: 5px;
+  background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    float: left;
+    border-radius: 5px;
+}
+.secContHolder {
+    width: 100%;
+    clear: none;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+
+.bttmsecLonglbls {
+    width: 93%;
+    height: 100%;
+    float: left;
+}
+
+.bttmsecLongTxt {
+    width: 6%;
+    height: 64%;
+    float: right;
+}
+
+.bttmsec1right {
+    width: 49%;
+    height: 97%;
+    margin-top: 5px;
+    margin-left: 0px;
+       background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+    float: right;
+    border-radius: 5px;
+}
+ 
+
+.bttmsec1lbs {
+    width: 40%;
+    height: 74%;
+    float: left;
+    margin-left: 11px;
+    margin-top: 5px;
+}
+
+/*.lblbttmsec {
+    width: 99%;
+    height: 14px;
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}*/
+
+.lblbttmsec2 {
+    width: 15%;
+  height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    font-weight: 600; 
+    min-width: 70px;
+}
+
+
+
+.lblbttmsecbttm {
+    width: 220px;
+    height: 20px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 11px;
+    font-weight: 600;
+}
+
+
+
+.lblbttmseclong {
+    width: 317px;
+    height: 14px;
+    float: left;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.bttmsec1txts {
+    width: 57%;
+    height: 66%;
+    float: left;
+    margin-top: 3px;
+    min-height: 180px;
+}
+
+.leftBttmsec {
+    width: 98%;
+    height: 22%;
+    float: left;
+    margin-top: 4px;
+}
+
+.txtbttmsec {
+    width: 97%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.ddlTermType {
+    width: 98%;
+    height: 25px;
+    float: left;
+    margin-left: 0px;
+    border-radius: 4px;
+    margin-top: 3px;
+    box-shadow: 2px 2px gray;
+}
+
+.txtTermTyp {
+    width: 97%;
+    height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    float: left; 
+    margin-top: 3px;
+}
+ 
+.txtsec5 {
+    width: 98%;
+ height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    float: left; 
+    margin-top: 3px;
+}
+
+/*.ddlFunctions {
+    width: 90%;
+    height: 25px;
+    float: left;
+    margin-left: 2%;
+    border-radius: 5px;
+    margin-top: 4px;
+    box-shadow: 2px 2px gray;
+}*/
+
+
+
+.colorBlue {
+    color: dodgerblue;
+}
+
+.bttmsec1aktivierung {
+    width: 26%;
+    height: 100%;
+    float: left;
+}
+
+.bttmsec1aktivierungtop {
+    width: 100%;
+    height: 50%;
+}
+
+.bttmseclbl {
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+.bttmsecimgbutton {
+    width: 17%;
+    height: 100%;
+    float: right;
+}
+
+/*.btnblue {
+    background-position: 2px 2px;
+    background-image: url('/Images/FormImages/Dot_rot.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 24px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+}*/
+
+.btnblue {
+    background-position: 2px 2px;
+    background-image: url('/Images/FormImages/Dot_rot.png');
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 24px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: white;
+    margin-top: 3px;
+}
+
+
+.bttmsec1aktivierungbttm {
+    width: 100%;
+    height: 50%;
+}
+
+.ipportlbl {
+    width: 49px;
+    height: 14px;
+    float: left;
+    font-weight: 600;
+    margin-top: 65px;
+    color: slateblue;
+}
+
+.ipporttxt {
+    width: 140px;
+    height: 20px;
+    float: right;
+    border-radius: 5px;
+    margin-top: 59px;
+}
+
+.bttmsec1pics {
+    width: 27%;
+    height: 100%;
+    float: right;
+}
+
+.tab1leftsection5 {
+    width: 100%;
+    height: 100%;
+    margin-right: 1px;
+}
+
+.photo {
+    /*position: relative;*/
+}
+
+.secbtnActivation {
+    float: right;
+    width: 96%;
+    height: 15%;
+    margin-top: 8%;
+    margin-right: 12px;
+}
+
+.lblterActivation {
+    width: 43%;
+    height: 20px;
+    float: left;
+    margin-left: 2px;
+    border-radius: 5px;
+    margin-top: 3px;
+    font-weight: 600;
+    min-width: 140px;
+    clear: none;
+}
+
+
+.PhotoholderCls {
+    height: 154px;
+    width: 168px;
+    margin-bottom: 8px;
+    font-family: 'Segoe UI', Arial, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-repeat: no-repeat;
+}
+
+
+
+.tm680bc {
+    background-image: url('../../Images/FormImages/tm680bc.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.sec1pics img {
+    width: 285px;
+    height: 195px;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.PhotoholderButtonsCls {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #563d7c;
+    border-radius: 5px;
+    padding: 1px 2px 1px 18px;
+    background-position-y: 2.5px;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+    margin-left: 1px;
+    margin-top: 4px;
+    margin-right: 1px;
+    float: right;
+    font-family: 'Segoe UI', Arial, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.btnewphoto {
+    background-image: url('/images/FormImages/NewPhotoImg_x18.png');
+}
+
+    .btnewphoto:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.btdelphoto {
+    background-image: url('/images/FormImages/DelPhotoImg_x18.png');
+}
+
+    .btdelphoto:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.bttmsec2 {
+    width: 98%;
+    height: 13%;
+    min-height: 80px;
+    margin-left: 5px;
+}
+
+.bttmsec2top {
+    width: 100%;
+    height: 50%;
+}
+
+.bttmsec2bttm {
+    width: 100%;
+    height: 50%;
+}
+
+.bttmsec3 {
+    width: 98%;
+    height: 28%;
+    margin-left: 5px;
+}
+
+.sectop {
+    width: 100%;
+    height: 25%;
+}
+
+.secBttm {
+    width: 100%;
+    height: 25%;
+}
+
+.bttmsec3toplbls {
+    width: 10%;
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+}
+
+.secReaderId {
+    width: 9%;
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+}
+
+.secReaderType {
+    width: 10%;
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+}
+
+.secDescription {
+    width: 11%;
+    height: 100%;
+    margin-left: 9px;
+    float: left;
+}
+
+.secDirMvmnt {
+    width: 21%;
+    height: 100%;
+    margin-left: 17px;
+    float: left;
+}
+
+.secProfile {
+    width: 10%;
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+}
+
+.secStatus {
+    width: 10%;
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+}
+
+.sec3shortlbls {
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+
+.sec3shortlblsred {
+    width: 22%;
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+}
+
+.bttmsec3bttmlbls {
+    width: 12%;
+    height: 100%;
+    margin-left: 5px;
+    float: left;
+}
+
+.lblLong {
+    width: 55px;
+    height: 12px;
+    float: left;
+}
+
+.lblShort {
+    width: 55px;
+    height: 12px;
+    float: left;
+}
+
+.btnprogress {
+    float: left;
+    margin-bottom: 1px;
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    background: white;
+}
+
+.bttmsec3lblheader {
+    width: 88px;
+    height: 14px;
+    margin-left: 150px;
+}
+
+.bttmsec3txtheader {
+    min-width: 140px;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 268px;
+}
+
+.tempControltxt {
+    min-width: 140px;
+    height: 20px;
+    border-radius: 5px;
+    float: right;
+}
+
+.coloRed {
+    color: red;
+}
+
+.colorGreen {
+    color: green;
+}
+
+.bttmsec5 {
+     width: 98%;
+    height: 33%;
+    margin-left: 0px;
+    float: left;
+}
+
+.bttmsecsek {
+    width: 98%;
+    height: 4%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.txtsec5sek {
+    width: 78%;
+    height: 20px;
+    float: left;
+    margin-left: 2px;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+
+.bttmsec5Left {
+   width: 49%;
+    height: 98%;
+    margin-left: 2px;
+    float: left;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.top {
+    height: 50%;
+}
+
+.bottom {
+    height: 46%;
+}
+
+@media only screen and (min-width: 200px) {
+    .txtRight2 {
+width: 54%;
+    float: left;
+    margin-top: 1%;
+    height: 96%;
+}
+    .tblCellsHeader {
+        border: 1px solid black;
+        width: 12%;
+        height: 100%;
+    }
+
+    .bttmsec6btns {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 5px 0 0 4px;
+        min-width: 130px;
+        margin-left: 10px;
+    }
+
+    .bttmsec6btns2 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+    }
+
+    .bttmsec6btns3 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+    }
+
+    .bttmsec6btns4 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+    }
+
+    .tblCellSmallWith {
+        border: 1px solid black;
+        width: 12%;
+        height: 100%;
+    }
+
+
+    .tblCellSmallWithNew {
+        border: 1px solid black;
+        width: 12%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .lblbttmsecbttm {
+        width: 99%;
+        height: 20px;
+        float: left;
+        margin-top: 0;
+        margin-left: 10px;
+        font-weight: 600;
+    }
+
+    .ddlFunctions {
+        width: 90%;
+        height: 23px;
+        float: left;
+        margin-left: 2%;
+        border-radius: 5px;
+        margin-top: 1px;
+        box-shadow: 2px 2px gray;
+    }
+
+
+    .chkBttm {
+        float: right;
+        height: 18px;
+        margin-top: 0;
+        margin-right: 48%;
+    }
+
+    .colorRed {
+        color: red;
+    }
+
+    .txtbttmsec {
+        width: 97%;
+        height: 17px;
+        float: left;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
+
+    .bttmsec1lbs {
+        width: 40%;
+        height: 67%;
+        float: left;
+        margin-left: 11px;
+        min-height: 180px;
+        margin-top: 5px;
+    }
+
+    .lblbttmsec {
+        width: 99%;
+        height: 14px;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .bttmsec1txts {
+          width: 55%;
+    height: 66%;
+    float: left;
+    margin-top: 3px;
+    min-height: 180px;
+    }
+
+    .secBtmAccessProfiles {
+        width: 95%;
+        float: left;
+        height: 81%;
+         background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+
+    .lblterActivation {
+        width: 145px;
+        height: 20px;
+        float: left;
+        margin-left: 10px;
+        border-radius: 5px;
+        margin-top: 3px;
+        margin-top: 2%;
+        font-weight: 600;
+    }
+
+    .sec1pics {
+        width: 98%;
+        /*height: 252px;*/
+        height: 188px;
+        float: right;
+        margin-right: 2%;
+        margin-top: 8px;
+        min-width: 255px;
+    }
+
+    .lblbttmsec23 {
+        width: 99%;
+        height: 17px;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        font-weight: 600;
+    }
+
+    .txtHeaderMaxProfiles {
+        width: 98%;
+        height: 20px;
+        float: left;
+        margin-left: 2px;
+        border-radius: 5px;
+        margin-top: 7px;
+        font-size: 11px;
+        /*font-weight: 600;*/
+    }
+
+    /*.bttmsec6btns {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 5px 0 0 4px;
+        min-width: 130px;
+        margin-top: 0.5%;
+    }*/
+
+    .secbtnActivation {
+        float: left;
+        width: 92%;
+        height: 15%;
+        margin-top: 0;
+        min-height: 37px;
+        border: 1px solid grey;
+        margin-left: 2%;
+    }
+
+    .btnred {
+        background-position: 2px 2px;
+        background-image: url('../../Images/FormImages/Dot_rot.png');
+        /*background-image: url('/Images/FormImages/Dot_rot.png');*/
+        background-repeat: no-repeat;
+        background-color: white;
+        height: 24px;
+        width: 24px;
+        float: left;
+        margin-top: 4px;
+        height: 30px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        /*background-color:transparent;*/
+    }
+
+    .topareabtn {
+        width: 19%;
+        height: 30px;
+ text-align:right;
+        border-radius: 5px;
+        min-width: 130px;
+        float: right;
+        margin: 6px 0 0 4px;
+        margin-top: 2px;
+        margin-right: 5px;
+
+
+    }
+
+    .greenredchk {
+        float: right;
+        height: 20px;
+        background-color: white;
+        margin-top: 7px;
+        border: 1px solid gray;
+        margin-right: 9%;
+    }
+
+    .btnAccsPrfl {
+        float: right;
+        width: 39%;
+        height: 80%;
+        /*background-color: #d0e4f7;*/
+    }
+
+    .top {
+        height: 60%;
+    }
+
+    .bottom {
+        height: 39%;
+    }
+
+
+    .secCont {
+        width: 100%;
+        height: 67%;
+        float: left;
+        margin-top: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .txtRight2 {
+width: 57%;
+    float: left;
+    margin-top: 1%;
+    height: 96%;
+}
+        .bttmsec1txts {
+          width: 57%;
+    height: 66%;
+    float: left;
+    margin-top: 3px;
+    min-height: 180px;
+    }
+    .tblCellSmallWith {
+        border: 1px solid black;
+        width: 12%;
+        height: 100%;
+    }
+
+    .bttmsec6btns {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 10px;
+    }
+
+    .bttmsec6btns2 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+    }
+
+    .bttmsec6btns3 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+    }
+
+    .bttmsec6btns4 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+    }
+
+    .tblCellSmallWithNew {
+        border: 1px solid black;
+        width: 12%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .tblCellsHeader {
+        border: 1px solid black;
+        width: 14%;
+        height: 100%;
+    }
+
+    .lblbttmsecbttm {
+    width: 96%;
+    height: 19px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 4px;
+    font-weight: 600;
+    }
+
+    .ddlFunctions {
+         width: 98%;
+    height: 25px;
+    float: left;
+    margin-left: 2%;
+    border-radius: 5px;
+    margin-top: 4px;
+    box-shadow: 2px 2px gray;
+    }
+
+    .chkBttm {
+        float: right;
+        height: 20px;
+        background-color: white;
+        margin-top: 5px;
+        border: 1px solid gray;
+        margin-right: 48%;
+    }
+
+    .colorRed {
+        color: red;
+    }
+
+    .lblterActivation {
+        width: 180px;
+        height: 20px;
+        float: left;
+        margin-left: 10px;
+        border-radius: 5px;
+        margin-top: 3px;
+        margin-top: 2%;
+        font-weight: 600;
+    }
+
+    .lblbttmsec23 {
+        width: 99%;
+        height: 17px;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .topareabtn {
+        width: 19%;
+        height: 30px;
+        text-align:right;
+        border-radius: 5px;
+        min-width: 130px;
+        float: right;
+        margin: 6px 0 0 4px;
+        margin-right: 5px;
+
+    }
+
+    .bttmsec1lbs {
+       width: 40%;
+    height: 66%;
+    float: left;
+    margin-left: 6px;
+    min-height: 195px;
+    margin-top: 3px;
+    }
+
+    .txtbttmsec {
+        width: 97%;
+        height: 20px;
+        float: left;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
+
+    .lblbttmsec {
+        width: 99%;
+        height: 17px;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .sec1pics {
+        width: 98%;
+        /*height: 290px;*/
+        height: 195px;
+        float: right;
+        margin-right: 2%;
+        margin-top: 4%;
+        min-width: 255px;
+    }
+
+    /*.bttmsec6btns {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 5px 0 0 4px;
+        min-width: 130px;
+        margin-top: 1.5%;
+    }*/
+
+    .secbtnActivation {
+        float: left;
+        width: 92%;
+        height: 15%;
+        margin-top: 10%;
+        min-height: 37px;
+        border: 1px solid grey;
+        margin-left: 2%;
+    }
+
+    .secBtmAccessProfiles {
+        width: 95%;
+        float: left;
+        height: 81%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+
+    .btnred {
+        background-position: 2px 2px;
+        background-image: url('../../Images/FormImages/Dot_rot.png');
+        /*background-image: url('/Images/FormImages/Dot_rot.png');*/
+        background-repeat: no-repeat;
+        background-color: white;
+        height: 24px;
+        width: 24px;
+        float: left;
+        margin-top: 4px;
+        height: 30px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        /*background-color:transparent;*/
+    }
+
+    .greenredchk {
+        float: right;
+        height: 20px;
+        background-color: white;
+        margin-top: 7px;
+        border: 1px solid gray;
+        margin-right: 9%;
+    }
+
+    .txtHeaderMaxProfiles {
+        width: 98%;
+        height: 20px;
+        float: left;
+        margin-left: 2px;
+        border-radius: 5px;
+        margin-top: 7px;
+        font-size: 14px;
+    }
+
+    .lblbttmsec23 {
+        width: 99%;
+        height: 17px;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .top {
+        height: 60%;
+    }
+
+    .bottom {
+        height: 39%;
+    }
+
+    .btnAccsPrfl {
+        float: right;
+        width: 39%;
+        height: 80%;
+        margin-top: 8%;
+        /*background-color: #d0e4f7;*/
+    }
+}
+
+
+@media only screen and (min-width: 1900px) {
+    .txtRight2 {
+width: 57%;
+    float: left;
+    margin-top: 1%;
+    height: 96%;
+}
+        .bttmsec1txts {
+          width: 57%;
+    height: 66%;
+    float: left;
+    margin-top: 3px;
+    min-height: 180px;
+    }
+    .lblbttmsecbttm {
+        width: 96%;
+    height: 19px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 4px;
+    font-weight: 600;
+    }
+
+    .bttmsec6btns {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 5px 0 0 4px;
+        min-width: 130px;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .bttmsec6btns2 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+        margin-top: 15px;
+    }
+
+    .bttmsec6btns3 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+        margin-top: 15px;
+    }
+
+    .bttmsec6btns4 {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 4px 0 0 4px;
+        min-width: 130px;
+        margin-left: 7%;
+        margin-top: 15px;
+    }
+
+    .tblCellsHeader {
+        border: 1px solid black;
+        width: 14%;
+        height: 100%;
+    }
+
+    .tblCellSmallWith {
+        border: 1px solid black;
+        width: 12%;
+        height: 100%;
+    }
+
+    .tblRowReader {
+        width: 100%;
+        height: 20%;
+        min-height: 20px;
+    }
+
+    .tblCellSmallWithNew {
+        border: 1px solid black;
+        width: 12%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .ddlFunctions {
+        width: 98%;
+    height: 25px;
+    float: left;
+    margin-left: 2%;
+    border-radius: 5px;
+    margin-top: 4px;
+    box-shadow: 2px 2px gray;
+    }
+
+    .chkBttm {
+        float: right;
+        height: 20px;
+        background-color: white;
+        margin-top: 1px;
+        border: 1px solid gray;
+        margin-right: 18%;
+    }
+
+    .secBtmAccessProfiles {
+        width: 95%;
+        float: left;
+        height: 81%;
+           background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+        margin-top: 5px;
+        margin-left: 8px;
+    }
+
+    .lblterActivation {
+        width: 180px;
+        height: 20px;
+        float: left;
+        margin-left: 10px;
+        border-radius: 5px;
+        margin-top: 3px;
+        margin-top: 2%;
+        font-weight: 600;
+    }
+
+    .topareabtn {
+        width: 19%;
+        height: 30px; 
+        border-radius: 5px;
+         text-align:right;
+        min-width: 130px;
+        float: right;
+        margin: 6px 0 0 4px;
+        margin-right: 5px; 
+    }
+
+    .bttmsec1lbs {
+          width: 40%;
+    height: 66%;
+    float: left;
+    margin-left: 6px;
+    min-height: 195px;
+    margin-top: 3px;
+    }
+
+    .txtbttmsec {
+        width: 97%;
+      height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+        float: left; 
+        margin-top: 3px;
+    }
+
+    .lblbttmsec {
+        width: 99%;
+        height: 17px;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .lblbttmsec23 {
+        width: 99%;
+        height: 17px;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-weight: 600;
+    }
+
+    .colorRed {
+        color: red;
+    }
+
+    /*.bttmsec6btns {
+        width: 19%;
+        height: 30px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        float: left;
+        margin: 5px 0 0 4px;
+        min-width: 130px;
+        margin-top: 2px;
+    }*/
+
+    .txtHeaderMaxProfiles {
+        width: 98%;
+        height: 20px;
+        float: left;
+        margin-left: 2px;
+        border-radius: 5px;
+        margin-top: 7px;
+        font-size: 14px;
+    }
+
+ 
+.secbtnActivation {
+    float: left;
+    width: 98%;
+    height: 15%;
+    margin-top: 14%;
+    min-height: 37px;
+    border: 1px solid grey;
+    margin-left: 3px;
+}
+
+
+    .btnred {
+        background-position: 2px 2px;
+        background-image: url('../../Images/FormImages/Dot_rot.png');
+        background-repeat: no-repeat;
+        background-color: white;
+        height: 24px;
+        width: 24px;
+        float: left;
+        margin-top: 4px;
+        height: 30px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    .greenredchk {
+        float: right;
+        height: 20px;
+        background-color: white;
+        margin-top: 7px;
+        border: 1px solid gray;
+        margin-right: 9%;
+    }
+
+    .top {
+        height: 57%;
+    }
+
+    .bottom {
+        height: 46%;
+    }
+
+    .btnAccsPrfl {
+        float: right;
+        width: 39%;
+        height: 68%;
+        margin-top: 4%;
+        /*background-color: #d0e4f7;*/
+        margin-right: 5px;
+    }
+}
+
+.bttmsec5Right {
+    width: 49%;
+    height: 98%;
+    margin-left: 1px;
+    float: right;
+    margin-top:5px; 
+    border-radius: 5px;
+}
+
+.lblLeft {
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    height: 96%;
+}
+
+
+.tbtCellleserarea {
+    width: 7%;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.sectGridAndButtons {
+width: 98%;
+    height: 13%;
+    margin-left: 5px;
+    float: left;
+    margin-top: 2px;
+}
+
+
+.lblLeft2 {
+    width: 41%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+    height: 96%;
+}
+
+.txtRight {
+    width: 58%;
+    float: left;
+    height: 96%;
+}
+
+
+.tblRowleserarea2 {
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+}
+
+.tblRowleserarea3 {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+}
+
+
+
+.bttmsec6 {
+width: 98%;
+    height: 4%;
+    margin-left: 8px;
+    float: left;
+    margin-top: 3px;
+}
+
+
+.secTopBtns {
+    margin-top: 3px;
+    width: 40%;
+    height: 32px;
+    float: left;
+    /*background: rgba(253,199,127,1);*/
+}
+
+.btnnewexterner {
+    width: 140px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    min-width: 130px;
+    float: left;
+    background-position: left;
+    background-position-x: 4%;
+    padding: 5px 0 5px 30px;
+    margin: 2px 0 0 4px;
+}
+
+.secHeaderNew {
+    width: 100%;
+    height: 8%;
+    min-height: 20px;
+    float: left;
+}
+
+.lblHeader {
+    width: 98%;
+    float: left;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.tblRowReader2 {
+    width: 100%;
+    height: 17px;
+    background-color: #d0e4f7;
+}
+
+.tbtAddReader {
+    width: 99%;
+    height: 22%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tblCells {
+    border: 1px solid black;
+    width: 14%;
+    height: 100%;
+    background-color: white;
+}
+
+
+.tblCellSmallWith2 {
+    border: 1px solid black;
+    width: 14%;
+    height: 100%;
+    background-color: white;
+}
+
+.tblCellSmallWith2new {
+    /*border: 1px solid black;*/
+    width: 14%;
+    height: 100%;
+}
+
+.tblCellSmallWith3 {
+    border: 1px solid black;
+    width: 14%;
+    height: 100%;
+}
+
+.txtTblCells {
+    width: 98%;
+    height: 83%;
+    margin-left: -1px;
+    text-align: center;
+}
+
+.txtTblCells3 {
+    width: 98%;
+    height: 89%;
+    margin-left: -1px;
+    text-align: center;
+}
+
+.drpDirection {
+    width: 100%;
+    height: 100%;
+    border: 0px solid gray;
+}
+
+.txtTblCells2 {
+    width: 98%;
+    height: 90%;
+    margin-left: -1px;
+    text-align: center;
+}
+
+.lblTblCells {
+    text-align: center;
+    width: 98%;
+    float: left;
+}
+
+.lblTblHeader {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-weight: 600;
+}
+
+.lblTblHeaderLeft {
+    text-align: left;
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    background-color: #d0e4f7;
+}
+
+.lblTblHeader2 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    color: red;
+}
+
+.secTopGrid {
+    width: 100%;
+    height: 72%;
+    float: left;
+}
+
+
+.tblRowleserarea {
+    width: 100%;
+    height: 50%;
+    background-color: #d0e4f7;
+}
+
+.leserarea {
+    width: 99%;
+    height: 86%;
+    float: left;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+/*.bttmsec6btns {
+    width: 19%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+    margin: 5px 0 0 4px;
+    margin-top: 1.5%;
+    min-width: 130px;
+}*/
+
+.txtzentrale {
+    width: 16%;
+    min-width: 120px;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.bttmsecRightbtns {
+    width: 100%;
+    height: 8%;
+    border: 1px solid gray;
+    /*margin-bottom: 10px;*/
+}
+
+
+.bttmsecRighttable {
+    width: 100%;
+    height: 90%;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.btnbttmsecRight {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    float: right;
+    margin: 10px 12px 0 4px;
+    background-image: -webkit-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -moz-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -ms-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -o-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: linear-gradient(to bottom, #e6e6e6, #ffffff);
+}
+
+
+/*.topareabtn {
+    width: 19%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    min-width: 130px;
+    float: right;
+    margin: 6px 0 0 4px;
+    margin-right: 5px;
+}*/
+
+.topareabtn:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+
+.btnbttmsecRight:hover:enabled {
+    background: #e6e6e6;
+    background-image: -webkit-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -moz-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -ms-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -o-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: linear-gradient(to bottom, #e6e6e6, #ffffff);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover:enabled {
+    background: #e6e6e6;
+    background-image: -webkit-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -moz-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -ms-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: -o-linear-gradient(top, #e6e6e6, #ffffff);
+    background-image: linear-gradient(to bottom, #e6e6e6, #ffffff);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.grdSection {
+    width: 99%;
+    height: 92%;
+    float: left;
+    overflow-y: auto;
+    margin-left: 3px; 
+}
+
+.secpart2 {
+    width: 100%;
+    height: 92%;
+    overflow-y: auto; 
+    /*margin-top: 5px;*/
+}
+
+.divcontentBottomRight {
+    width: 49%;
+    height: 98%;
+    float: right;
+    margin-top: 5px;
+    border-radius: 5px;
+
+             background-color: #FFFFFF;
+    box-shadow: rgba(186,186,186,0.75);
+    -webkit-box-shadow: 0 1px 10px #777;
+    -moz-box-shadow: 1 1px 10px #777;
+    box-shadow: 0px 1px 10px #777;
+    border-bottom: none !important;
+}
+
+.BottomFooterBtnsNew {
+    width: 140px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+    padding: 5px 0 5px 30px;
+    margin: 2px 0 0 4px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+
+.BottomFooterBtns {
+    width: 140px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+    padding: 5px 0 5px 30px;
+    margin: 5px 0 0 4px;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+
+.btnNew {
+    background-image: url('/Images/FormImages/New.png');
+    background-repeat: no-repeat;
+}
+
+.btnEdit {
+    background-image: url('/Images/FormImages/btnEdit.png');
+    background-repeat: no-repeat;
+}
+
+.btnSave {
+    background-image: url('/Images/FormImages/Save.png');
+}
+
+.btnDelete {
+    background-image: url('/Images/FormImages/btndelete.png');
+    background-repeat: no-repeat;
+}
+
+.BottomFooterBtnsRight {
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: right;
+    padding: 5px 0 5px 30px;
+    margin: 5px 4px 0 0;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+}
+
+.btnHelp {
+    background-image: url('/Images/FormImages/Help.png');
+    margin-left: 12px;
+    background-repeat: no-repeat;
+}
+
+    .btnHelp:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.btnClose {
+    background-image: url('/Images/FormImages/btnBack.png');
+    background-repeat: no-repeat;
+}
+
+    .btnClose:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.IDHolder {
+    display: none;
+}
+/*start of Accessprofile*/
+
+.divMain {
+    width: 100%;
+    height: 100%;
+}
+
+.sectionTop {
+    width: 100%;
+    height: 10%;
+    background: rgba(174, 202, 240, 1);
+}
+
+.sectionTopLeft {
+    width: 74%;
+    height: 100%;
+    float: left;
+    margin-left: 4px;
+}
+
+.secTopleftlabels {
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+
+.secTopleftDrpdwns {
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+
+.sectionTopRight {
+    width: 25%;
+    height: 100%;
+    float: right;
+    margin-right: 4px;
+}
+
+.sectionBottom {
+    width: 100%;
+    height: 88%;
+}
+
+.secBottomLeft {
+    width: 99%;
+    height: 98%;
+    float: left; 
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 4px; 
+}
+
+.top1Left {
+    width: 100%;
+    height: 12%;
+    float: left;
+}
+
+.secTopleftlabels {
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+
+.secLablesDivisions {
+    width: 8%;
+    height: 100%;
+    float: left;
+    margin-right: 7px;
+    min-width: 93px;
+}
+
+.lblZtrt {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.txtZutrttID {
+    width: 82%;
+   height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    float: left; 
+    text-align: center;
+}
+
+.secLablesDivisions2 {
+    width: 26%;
+    height: 100%;
+    float: left;
+}
+
+.secLablesDivisions3 {
+    width: 8%;
+    height: 100%;
+    float: left;
+    min-width: 100px;
+}
+
+.secLablesDivisions4 {
+    width: 28%;
+    height: 100%;
+    float: left;
+}
+
+.secLablesDivisions5 {
+    width: 22%;
+    height: 100%;
+    float: left;
+}
+
+.secDivisions {
+    width: 6%;
+    height: 100%;
+    float: left;
+    min-width: 109px;
+}
+
+.secDivisions2 {
+    width: 24%;
+    height: 100%;
+    float: left;
+    min-width: 188px;
+}
+
+.secDivisions3 {
+    width: 8%;
+    height: 100%;
+    float: left;
+    min-width: 95px;
+}
+
+.secMidTop {
+    width: 8%;
+    height: 100%;
+    float: left;
+    min-width: 72px;
+}
+
+.lblZutrtt {
+    width: 100%;
+    text-align: left;
+    float: left;
+    margin-top: 5px;
+}
+
+.topSecmid {
+    width: 7%;
+    height: 100%;
+    float: left;
+    min-width: 84px;
+}
+
+.drpZutrttID {
+    width: 97%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+}
+
+.secDivisions4 {
+    width: 24%;
+    height: 100%;
+    float: left;
+    min-width: 134px;
+}
+
+.secDivisions4New {
+    width: 21%;
+    height: 100%;
+    float: left;
+    min-width: 112px;
+}
+
+.secDivisions5 {
+    width: 14%;
+    height: 100%;
+    float: right;
+    min-width: 155px;
+    margin-right: 3%;
+}
+
+.secDivisions5bttm {
+    width: 12%;
+    height: 63%;
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+
+.chkbox {
+    margin-left: 60px;
+    float: left;
+}
+
+.drpDwnSecTop {
+    width: 80%;
+  height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    float: left; 
+    margin-left: 10px;
+    text-align: center;
+}
+
+.drpDwnSecTophg {
+    width: 80%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.drpDwnSecTopssd {
+    width: 72%; 
+    height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    margin-left: 0px;
+    float: left;
+    margin-left: 8px;
+    text-align: center;
+}
+
+.drpDwnSecTop1 {
+    width: 70%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.drpDwnSecTopoipu {
+    width: 94%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.txtSecTop1 {
+    width: 90%;
+  height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    float: left; 
+    margin-left: 16px;
+}
+
+.txtSecTop1dsds {
+    width: 77%;
+ height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    float: left; 
+}
+
+.drpDwnSecTop2 {
+    width: 70%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.drpDwnSecTopoi {
+    width: 81%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+}
+
+.txtSecTop2 {
+    width: 81%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.drpDwnSecTop3 {
+    width: 89%;
+    height: 25px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+
+.txtSecTop4 {
+    width: 99%;
+    height: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.lblTopSection {
+    width: 98%;
+    font-size: 14px;
+    float: left;
+    margin-left: 24px;
+    margin-top: 4px;
+}
+
+.lblTopSectionc {
+    width: 92%;
+    font-size: 14px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.lblTopSectionsd {
+    width: 94%;
+    font-size: 14px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 4px;
+}
+
+.lblTopSections {
+    width: 88%;
+    font-size: 14px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 4px;
+}
+
+.lblTopSection3 {
+    width: 98%;
+    font-size: 14px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.lblTopSection2 {
+    width: 98%;
+    font-size: 14px;
+    float: left;
+    margin-left: 11px;
+    margin-top: 4px;
+}
+
+.lblgrpPrflNo {
+    width: 98%;
+    float: left;
+    margin-left: 10px;
+}
+
+.lblgrpPrfldesc {
+    width: 88%;
+    float: left;
+    margin-left: 18px;
+}
+
+.lblaccsPrflNo {
+    width: 89%;
+    float: left;
+    margin-left: 5px;
+}
+
+.lblaccsdsc {
+    width: 83%;
+    float: left;
+    margin-left: 6px;
+}
+
+.secToplefttextboxes {
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+
+.txtGpNo {
+    width: 24%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.txtGpdesc {
+    width: 24%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.txtApNo {
+    width: 24%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.txtAdesc {
+    width: 24%;
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.sectionGrid {
+    width: 99%;
+    height: 58%;
+    float: left;
+    margin-left: 5px;
+}
+
+.tableRowMain {
+    width: 100%;
+    float: left;
+    height: 10%;
+    border-collapse: collapse;
+    margin-left: 2px;
+}
+
+.grid {
+    width: 91.1%;
+    float: left;
+    margin-left: 2px;
+    min-width: 766px;
+}
+
+.tableRow {
+    width: 99%;
+    height: 94%;
+}
+
+.tableCell1 {
+    width: 8.7%;
+    height: 100%;
+    border: 1px solid #94b6e8;
+    text-align: center;
+}
+
+.tableCell {
+    width: 5.5%;
+    height: 100%;
+    border: 1px solid #94b6e8;
+    text-align: center;
+}
+
+.sectionMemo {
+    width: 100%;
+    height: 25%;
+    float: left;
+}
+
+.secMemoHeader {
+    width: 100%;
+    height: 15%;
+    float: left;
+}
+
+.lblMemo {
+    width: 98%;
+    font-size: 14px;
+    float: left;
+    margin-left: 5px;
+}
+
+.secMemo {
+    width: 100%;
+    height: 90%;
+    float: left;
+}
+
+.txtMemo {
+    width: 98%;
+    height: 98%;
+    float: left;
+    margin-left: 5px;  
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+}
+
+.secBottomRight {
+    width: 28%;
+    height: 98%;
+    float: right;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow-y: auto;
+    margin-top: 5px;
+    background-color: white;
+    margin-right: 5px;
+}
+
+#overlayAC {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#box_flameAC {
+    width: 100%;
+    position: fixed;
+    top: 30%;
+}
+
+#dialogBoxAC {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    color: red;
+    border: 1px solid black;
+    font-size: 24px;
+    background: #2ab0ed;
+    background: -moz-linear-gradient(top, #2ab0ed 0%, #e4f5fc 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ab0ed), color-stop(0%,#e4f5fc));
+    background: -webkit-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -o-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: -ms-linear-gradient(top, #2ab0ed 0%,#e4f5fc 0%);
+    background: linear-gradient(to bottom, #2ab0ed 0%,#e4f5fc 0%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ab0ed', endColorstr='#e4f5fc',GradientType=0 );
+}
+
+#btnOkAC {
+    display: block;
+    width: 90px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnOkAC:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnNoAC {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnNoAC:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+#btnCancelAC {
+    display: block;
+    width: 90px;
+    float: left;
+    height: 30px;
+    margin-top: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+    #btnCancelAC:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+.accessProfilelbl {
+    width: 90px;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: 600;
+    margin-left: 14px;
+}
+
+.secpart3 {
+    width: 100%;
+    display: none;
+    height: 90%;
+    overflow-y: auto;
+}
+/*end of Accesprofile*/
+.txtSecTopAccess {
+    width: 6%;
+  height: 25px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    outline: 0;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.classprevbtn {
+    float: right;
+    width: 20%;
+    margin-top: 10px;
+}
+/*.start of formview.css*/
+
+.empFormViewNav {
+    float: right;
+    height: 50px;
+}
+
+.empFormViewNavnew {
+    float: right;
+    height: 50px;
+    width: 18%;
+}
+
+.empFormViewNav > section {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.empFormViewNav section span {
+    display: block;
+}
+
+.empFormViewNav section input {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+    .empFormViewNav section input:enabled:hover {
+        background-color: white;
+        cursor: pointer;
+    }
+
+.fvNavSearch {
+    width: 80px;
+}
+
+.fvNavPrevious {
+    float: left;
+}
+
+.fvNavCurrentEmpNum {
+    width: 50px;
+}
+
+.fvNavTotalEmpNum {
+    width: 50px;
+    float: left;
+}
+
+.txtcenter {
+    width: 46px;
+    text-align: center;
+}
+
+.fvNavNext {
+    float: left;
+}
+
+.btnFvNavPrev, .btnFvNavNext, .searchAllEmp {
+    background-position-x: 3px;
+    background-position-y: 1px;
+    border: 1px solid gray;
+}
+
+.btnFvNavPrev {
+    background-image: url('../../images/FormImages/ArrowLeft.png');
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 22px;
+}
+
+.btnFvNavNext {
+    background-image: url('../../images/FormImages/ArrowRight.png');
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 22px;
+}
+
+.btnFvNavPrev:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+
+.btnFvNavNext:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+
+.searchAllEmp {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+.searchAllEmpnew {
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+    background-color: White;
+    border-style: None;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+    .searchAllEmpnew:hover:enabled {
+        cursor: pointer;
+        background-color: white;
+    }
+
+.searchfltright {
+    float: right;
+    margin-right: 5px;
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+.searchfltrighte {
+    float: left;
+    margin-right: 5px;
+    background-image: url('/images/FormImages/search.png');
+    background-repeat: no-repeat;
+}
+
+.searchfltright:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+
+.searchfltrighte:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+/*end of formvie

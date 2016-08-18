@@ -1,0 +1,1399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="access" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="accessAndTermKonfigConnection" xml:space="preserve">
+    <value>Access And TermConfig_NewMask Connection</value>
+  </data>
+  <data name="Accessbookings" xml:space="preserve">
+    <value>Access bookings in database</value>
+  </data>
+  <data name="accesscntr" xml:space="preserve">
+    <value>Access all Lists:</value>
+  </data>
+  <data name="accesscont" xml:space="preserve">
+    <value>Access Control</value>
+  </data>
+  <data name="accessControl" xml:space="preserve">
+    <value>Access Control</value>
+  </data>
+  <data name="accessInfoViaSms" xml:space="preserve">
+    <value>Access Information Via SMS</value>
+  </data>
+  <data name="accessPortNumber" xml:space="preserve">
+    <value>Access Port- Number</value>
+  </data>
+  <data name="Accessprofile" xml:space="preserve">
+    <value>Access profiles</value>
+  </data>
+  <data name="accessProfiles" xml:space="preserve">
+    <value>Access Profiles</value>
+  </data>
+  <data name="action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="actionTitle" xml:space="preserve">
+    <value>Action:</value>
+  </data>
+  <data name="activation" xml:space="preserve">
+    <value>Activation</value>
+  </data>
+  <data name="activation2" xml:space="preserve">
+    <value>Activation:</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="active1" xml:space="preserve">
+    <value>Active:</value>
+  </data>
+  <data name="after" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="afterSec" xml:space="preserve">
+    <value>After Sec.</value>
+  </data>
+  <data name="alarm" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="alarmForDoorOneDoorTwoAndSoOn" xml:space="preserve">
+    <value>Alarm for door 1 of aux1, door 2 of  aux 2 etc</value>
+  </data>
+  <data name="alarmFromAllDoorsToAux1" xml:space="preserve">
+    <value>Alarm From All Doors To Aux 1</value>
+  </data>
+  <data name="alarmFunction" xml:space="preserve">
+    <value>Alarm Function</value>
+  </data>
+  <data name="alarmOutputs" xml:space="preserve">
+    <value>Alarm Outputs</value>
+  </data>
+  <data name="alarmTimeInSeconds" xml:space="preserve">
+    <value>Alarm Time In Seconds</value>
+  </data>
+  <data name="all" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="allAlarmsOnAux" xml:space="preserve">
+    <value>All Alarms On Aux</value>
+  </data>
+  <data name="Allowstaffno" xml:space="preserve">
+    <value>Allow PIN</value>
+  </data>
+  <data name="Allowtransponder" xml:space="preserve">
+    <value>Allow transponder</value>
+    <comment>A</comment>
+  </data>
+  <data name="AllowtransponderandPIN" xml:space="preserve">
+    <value>Allow transponder and PIN</value>
+  </data>
+  <data name="alrm" xml:space="preserve">
+    <value>Al</value>
+  </data>
+  <data name="Amaximumof45timeprofiles" xml:space="preserve">
+    <value>A maximum of 45 time profiles are created</value>
+  </data>
+  <data name="Amaximumof5timeprofiles" xml:space="preserve">
+    <value>A maximum of 5 time profiles are created</value>
+  </data>
+  <data name="antiPassBack" xml:space="preserve">
+    <value>Anti Passback</value>
+  </data>
+  <data name="assaAbloy" xml:space="preserve">
+    <value>Assa Abloy</value>
+  </data>
+  <data name="assignment" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="backToReadFingerPrint" xml:space="preserve">
+    <value>Back to read FingerPrints</value>
+  </data>
+  <data name="beforeAlarm" xml:space="preserve">
+    <value>Before Alarm</value>
+  </data>
+  <data name="biometricRFID" xml:space="preserve">
+    <value>Biometric / RFID</value>
+  </data>
+  <data name="biometrics" xml:space="preserve">
+    <value>Biometrics:</value>
+  </data>
+  <data name="book" xml:space="preserve">
+    <value>Book</value>
+  </data>
+  <data name="booking" xml:space="preserve">
+    <value>Booking</value>
+  </data>
+  <data name="booking2" xml:space="preserve">
+    <value>Booking</value>
+  </data>
+  <data name="BookinglevelsForTheProjectTracking" xml:space="preserve">
+    <value>Booking Levels For The Project Version</value>
+  </data>
+  <data name="bookingProcess" xml:space="preserve">
+    <value>Booking Process</value>
+  </data>
+  <data name="bookingsEntreeIntoTheProtocol" xml:space="preserve">
+    <value>Bookings Entree Into The Protocol</value>
+  </data>
+  <data name="bookingsForTimeSheet" xml:space="preserve">
+    <value>Bookings For Timesheet</value>
+  </data>
+  <data name="bookingsOfDay" xml:space="preserve">
+    <value>Bookings Of Day</value>
+  </data>
+  <data name="break1" xml:space="preserve">
+    <value>Break</value>
+  </data>
+  <data name="busssoftware" xml:space="preserve">
+    <value>Business - Software</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="cancel1" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CardandPasswordquery" xml:space="preserve">
+    <value>Card and Password query</value>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CellId" xml:space="preserve">
+    <value>Cell ID.</value>
+  </data>
+  <data name="CellId2" xml:space="preserve">
+    <value>Cell ID.:</value>
+  </data>
+  <data name="come" xml:space="preserve">
+    <value>Come</value>
+  </data>
+  <data name="communication" xml:space="preserve">
+    <value>Communication</value>
+  </data>
+  <data name="communication2" xml:space="preserve">
+    <value>Communication</value>
+  </data>
+  <data name="connectedExternalReader" xml:space="preserve">
+    <value>Connected External Reader</value>
+  </data>
+  <data name="connection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="connections" xml:space="preserve">
+    <value>Connections</value>
+  </data>
+  <data name="ConnectionTestFailed" xml:space="preserve">
+    <value>Verbindung fehlgeschlagen</value>
+  </data>
+  <data name="ConnectionTestSuccessful" xml:space="preserve">
+    <value>Erfolgreiche Verbindung</value>
+  </data>
+  <data name="conntionlists" xml:space="preserve">
+    <value>Connetion Lists</value>
+  </data>
+  <data name="containerDescription" xml:space="preserve">
+    <value>Container Description:</value>
+  </data>
+  <data name="containerId" xml:space="preserve">
+    <value>Container ID:</value>
+  </data>
+  <data name="containerNumber" xml:space="preserve">
+    <value>Container Number:</value>
+  </data>
+  <data name="ContractPartner" xml:space="preserve">
+    <value>Contract Partner:</value>
+  </data>
+  <data name="ContractStartDate" xml:space="preserve">
+    <value>Contract Start Date:</value>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CostAndFlexCostCenter" xml:space="preserve">
+    <value>Cost And Flex Cost Center:</value>
+  </data>
+  <data name="costCenter" xml:space="preserve">
+    <value>Cost Center</value>
+  </data>
+  <data name="costCenter1" xml:space="preserve">
+    <value>Cost Center</value>
+  </data>
+  <data name="costCenter2" xml:space="preserve">
+    <value>Cost Center</value>
+  </data>
+  <data name="costCenterFrom" xml:space="preserve">
+    <value>Cost Center from:</value>
+  </data>
+  <data name="costCenterNo" xml:space="preserve">
+    <value>Cost Center No.:</value>
+  </data>
+  <data name="CostCenters" xml:space="preserve">
+    <value>Cost Centers:</value>
+  </data>
+  <data name="costCenterTitle" xml:space="preserve">
+    <value>Cost Center:</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Customer:</value>
+  </data>
+  <data name="dashBoard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="dataCommunication" xml:space="preserve">
+    <value>Data Communication</value>
+  </data>
+  <data name="dataCommunicationAC" xml:space="preserve">
+    <value>Data Communication Access Control</value>
+  </data>
+  <data name="dataCommunicationPZE" xml:space="preserve">
+    <value>Data Communication PZE</value>
+  </data>
+  <data name="dataCommunicationStudio" xml:space="preserve">
+    <value>Communication Studio</value>
+  </data>
+  <data name="datafox" xml:space="preserve">
+    <value>Datafox</value>
+  </data>
+  <data name="DataSentSuccessfully" xml:space="preserve">
+    <value>Daten erfolgreich gesendet</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="delay" xml:space="preserve">
+    <value>Delay in sec.</value>
+  </data>
+  <data name="delaytime" xml:space="preserve">
+    <value>Delay in Sec</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="deleteButton" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="deleteReaderInstance" xml:space="preserve">
+    <value>Are you sure you want to delete the reader?</value>
+  </data>
+  <data name="department" xml:space="preserve">
+    <value>Department:</value>
+  </data>
+  <data name="department1" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="department2" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="departmentFrom" xml:space="preserve">
+    <value>Department From:</value>
+  </data>
+  <data name="departmentTitle" xml:space="preserve">
+    <value>Department:</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="description2" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="descriptionimg" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="descriptionnew" xml:space="preserve">
+    <value>Desc.:</value>
+  </data>
+  <data name="direction" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="directionOfMovement" xml:space="preserve">
+    <value>Direction Of Movement</value>
+  </data>
+  <data name="displayPanel" xml:space="preserve">
+    <value>Display Panel</value>
+  </data>
+  <data name="displaytbl" xml:space="preserve">
+    <value>Display Panel</value>
+  </data>
+  <data name="door" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="door1" xml:space="preserve">
+    <value>Door1</value>
+  </data>
+  <data name="door2" xml:space="preserve">
+    <value>Door 2</value>
+  </data>
+  <data name="door3" xml:space="preserve">
+    <value>door 3</value>
+  </data>
+  <data name="door4" xml:space="preserve">
+    <value>Door 4</value>
+  </data>
+  <data name="doorClosed" xml:space="preserve">
+    <value>Door Closed</value>
+  </data>
+  <data name="doorEntry" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="doorExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="doorFour" xml:space="preserve">
+    <value>Door 4</value>
+  </data>
+  <data name="doorOne" xml:space="preserve">
+    <value>Door 1</value>
+  </data>
+  <data name="doorOpen" xml:space="preserve">
+    <value>Door Open</value>
+  </data>
+  <data name="doorReaderControl" xml:space="preserve">
+    <value>Door Reader Control</value>
+  </data>
+  <data name="doorThree" xml:space="preserve">
+    <value>Doort 3</value>
+  </data>
+  <data name="doorTwo" xml:space="preserve">
+    <value>Door 2</value>
+  </data>
+  <data name="duplicateReaderID" xml:space="preserve">
+    <value>Reader ID already in use</value>
+  </data>
+  <data name="duplicateTerminalID" xml:space="preserve">
+    <value>Terminal ID  already in use</value>
+  </data>
+  <data name="dynamicIp" xml:space="preserve">
+    <value>Dynamic IP:</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="employeedataset" xml:space="preserve">
+    <value>Employee Dataset</value>
+  </data>
+  <data name="EndOfContract" xml:space="preserve">
+    <value>End Of Contract:</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="entry" xml:space="preserve">
+    <value>Entry</value>
+  </data>
+  <data name="ErrorSendingData" xml:space="preserve">
+    <value>Fehler beim Senden von Daten</value>
+  </data>
+  <data name="eventTitle" xml:space="preserve">
+    <value>Events:</value>
+  </data>
+  <data name="externalReaderConnected" xml:space="preserve">
+    <value>External Reader Connected</value>
+  </data>
+  <data name="Externalreaders" xml:space="preserve">
+    <value>External readers</value>
+  </data>
+  <data name="festivalsiP" xml:space="preserve">
+    <value>Festivals IP:</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="fingerDescription" xml:space="preserve">
+    <value>Finger Description:</value>
+  </data>
+  <data name="fingerDescriptionTle" xml:space="preserve">
+    <value>Finger Description</value>
+  </data>
+  <data name="fingerNr" xml:space="preserve">
+    <value>Finger No.:</value>
+  </data>
+  <data name="Fingernumber" xml:space="preserve">
+    <value>Fingerprint number:</value>
+  </data>
+  <data name="fingerPrintAndPersonAssigned" xml:space="preserve">
+    <value>Read fingerprint and a person assigned</value>
+  </data>
+  <data name="fingerPrintsQuality" xml:space="preserve">
+    <value>Fingerprint Quality:</value>
+  </data>
+  <data name="firstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="firstName1" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="followDoor" xml:space="preserve">
+    <value>Follow Door</value>
+  </data>
+  <data name="fullScreen" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="functionKey1" xml:space="preserve">
+    <value>Function Key 1</value>
+  </data>
+  <data name="functionKey2" xml:space="preserve">
+    <value>Function Key 2</value>
+  </data>
+  <data name="functionKey3" xml:space="preserve">
+    <value>Function Key 3</value>
+  </data>
+  <data name="functionKey4" xml:space="preserve">
+    <value>Function Key 4</value>
+  </data>
+  <data name="functionKey5" xml:space="preserve">
+    <value>Function Key 5</value>
+  </data>
+  <data name="functionKey6" xml:space="preserve">
+    <value>Function Key 6</value>
+  </data>
+  <data name="functionKey7" xml:space="preserve">
+    <value>Function Key 7</value>
+  </data>
+  <data name="functionKey8" xml:space="preserve">
+    <value>Function Key 8</value>
+  </data>
+  <data name="functionKeys" xml:space="preserve">
+    <value>Function Keys</value>
+  </data>
+  <data name="general" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="generalsettings" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="german" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="getBookings" xml:space="preserve">
+    <value>Get Bookings</value>
+  </data>
+  <data name="go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="hardware" xml:space="preserve">
+    <value>Hardware</value>
+  </data>
+  <data name="hardwareNavigation" xml:space="preserve">
+    <value>Hardware Navigation</value>
+  </data>
+  <data name="hasProfessionalFirmware" xml:space="preserve">
+    <value>Has Professional Firmware</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="HIdentification" xml:space="preserve">
+    <value>H. Identification</value>
+  </data>
+  <data name="holidayCalendar" xml:space="preserve">
+    <value>Holiday Calendar</value>
+  </data>
+  <data name="holidayTitle" xml:space="preserve">
+    <value>Holiday:</value>
+  </data>
+  <data name="iconsassign" xml:space="preserve">
+    <value>Icon Settings</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>ID.</value>
+  </data>
+  <data name="identification" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="Idreaders" xml:space="preserve">
+    <value>Reader ID</value>
+  </data>
+  <data name="idReder" xml:space="preserve">
+    <value>Id Reader</value>
+  </data>
+  <data name="idTitle" xml:space="preserve">
+    <value>Personal Data:</value>
+  </data>
+  <data name="image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="indexFinger" xml:space="preserve">
+    <value>Index finger</value>
+  </data>
+  <data name="infoText1" xml:space="preserve">
+    <value>Info Text 1</value>
+  </data>
+  <data name="infoText2" xml:space="preserve">
+    <value>Info Text 2</value>
+  </data>
+  <data name="infoText3" xml:space="preserve">
+    <value>Info Text 3</value>
+  </data>
+  <data name="infoText4" xml:space="preserve">
+    <value>Info Text 4</value>
+  </data>
+  <data name="inOut" xml:space="preserve">
+    <value>In/Out</value>
+  </data>
+  <data name="inout2" xml:space="preserve">
+    <value>In/Out</value>
+  </data>
+  <data name="installation" xml:space="preserve">
+    <value>Installation</value>
+  </data>
+  <data name="Installreader" xml:space="preserve">
+    <value>Install reader</value>
+  </data>
+  <data name="installReaders" xml:space="preserve">
+    <value>Install Reader</value>
+  </data>
+  <data name="ip" xml:space="preserve">
+    <value>IP:</value>
+  </data>
+  <data name="ipAddress" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="ipAddress1" xml:space="preserve">
+    <value>IP-Address</value>
+  </data>
+  <data name="ipAddress2" xml:space="preserve">
+    <value>Ip Address:</value>
+  </data>
+  <data name="ipPort" xml:space="preserve">
+    <value>IP Port</value>
+  </data>
+  <data name="ipPort2" xml:space="preserve">
+    <value>Ip Port:</value>
+  </data>
+  <data name="IPSettingsForMobileOperation" xml:space="preserve">
+    <value>IP Settings For Mobile Operation</value>
+  </data>
+  <data name="iTerm" xml:space="preserve">
+    <value>I-Term</value>
+  </data>
+  <data name="itermtxt" xml:space="preserve">
+    <value>Iterm</value>
+  </data>
+  <data name="kaba" xml:space="preserve">
+    <value>Kaba</value>
+  </data>
+  <data name="kabaGmbH" xml:space="preserve">
+    <value>Kaba GmbH</value>
+  </data>
+  <data name="krutecZK" xml:space="preserve">
+    <value>Krutec ZK</value>
+  </data>
+  <data name="ktAuf" xml:space="preserve">
+    <value>KT auf</value>
+  </data>
+  <data name="ktZu" xml:space="preserve">
+    <value>KT zu</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="lastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="linkType" xml:space="preserve">
+    <value>Link Type</value>
+  </data>
+  <data name="linkType2" xml:space="preserve">
+    <value>Connection Test :</value>
+  </data>
+  <data name="littleFinger" xml:space="preserve">
+    <value>Little Finger</value>
+  </data>
+  <data name="LoadingText" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="location1" xml:space="preserve">
+    <value>location</value>
+  </data>
+  <data name="locationFrom" xml:space="preserve">
+    <value>Location From:</value>
+  </data>
+  <data name="locationNo" xml:space="preserve">
+    <value>Location No.:</value>
+  </data>
+  <data name="locationTitle" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="lockFunction" xml:space="preserve">
+    <value>Lock Function</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Log In</value>
+  </data>
+  <data name="login2" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+  <data name="MA300out" xml:space="preserve">
+    <value>MA300out</value>
+  </data>
+  <data name="mainEntrance" xml:space="preserve">
+    <value>Main Entrance</value>
+  </data>
+  <data name="manufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="maxEightReaders" xml:space="preserve">
+    <value>Maximum of eight readers allowed</value>
+  </data>
+  <data name="maxFourReaders" xml:space="preserve">
+    <value>Maximum of four readers allowed</value>
+  </data>
+  <data name="maxReadersWarning" xml:space="preserve">
+    <value>Maximum number of readers reached</value>
+  </data>
+  <data name="maxTwoReaders" xml:space="preserve">
+    <value>Maximum of two readers allowed</value>
+  </data>
+  <data name="memo" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="middleFinger" xml:space="preserve">
+    <value>Middle Finger</value>
+  </data>
+  <data name="minutesTitle" xml:space="preserve">
+    <value>Minutes:</value>
+  </data>
+  <data name="MobileCollection" xml:space="preserve">
+    <value>Mobile Collection</value>
+  </data>
+  <data name="MobileIdentification" xml:space="preserve">
+    <value>Mobile Identification:</value>
+  </data>
+  <data name="mobileNumber" xml:space="preserve">
+    <value>Mobile Number.</value>
+  </data>
+  <data name="mobileNumber2" xml:space="preserve">
+    <value>Mobile Number:</value>
+  </data>
+  <data name="mobileRecording" xml:space="preserve">
+    <value>Mobile Recording</value>
+  </data>
+  <data name="moreFunctions" xml:space="preserve">
+    <value>More functions</value>
+  </data>
+  <data name="moreFunctions2" xml:space="preserve">
+    <value>More Functions</value>
+  </data>
+  <data name="Moresetting" xml:space="preserve">
+    <value>More settings</value>
+  </data>
+  <data name="moreSettings" xml:space="preserve">
+    <value>More Settings</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NameOfTheUser" xml:space="preserve">
+    <value>Name Of The User:</value>
+  </data>
+  <data name="newButton" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="newReader" xml:space="preserve">
+    <value>New Reader</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="noSelection" xml:space="preserve">
+    <value>No item selected</value>
+  </data>
+  <data name="NoStaff" xml:space="preserve">
+    <value>No Staff</value>
+  </data>
+  <data name="NoStaff2" xml:space="preserve">
+    <value>No Staff:</value>
+  </data>
+  <data name="numberOfReaders" xml:space="preserve">
+    <value>Number of readers:</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Order:</value>
+  </data>
+  <data name="OutputOn" xml:space="preserve">
+    <value>Output On:</value>
+  </data>
+  <data name="overviewOfFingerRead" xml:space="preserve">
+    <value>Overview of the read fingerPrints</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="passwords" xml:space="preserve">
+    <value>Passwords</value>
+  </data>
+  <data name="people" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="personalNo3" xml:space="preserve">
+    <value>Personal No .:</value>
+  </data>
+  <data name="personalNr" xml:space="preserve">
+    <value>Personal Nr.</value>
+  </data>
+  <data name="Personmapping" xml:space="preserve">
+    <value>Person mapping:</value>
+  </data>
+  <data name="personnelManagement" xml:space="preserve">
+    <value>Personnel Management</value>
+  </data>
+  <data name="personnelNumberFrom" xml:space="preserve">
+    <value>Personnel Number From:</value>
+  </data>
+  <data name="personnelNumberPin" xml:space="preserve">
+    <value>Personnel Number + PIN allow</value>
+  </data>
+  <data name="personnelplng" xml:space="preserve">
+    <value>Personnel Planning</value>
+  </data>
+  <data name="photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="pinCardNr" xml:space="preserve">
+    <value>Pin,Card No.</value>
+  </data>
+  <data name="pinCodeEntry" xml:space="preserve">
+    <value>Pin Code Entry:</value>
+  </data>
+  <data name="pinIdCardNr" xml:space="preserve">
+    <value>PIN-, identity card no.:</value>
+  </data>
+  <data name="PleaseEnterOrSelectTerminalFirst" xml:space="preserve">
+    <value>Please enter a terminal first</value>
+  </data>
+  <data name="pleaseLogIn" xml:space="preserve">
+    <value>Please Log In</value>
+  </data>
+  <data name="port" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="postingBlock" xml:space="preserve">
+    <value>Posting Block</value>
+  </data>
+  <data name="PostingPermission" xml:space="preserve">
+    <value>Posting Permission</value>
+  </data>
+  <data name="postingsToTimeTrackingProtocol" xml:space="preserve">
+    <value>PostingsToTimeTrackingProtocol</value>
+  </data>
+  <data name="postingToAccessLog" xml:space="preserve">
+    <value>Posting To Access-Log</value>
+  </data>
+  <data name="postingToTimeTrackingProtocol" xml:space="preserve">
+    <value>Posting To Time Tracking Protocol</value>
+  </data>
+  <data name="profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project:</value>
+  </data>
+  <data name="project1" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="projectfass" xml:space="preserve">
+    <value>Project Tracking</value>
+  </data>
+  <data name="projectplan" xml:space="preserve">
+    <value>Project planning:</value>
+  </data>
+  <data name="projectPlanning" xml:space="preserve">
+    <value>Project Planning</value>
+  </data>
+  <data name="projectpln" xml:space="preserve">
+    <value>Project Planning</value>
+  </data>
+  <data name="ProjectTracking" xml:space="preserve">
+    <value>Project Tracking:</value>
+  </data>
+  <data name="read" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="reader" xml:space="preserve">
+    <value>Reader</value>
+  </data>
+  <data name="readerId" xml:space="preserve">
+    <value>Reader ID</value>
+  </data>
+  <data name="ReaderInstanceDeleteWarning" xml:space="preserve">
+    <value>Do you really want to delete the reader?</value>
+  </data>
+  <data name="readerlocked" xml:space="preserve">
+    <value>Lock Position</value>
+  </data>
+  <data name="readerLockedDelay" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="Readernumber" xml:space="preserve">
+    <value>Reader number :</value>
+  </data>
+  <data name="readerProfile" xml:space="preserve">
+    <value>Reader Profile</value>
+  </data>
+  <data name="ReadersIndex" xml:space="preserve">
+    <value>Reader Index:</value>
+  </data>
+  <data name="Readersinfo" xml:space="preserve">
+    <value>Reader Info</value>
+  </data>
+  <data name="Readerstype" xml:space="preserve">
+    <value>Reader Type</value>
+  </data>
+  <data name="readerTitle" xml:space="preserve">
+    <value>Reader:</value>
+  </data>
+  <data name="readertyp" xml:space="preserve">
+    <value>Reader  Type</value>
+  </data>
+  <data name="readerType" xml:space="preserve">
+    <value>Reader Type</value>
+  </data>
+  <data name="ReadExternalconnected" xml:space="preserve">
+    <value>Reader External connected</value>
+  </data>
+  <data name="ReadFingerprint" xml:space="preserve">
+    <value>Read Fingerprint</value>
+  </data>
+  <data name="readFingerprints" xml:space="preserve">
+    <value>Read Fingerprints</value>
+  </data>
+  <data name="realTime" xml:space="preserve">
+    <value>Real Time:</value>
+  </data>
+  <data name="realtm" xml:space="preserve">
+    <value>Real Time</value>
+  </data>
+  <data name="receiver" xml:space="preserve">
+    <value>Receiver</value>
+  </data>
+  <data name="register" xml:space="preserve">
+    <value>login</value>
+  </data>
+  <data name="rejectfinger" xml:space="preserve">
+    <value>Fingerprint reject </value>
+  </data>
+  <data name="relaySwitchingTime" xml:space="preserve">
+    <value>Relay switching time for internal reader in sek</value>
+  </data>
+  <data name="relaySwitchingTimeForInternalReader" xml:space="preserve">
+    <value>Relay Switching Time For Internal Reader in sec.</value>
+  </data>
+  <data name="RelaySwitchingTimeForInternalReaderInSec" xml:space="preserve">
+    <value>Relay Switching Time For Internal Reader In Sec</value>
+  </data>
+  <data name="relayTime" xml:space="preserve">
+    <value>Relay Time</value>
+  </data>
+  <data name="relayTime2" xml:space="preserve">
+    <value>Relay Time(3-20 Seconds)</value>
+  </data>
+  <data name="relayTimesec" xml:space="preserve">
+    <value>Real Time in Sec.</value>
+  </data>
+  <data name="relSec" xml:space="preserve">
+    <value>Rel.Sec.</value>
+  </data>
+  <data name="render" xml:space="preserve">
+    <value>Render</value>
+  </data>
+  <data name="reprtbx" xml:space="preserve">
+    <value>Reportbox</value>
+  </data>
+  <data name="Resetfingerprint" xml:space="preserve">
+    <value>Reset Fingerprint</value>
+  </data>
+  <data name="RFID" xml:space="preserve">
+    <value>RFID</value>
+  </data>
+  <data name="RFIDreadersactive" xml:space="preserve">
+    <value>RFID readers active</value>
+  </data>
+  <data name="right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="ringFinger" xml:space="preserve">
+    <value>Ring Finger</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="saveButton" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="saveChangesConfirmation" xml:space="preserve">
+    <value>Do you want to save any changes made ?</value>
+  </data>
+  <data name="Savefinger" xml:space="preserve">
+    <value>Save fingerprint</value>
+  </data>
+  <data name="Sc403" xml:space="preserve">
+    <value>SC403</value>
+  </data>
+  <data name="scr100" xml:space="preserve">
+    <value>SCR100</value>
+  </data>
+  <data name="sec" xml:space="preserve">
+    <value>Sec.</value>
+  </data>
+  <data name="secondsIfThereIsNoAlarm" xml:space="preserve">
+    <value>0 Seconds If There Is No Alarm</value>
+  </data>
+  <data name="selectedvirtualterminals" xml:space="preserve">
+    <value>Selected Virtual Terminals</value>
+  </data>
+  <data name="selection" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="selectReaderType" xml:space="preserve">
+    <value>Select Reader Type</value>
+  </data>
+  <data name="sendDataAutomatically" xml:space="preserve">
+    <value>Send Data Automatically</value>
+  </data>
+  <data name="sendDataManual" xml:space="preserve">
+    <value>Send Data Manual</value>
+  </data>
+  <data name="sendReferenceData" xml:space="preserve">
+    <value>Send Reference Data</value>
+  </data>
+  <data name="serialNr" xml:space="preserve">
+    <value>Serial Number:</value>
+  </data>
+  <data name="serialNumber" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="serialNumber2" xml:space="preserve">
+    <value>Serial Number:</value>
+  </data>
+  <data name="SerialNumbernew" xml:space="preserve">
+    <value>Serial Number:</value>
+  </data>
+  <data name="setfunctionkey" xml:space="preserve">
+    <value>The setting of the function keys and information are done  in the  Datafox- Studio</value>
+  </data>
+  <data name="setSystemTime" xml:space="preserve">
+    <value>Set System Time</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="settings1" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="settingsTitle" xml:space="preserve">
+    <value>Settings:</value>
+  </data>
+  <data name="shiftProfiles" xml:space="preserve">
+    <value>ShiftProfiles</value>
+  </data>
+  <data name="slnName" xml:space="preserve">
+    <value>TermConfig from Krutec Softcon GmbH</value>
+  </data>
+  <data name="smokeBreak" xml:space="preserve">
+    <value>Smoke Break</value>
+  </data>
+  <data name="softwAlarm" xml:space="preserve">
+    <value>Softw.Alarm</value>
+  </data>
+  <data name="spaceAllocation" xml:space="preserve">
+    <value>Space Allocation</value>
+  </data>
+  <data name="staffNo" xml:space="preserve">
+    <value>Staff No.:</value>
+  </data>
+  <data name="staffNr" xml:space="preserve">
+    <value>Staff number.:</value>
+  </data>
+  <data name="staffOverview" xml:space="preserve">
+    <value>Staff Overview</value>
+  </data>
+  <data name="startBrowserTerminal" xml:space="preserve">
+    <value>Start Browser Terminal:</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="statusActive" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="statusAktiv" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="statusInactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="statusInaktiv" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="stPlaceNo" xml:space="preserve">
+    <value>ST.Place No.</value>
+  </data>
+  <data name="surname" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="synel" xml:space="preserve">
+    <value>Synel</value>
+  </data>
+  <data name="Tariff" xml:space="preserve">
+    <value>Tariff:</value>
+  </data>
+  <data name="TariffPricePerMonth" xml:space="preserve">
+    <value>Tariff Price Per Month:</value>
+  </data>
+  <data name="TCPIP" xml:space="preserve">
+    <value>TCPIP</value>
+  </data>
+  <data name="temperatureControlReader" xml:space="preserve">
+    <value>Temperature  Control Reader</value>
+  </data>
+  <data name="termcon" xml:space="preserve">
+    <value>Terminal Configuration</value>
+  </data>
+  <data name="termConfigPortNumber" xml:space="preserve">
+    <value>TermConfig Port Number</value>
+  </data>
+  <data name="termID" xml:space="preserve">
+    <value>Term.ID</value>
+  </data>
+  <data name="terminaGrpNr" xml:space="preserve">
+    <value>Terminal Group No.:</value>
+  </data>
+  <data name="terminalActivation" xml:space="preserve">
+    <value>Terminal Activation</value>
+  </data>
+  <data name="terminalConfiguration" xml:space="preserve">
+    <value>Terminal Configuration</value>
+  </data>
+  <data name="terminalDescription" xml:space="preserve">
+    <value>Terminal Description</value>
+  </data>
+  <data name="terminalGroup" xml:space="preserve">
+    <value>Terminal Group</value>
+  </data>
+  <data name="terminalGroupNr" xml:space="preserve">
+    <value>Terminal Group Nr.</value>
+  </data>
+  <data name="terminalID" xml:space="preserve">
+    <value>Terminal ID</value>
+  </data>
+  <data name="terminalID2" xml:space="preserve">
+    <value>Terminal ID:</value>
+  </data>
+  <data name="TerminalId3" xml:space="preserve">
+    <value>Terminal ID</value>
+  </data>
+  <data name="terminalId4" xml:space="preserve">
+    <value>Terminal ID:</value>
+  </data>
+  <data name="TerminalInstanceDeleteWarning" xml:space="preserve">
+    <value>Do you really want to delete the terminal?</value>
+  </data>
+  <data name="terminals" xml:space="preserve">
+    <value>Terminals</value>
+  </data>
+  <data name="terminals2" xml:space="preserve">
+    <value>Terminals</value>
+  </data>
+  <data name="terminalsFromTermConfig" xml:space="preserve">
+    <value>Terminals From TermConfig</value>
+  </data>
+  <data name="terminalsInNewGroup" xml:space="preserve">
+    <value>Terminals In New Group</value>
+  </data>
+  <data name="terminalType" xml:space="preserve">
+    <value>Terminal Type</value>
+  </data>
+  <data name="terminalType2" xml:space="preserve">
+    <value>Terminal Type:</value>
+  </data>
+  <data name="TermOfContract" xml:space="preserve">
+    <value>Term Of Contract:</value>
+  </data>
+  <data name="testconnection" xml:space="preserve">
+    <value>Connection Test </value>
+  </data>
+  <data name="thump" xml:space="preserve">
+    <value>Thump</value>
+  </data>
+  <data name="time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="timeatt" xml:space="preserve">
+    <value>Time Attendance</value>
+  </data>
+  <data name="timeAttendance" xml:space="preserve">
+    <value>Time Attendance</value>
+  </data>
+  <data name="TimeAttendanceCome" xml:space="preserve">
+    <value>Time Attendance - Come</value>
+  </data>
+  <data name="TimeAttendanceGo" xml:space="preserve">
+    <value>Time Attendance - Go</value>
+  </data>
+  <data name="timeAttendanceGroups" xml:space="preserve">
+    <value>Time Attendance Groups</value>
+  </data>
+  <data name="timeAttendanceGroupsNet" xml:space="preserve">
+    <value>Time Attendance Groups .NET</value>
+  </data>
+  <data name="TimeAttendanceGroupsNo" xml:space="preserve">
+    <value> Groups No .:</value>
+  </data>
+  <data name="timeAttendanceGruppenAsp" xml:space="preserve">
+    <value>Time Attendance Groups.ASP</value>
+  </data>
+  <data name="TimeBookings" xml:space="preserve">
+    <value>Time Bookings in database</value>
+  </data>
+  <data name="timeProfile" xml:space="preserve">
+    <value>Time Profile</value>
+  </data>
+  <data name="TimeRecording" xml:space="preserve">
+    <value>Time Recording:</value>
+  </data>
+  <data name="timeRecording1" xml:space="preserve">
+    <value>Time Recording</value>
+  </data>
+  <data name="timeRecordingTerminal" xml:space="preserve">
+    <value>Time Recording Terminal</value>
+  </data>
+  <data name="timeRelay" xml:space="preserve">
+    <value>Time Relay</value>
+  </data>
+  <data name="timeTitle" xml:space="preserve">
+    <value>Time:</value>
+  </data>
+  <data name="Tm560b" xml:space="preserve">
+    <value>TM 560b</value>
+  </data>
+  <data name="Tm560tc" xml:space="preserve">
+    <value>TM 560tc</value>
+  </data>
+  <data name="Tm680tc" xml:space="preserve">
+    <value>TM 680tc</value>
+  </data>
+  <data name="TM900bc" xml:space="preserve">
+    <value>TM 900bc</value>
+  </data>
+  <data name="tmEVo28" xml:space="preserve">
+    <value>TM EVO 2.8</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="updateData" xml:space="preserve">
+    <value>Update Data</value>
+  </data>
+  <data name="verify" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="virtualGroups" xml:space="preserve">
+    <value>Virtual Groups</value>
+  </data>
+  <data name="virtualGroups1" xml:space="preserve">
+    <value>Virtual Groups</value>
+  </data>
+  <data name="virtualGroupsNo" xml:space="preserve">
+    <value>Virtual Groups No .:</value>
+  </data>
+  <data name="virtualGroupsNogrd" xml:space="preserve">
+    <value>Virtual Groups No.</value>
+  </data>
+  <data name="virtualTerminal" xml:space="preserve">
+    <value>Virtual Terminal</value>
+  </data>
+  <data name="virtualTerminal3" xml:space="preserve">
+    <value>Virtual-Terminal</value>
+  </data>
+  <data name="visplan" xml:space="preserve">
+    <value>Visitor Application</value>
+  </data>
+  <data name="vTerminalGroupDeleteWarning" xml:space="preserve">
+    <value>Do you really want to delete the Terminal Group?</value>
+  </data>
+  <data name="workFlow" xml:space="preserve">
+    <value>WorkFlow</value>
+  </data>
+  <data name="wrkflw" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ZB702in" xml:space="preserve">
+    <value>ZB702in</value>
+  </data>
+  <data name="ZB703in" xml:space="preserve">
+    <value>ZB703in</value>
+  </data>
+  <data name="ZBBi402" xml:space="preserve">
+    <value>ZBBi-402</value>
+  </data>
+  <data name="ZBBi404" xml:space="preserve">
+    <value>ZBBi-404</value>
+  </data>
+  <data name="zeroSecondsIfNoAlarm" xml:space="preserve">
+    <value>0 Seconds if there is no Alarm</value>
+  </data>
+  <data name="Zf1700" xml:space="preserve">
+    <value>ZF1700</value>
+  </data>
+  <data name="zk" xml:space="preserve">
+    <value>Zk</value>
+  </data>
+  <data name="zone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="Externalreadersdelete" xml:space="preserve">
+    <value>Delete  External Reader</value>
+  </data>
+  <data name="Externalreadersnew" xml:space="preserve">
+    <value>New External Reader</value>
+  </data>
+  <data name="connectiontypedescription" xml:space="preserve">
+    <value>Verbindungstyp</value>
+  </data>
+  <data name="acceptdeletetm680tc" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="canceldeletetm680tc" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="deleteprompttm680tc" xml:space="preserve">
+    <value>Do you really want to delete the Reader?</value>
+  </data>
+</root>

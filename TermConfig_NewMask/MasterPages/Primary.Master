@@ -1,0 +1,164 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Primary.master.cs" ClientIDMode="Static" Inherits="TermConfig_NewMask.MasterPages.Primary" %>
+
+<%@ Register Assembly="DevExpress.Web.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script src="../Scripts/jquery-3.0.0.js"></script>
+    <script src="../Scripts/moment.js"></script>
+    <script src="../Scripts/Primary.js"></script>
+    <link href="../Styles/Primary.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <script type="text/javascript">
+        function doTime() {
+
+            $( "#lbltime" ).text( moment().format( "HH" ) + ":" + moment().format( "mm" ) );
+            $( "#lblCompanyName" ).text( moment().format( "DD" ) + "." + moment().format( "MM" ) + "." + moment().format( "YYYY" ) );
+        }
+
+        $( function () {
+            setInterval( doTime, 1 );
+
+        } );
+    </script>
+</head>
+<body>
+      <form id="MainForm" runat="server">
+        <div id="dashboardmain">
+            <div id="mainmenutop">
+                <div id="MainHeader">
+                    <section class="MainheaderSec">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True">
+                        </asp:ScriptManager>
+                        <asp:Button ID="btnDashboard" runat="server" Text="Dashboard" CssClass="btnDashboard"  OnClick="btnDashboard_Click" />
+                    </section>
+                    <section class="MainheaderSec1">
+                        <section class="secPlaceHolder"></section>
+                    </section>
+                    <section class="MainheaderSec2">
+                        <asp:Label ID="PageTitleLbl" runat="server" Text="" CssClass="companylbl"></asp:Label>
+                        <asp:Label ID="pagenamelbl" runat="server" Text="" CssClass="pagenamelbl"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="" CssClass="solutionversionlbl"></asp:Label>
+
+                    </section>
+                    <section class="MainheaderSec3">
+                        <asp:Button ID="MasterLogInOutButton"  runat="server" Text="Login/Logout" CssClass="btnLogoutsolution" />
+                    </section>
+                </div>
+            </div>
+            <div id="companyDetails">
+                <div class="dvnsLeft">
+                    <div id="contentarea">
+                        <div id="navcontentarea" class="NavPanel">
+                            <dx:ASPxNavBar ID="ASPxNavBar1" runat="server" GroupSpacing="0px" Font-Names="Segoe UI,Tahoma,Arial,Geneva,Verdana,sans-serif" Font-Size="12px" Style="min-width: 150px" Height="100%" CssClass="navigatetop">       
+                            <Groups>
+
+                                <dx:NavBarGroup Name="settings" Text="Einstellungen" AllowExpanding="false" ShowExpandButton="False">
+
+                                    <Items>
+                                        <dx:NavBarItem Name="Datenkommunikation" Text="Datenkommunikation PZE"  NavigateUrl="../Content/Datacommunication.aspx">
+                                        </dx:NavBarItem>
+                                      <%--  <dx:NavBarItem Name="settings" Text="Datenkommunikation Zutritt"  >
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Name="settings" Text="Verbindung Zutritt/Studio" >
+                                        </dx:NavBarItem>--%>
+                                        
+                                        <dx:NavBarItem Name="Feiertagskalender" Text="Feiertagskalender" >
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Name="Verbindung" Text="Verbindung" >
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Name="Sprache" Text="Sprache" >
+                                        </dx:NavBarItem>
+                                          <dx:NavBarItem Name="password" Text="Passwörter">
+                                        </dx:NavBarItem>
+                                    </Items>
+                                    <HeaderStyle BackColor="#006158" />
+                                        <HeaderStyle ForeColor="White" />
+                                 
+                                </dx:NavBarGroup>
+                                <dx:NavBarGroup Name="Hardware" Text="Hardware " AllowExpanding="false" ShowExpandButton="False">
+
+                                    <Items>
+                                        <dx:NavBarItem Name="Krutec" Text="Krutec ZK" NavigateUrl="../Content/ZkTerminalsDashBoard.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Name="Datafox" Text="Datafox" NavigateUrl="../Content/DatafoxTerminalsDashBoard.aspx">
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Name="Mobile" Text="Mobile Erfassung">
+                                        </dx:NavBarItem>
+                                      <%--  <dx:NavBarItem Name="Fingerprint" Text="Fingerprinteinlesen">
+                                        </dx:NavBarItem>--%>
+                                        <dx:NavBarItem Name="Terminal" Text="Virtuelle-Terminal">
+                                        </dx:NavBarItem>
+                                        
+                                    </Items>
+                                    <HeaderStyle BackColor="#006158" />
+                                        <HeaderStyle ForeColor="White" />
+                                 
+                                </dx:NavBarGroup>
+                                 <dx:NavBarGroup Name="Gruppen" Text="Kommunikations-Gruppen " AllowExpanding="false" ShowExpandButton="False">
+
+                                    <Items>
+                                        <dx:NavBarItem Name="settings" Text="Zeiterfassungs-Gruppen ZK" >
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Name="settings" Text="Virtuelle-Gruppen" >
+                                        </dx:NavBarItem>
+                                       
+                                        
+                                    </Items>
+                                    <HeaderStyle BackColor="#006158" />
+                                        <HeaderStyle ForeColor="White" />
+                                  
+                                </dx:NavBarGroup>
+                                <dx:NavBarGroup Name="Daten" Text="Datenverkehr" AllowExpanding="false" ShowExpandButton="False">
+
+                                    <Items>
+                                        <dx:NavBarItem Name="settings" Text="Datenverkehr automatisch"  >
+                                        </dx:NavBarItem>
+                                        <dx:NavBarItem Name="settings" Text="Datenverkehr manuell" >
+                                        </dx:NavBarItem>
+                                       
+                                        
+                                    </Items>
+                                    <HeaderStyle BackColor="#006158" />
+                                        <HeaderStyle ForeColor="White" />
+                                 
+                                </dx:NavBarGroup>
+
+                                
+                            </Groups>
+                        </dx:ASPxNavBar>
+                            <asp:ContentPlaceHolder ID="ModuleNavBar" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                </div>
+                <div class="dvnsRight">
+                    <section class="secContHolder">
+                        <asp:ContentPlaceHolder ID="ContentHolder" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </section>
+                    <section class="footer">
+                        <section class="footerLeft">
+                            <asp:ContentPlaceHolder ID="FooterLeft" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                        <section class="footerRight">
+                            <asp:ContentPlaceHolder ID="FooterRight" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="Contentbottomarea" runat="server">
+        </asp:ContentPlaceHolder>
+
+
+    </form>
+</body>
+</html>

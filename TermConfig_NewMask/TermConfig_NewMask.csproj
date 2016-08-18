@@ -1,0 +1,907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E8BC6B2-DFA5-4E35-AA5B-01FCAE08CC88}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TermConfig_NewMask</RootNamespace>
+    <AssemblyName>TermConfig_NewMask</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.1.Core, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ttxCore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ttxCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ttxTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ttxTools.dll</HintPath>
+    </Reference>
+    <Reference Include="ZKSDKCommunication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dlls\ZKSDKCommunication.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Datacommunication.aspx" />
+    <Content Include="Content\DatafoxTerminalsDashBoard.aspx" />
+    <Content Include="Content\Scripts\Datacommunication.js" />
+    <Content Include="Content\Scripts\DatafoxTerminalsDashBoard.js" />
+    <Content Include="Content\Scripts\jquery.notifyBar.js" />
+    <Content Include="Content\Scripts\TM680bc.js" />
+    <Content Include="Content\Scripts\TM680tc.js" />
+    <Content Include="Content\Scripts\TM900bc.js" />
+    <Content Include="Content\Scripts\underscore.js" />
+    <Content Include="Content\Scripts\Utils.js" />
+    <Content Include="Content\Scripts\ZkTerminalsDashBoard.js" />
+    <Content Include="Content\Styles\ImportantInfoDialog.css" />
+    <Content Include="Content\Styles\Datacommunication.css" />
+    <Content Include="Content\Styles\DatafoxTerminalsDashBoard.css" />
+    <Content Include="Content\Styles\jquery.notifyBar.css" />
+    <Content Include="Content\Styles\TM680bc.css" />
+    <Content Include="Content\Styles\TM680tc.css" />
+    <Content Include="Content\Styles\TM900bc.css" />
+    <Content Include="Content\Styles\ZkTerminalsDashBoard.css" />
+    <Content Include="Content\TM680bc.aspx" />
+    <Content Include="Content\TM680tc.aspx" />
+    <Content Include="Content\TM900bc.aspx" />
+    <Content Include="Content\ZkTerminalsDashBoard.aspx" />
+    <Content Include="Dlls\DatabaseDesignUpdator.dll" />
+    <Content Include="Dlls\DFComDLL.dll" />
+    <Content Include="Dlls\EntityFramework.dll" />
+    <Content Include="Dlls\EntityFramework.SqlServer.dll" />
+    <Content Include="Dlls\KruAll_DBCompare.dll" />
+    <Content Include="Dlls\log4net.dll" />
+    <Content Include="Dlls\log4net.xml" />
+    <Content Include="Dlls\Microsoft.ReportViewer.Common.dll" />
+    <Content Include="Dlls\Microsoft.ReportViewer.DataVisualization.DLL" />
+    <Content Include="Dlls\Microsoft.ReportViewer.Design.DLL" />
+    <Content Include="Dlls\Microsoft.ReportViewer.ProcessingObjectModel.DLL" />
+    <Content Include="Dlls\Microsoft.ReportViewer.WebDesign.DLL" />
+    <Content Include="Dlls\Microsoft.ReportViewer.WebForms.dll" />
+    <Content Include="Dlls\ReadSoftwareVersion.dll" />
+    <Content Include="Dlls\TermKom.dll" />
+    <Content Include="Dlls\ttxCore.dll" />
+    <Content Include="Dlls\ttxTools.dll" />
+    <Content Include="Dlls\ZKEUEmKeeperNet.dll" />
+    <Content Include="Dlls\ZKSDKCommunication.dll" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\FormImages\1700new.png" />
+    <Content Include="Images\FormImages\1700newk.png" />
+    <Content Include="Images\FormImages\18pxorange.png" />
+    <Content Include="Images\FormImages\190arrow.png" />
+    <Content Include="Images\FormImages\190arrow2.png" />
+    <Content Include="Images\FormImages\1arrow.png" />
+    <Content Include="Images\FormImages\245arrow.png" />
+    <Content Include="Images\FormImages\245arrow2.png" />
+    <Content Include="Images\FormImages\25pxlocked.png" />
+    <Content Include="Images\FormImages\2arrow.png" />
+    <Content Include="Images\FormImages\315-arrow.png" />
+    <Content Include="Images\FormImages\315RIght.png" />
+    <Content Include="Images\FormImages\absent.png" />
+    <Content Include="Images\FormImages\access-pprofigrp-pic.png" />
+    <Content Include="Images\FormImages\accesscorrections-pic.png" />
+    <Content Include="Images\FormImages\accessgroup-pic.png" />
+    <Content Include="Images\FormImages\accessplan-pic.png" />
+    <Content Include="Images\FormImages\accessplangroup-pic.png" />
+    <Content Include="Images\FormImages\accessprotocal-pics.png" />
+    <Content Include="Images\FormImages\addtogrid.png" />
+    <Content Include="Images\FormImages\alarm-pic.png" />
+    <Content Include="Images\FormImages\all.png" />
+    <Content Include="Images\FormImages\ANZ.png" />
+    <Content Include="Images\FormImages\Apply.png" />
+    <Content Include="Images\FormImages\arrow-20px.png" />
+    <Content Include="Images\FormImages\arrowarea1.png" />
+    <Content Include="Images\FormImages\arrowgreen-02.png" />
+    <Content Include="Images\FormImages\arrowgreen-02New.png" />
+    <Content Include="Images\FormImages\ArrowLeft.png" />
+    <Content Include="Images\FormImages\arrowpoint.png" />
+    <Content Include="Images\FormImages\arrowpomit.png" />
+    <Content Include="Images\FormImages\arrowreader.png" />
+    <Content Include="Images\FormImages\arrowred-01.png" />
+    <Content Include="Images\FormImages\arrowred-01New.png" />
+    <Content Include="Images\FormImages\ArrowRight.png" />
+    <Content Include="Images\FormImages\ArrowRightBlack.png" />
+    <Content Include="Images\FormImages\Berechtigungen-pic.png" />
+    <Content Include="Images\FormImages\blue1.png" />
+    <Content Include="Images\FormImages\bluecamera.png" />
+    <Content Include="Images\FormImages\bp_green24px.png" />
+    <Content Include="Images\FormImages\bp_green24pxOld.png" />
+    <Content Include="Images\FormImages\bp_green24pxOLd2.png" />
+    <Content Include="Images\FormImages\bp_green24pxOld3.png" />
+    <Content Include="Images\FormImages\bp_red24px.png" />
+    <Content Include="Images\FormImages\bp_red24pxOld.png" />
+    <Content Include="Images\FormImages\bp_red24pxOld2.png" />
+    <Content Include="Images\FormImages\bp_red24pxOld3.png" />
+    <Content Include="Images\FormImages\brwtrmn3.png" />
+    <Content Include="Images\FormImages\btnBack.png" />
+    <Content Include="Images\FormImages\btncopy.png" />
+    <Content Include="Images\FormImages\btndelete.png" />
+    <Content Include="Images\FormImages\btnEdit.png" />
+    <Content Include="Images\FormImages\btnEdit23.png" />
+    <Content Include="Images\FormImages\btnprgs2.png" />
+    <Content Include="Images\FormImages\btn_greendisplay.png" />
+    <Content Include="Images\FormImages\btn_reddisplay.png" />
+    <Content Include="Images\FormImages\buildingplan-pic.png" />
+    <Content Include="Images\FormImages\builginggroup-pic.png" />
+    <Content Include="Images\FormImages\C3-400.png" />
+    <Content Include="Images\FormImages\C3-400sm.png" />
+    <Content Include="Images\FormImages\calender1-pic.png" />
+    <Content Include="Images\FormImages\CAR1.jpg" />
+    <Content Include="Images\FormImages\CAR2.jpg" />
+    <Content Include="Images\FormImages\cardreaderdata.png" />
+    <Content Include="Images\FormImages\cartype-pic.png" />
+    <Content Include="Images\FormImages\client-pic.png" />
+    <Content Include="Images\FormImages\Close.png" />
+    <Content Include="Images\FormImages\CloseBtn.jpg" />
+    <Content Include="Images\FormImages\ClosedDoorRed.png" />
+    <Content Include="Images\FormImages\ClosedDoorRedOld.png" />
+    <Content Include="Images\FormImages\contract-pic.png" />
+    <Content Include="Images\FormImages\copy.png" />
+    <Content Include="Images\FormImages\Copy2.png" />
+    <Content Include="Images\FormImages\correction.png" />
+    <Content Include="Images\FormImages\costCenter-pic.png" />
+    <Content Include="Images\FormImages\dash-check.png" />
+    <Content Include="Images\FormImages\dash-info.png" />
+    <Content Include="Images\FormImages\dash-personal.png" />
+    <Content Include="Images\FormImages\dash-vis.png" />
+    <Content Include="Images\FormImages\datafoxlnk60px.png" />
+    <Content Include="Images\FormImages\datamanual-icon.png" />
+    <Content Include="Images\FormImages\DefaultFinger.png" />
+    <Content Include="Images\FormImages\delete.png" />
+    <Content Include="Images\FormImages\delImage.png" />
+    <Content Include="Images\FormImages\DelPhotoImg_x18.png" />
+    <Content Include="Images\FormImages\department-pic.png" />
+    <Content Include="Images\FormImages\device.jpg" />
+    <Content Include="Images\FormImages\display-01.png" />
+    <Content Include="Images\FormImages\displaypanel-pic.png" />
+    <Content Include="Images\FormImages\document.png" />
+    <Content Include="Images\FormImages\document1.png" />
+    <Content Include="Images\FormImages\document2.png" />
+    <Content Include="Images\FormImages\door-reader100-cange2.png" />
+    <Content Include="Images\FormImages\door-reader100-last.png" />
+    <Content Include="Images\FormImages\door-reader100.png" />
+    <Content Include="Images\FormImages\door-reader100_Old.png" />
+    <Content Include="Images\FormImages\door-reader100_Old2.png" />
+    <Content Include="Images\FormImages\door-reader100_Old3.png" />
+    <Content Include="Images\FormImages\door.png" />
+    <Content Include="Images\FormImages\Dot_gelb.png" />
+    <Content Include="Images\FormImages\Dot_gruen.png" />
+    <Content Include="Images\FormImages\Dot_rot.png" />
+    <Content Include="Images\FormImages\Ebene25.png" />
+    <Content Include="Images\FormImages\edit-02-01.png" />
+    <Content Include="Images\FormImages\edit-02.png" />
+    <Content Include="Images\FormImages\ERP2.png" />
+    <Content Include="Images\FormImages\etz-branch.png" />
+    <Content Include="Images\FormImages\ETZ.png" />
+    <Content Include="Images\FormImages\evo2-8 - Copy.png" />
+    <Content Include="Images\FormImages\evo2-8.png" />
+    <Content Include="Images\FormImages\evo2-8grid.png" />
+    <Content Include="Images\FormImages\evo2sm - Copy.png" />
+    <Content Include="Images\FormImages\evo2sm.png" />
+    <Content Include="Images\FormImages\evo4-3 - Copy.png" />
+    <Content Include="Images\FormImages\evo4-3.png" />
+    <Content Include="Images\FormImages\evo4-3grid.png" />
+    <Content Include="Images\FormImages\evo4sm - Copy.png" />
+    <Content Include="Images\FormImages\evo4sm.png" />
+    <Content Include="Images\FormImages\file.png" />
+    <Content Include="Images\FormImages\FILTER-01.png" />
+    <Content Include="Images\FormImages\flex-master - Copy.png" />
+    <Content Include="Images\FormImages\flex-master.png" />
+    <Content Include="Images\FormImages\flexmastersm.png" />
+    <Content Include="Images\FormImages\folder1-01.png" />
+    <Content Include="Images\FormImages\folder2-02.png" />
+    <Content Include="Images\FormImages\folder4-01.png" />
+    <Content Include="Images\FormImages\folderminus-02.png" />
+    <Content Include="Images\FormImages\folderminus-22-02.png" />
+    <Content Include="Images\FormImages\folderplus-01.png" />
+    <Content Include="Images\FormImages\folderplus-11-01.png" />
+    <Content Include="Images\FormImages\folderplus3-02.png" />
+    <Content Include="Images\FormImages\FR1200-50px.png" />
+    <Content Include="Images\FormImages\FR1200.png" />
+    <Content Include="Images\FormImages\gatemonitor-pic.png" />
+    <Content Include="Images\FormImages\Gebaeude25.png" />
+    <Content Include="Images\FormImages\green1.png" />
+    <Content Include="Images\FormImages\greenactive.png" />
+    <Content Include="Images\FormImages\greencamera.png" />
+    <Content Include="Images\FormImages\greengrid.png" />
+    <Content Include="Images\FormImages\greengrid2.png" />
+    <Content Include="Images\FormImages\greeninfo-01.png" />
+    <Content Include="Images\FormImages\grey1.png" />
+    <Content Include="Images\FormImages\GreyArrowLeft.png" />
+    <Content Include="Images\FormImages\GreyArrowRight.png" />
+    <Content Include="Images\FormImages\hands1234New.png" />
+    <Content Include="Images\FormImages\Help.png" />
+    <Content Include="Images\FormImages\holiday-01.jpg" />
+    <Content Include="Images\FormImages\holiday.png" />
+    <Content Include="Images\FormImages\holiday02.png" />
+    <Content Include="Images\FormImages\holiday2.png" />
+    <Content Include="Images\FormImages\holiday50px.png" />
+    <Content Include="Images\FormImages\holidayplan-pic.png" />
+    <Content Include="Images\FormImages\info-03-01.png" />
+    <Content Include="Images\FormImages\info-03.png" />
+    <Content Include="Images\FormImages\infoback.png" />
+    <Content Include="Images\FormImages\infoblue.png" />
+    <Content Include="Images\FormImages\infoblue2.png" />
+    <Content Include="Images\FormImages\infogreen.png" />
+    <Content Include="Images\FormImages\infopring.png" />
+    <Content Include="Images\FormImages\infor-30px.png" />
+    <Content Include="Images\FormImages\infor-30pxOld.png" />
+    <Content Include="Images\FormImages\information2.png" />
+    <Content Include="Images\FormImages\internet-holiday.png" />
+    <Content Include="Images\FormImages\IO-box-50px.png" />
+    <Content Include="Images\FormImages\IO-box.png" />
+    <Content Include="Images\FormImages\iterm-02.png" />
+    <Content Include="Images\FormImages\ITermF1.png" />
+    <Content Include="Images\FormImages\ITermF2.png" />
+    <Content Include="Images\FormImages\ITermF3.png" />
+    <Content Include="Images\FormImages\ITermF4.png" />
+    <Content Include="Images\FormImages\ITermGeht.png" />
+    <Content Include="Images\FormImages\ITermKommt.png" />
+    <Content Include="Images\FormImages\ITermPause.png" />
+    <Content Include="Images\FormImages\Kal1.png" />
+    <Content Include="Images\FormImages\Kal2.png" />
+    <Content Include="Images\FormImages\Kal3.png" />
+    <Content Include="Images\FormImages\karendar-arrow1.png" />
+    <Content Include="Images\FormImages\karendar-arrow2.png" />
+    <Content Include="Images\FormImages\Keys.png" />
+    <Content Include="Images\FormImages\KR101-50px.png" />
+    <Content Include="Images\FormImages\KR101.png" />
+    <Content Include="Images\FormImages\KR102-50px.png" />
+    <Content Include="Images\FormImages\KR102.png" />
+    <Content Include="Images\FormImages\KR200-50px.png" />
+    <Content Include="Images\FormImages\KR200.png" />
+    <Content Include="Images\FormImages\krutec-logo.png" />
+    <Content Include="Images\FormImages\language-pic.png" />
+    <Content Include="Images\FormImages\le100-50px.png" />
+    <Content Include="Images\FormImages\le100.png" />
+    <Content Include="Images\FormImages\le101.png" />
+    <Content Include="Images\FormImages\LE200.png" />
+    <Content Include="Images\FormImages\LE201-50px.png" />
+    <Content Include="Images\FormImages\LE201.png" />
+    <Content Include="Images\FormImages\LE202-50px.png" />
+    <Content Include="Images\FormImages\LE202.png" />
+    <Content Include="Images\FormImages\le600-50px.png" />
+    <Content Include="Images\FormImages\le600.png" />
+    <Content Include="Images\FormImages\le601-50px.png" />
+    <Content Include="Images\FormImages\le601.png" />
+    <Content Include="Images\FormImages\le602-50px.png" />
+    <Content Include="Images\FormImages\le602.png" />
+    <Content Include="Images\FormImages\lebi1200.png" />
+    <Content Include="Images\FormImages\leser.png" />
+    <Content Include="Images\FormImages\leser50px.png" />
+    <Content Include="Images\FormImages\leserOld.png" />
+    <Content Include="Images\FormImages\leserpic2.png" />
+    <Content Include="Images\FormImages\leserpic40em.png" />
+    <Content Include="Images\FormImages\Loading.gif" />
+    <Content Include="Images\FormImages\location-pics.png" />
+    <Content Include="Images\FormImages\location.png" />
+    <Content Include="Images\FormImages\location2.png" />
+    <Content Include="Images\FormImages\lockedpic40px.png" />
+    <Content Include="Images\FormImages\logout-no.png" />
+    <Content Include="Images\FormImages\ma300out.png" />
+    <Content Include="Images\FormImages\ma300out2016.png" />
+    <Content Include="Images\FormImages\MA300outsm.png" />
+    <Content Include="Images\FormImages\masterfrontalsm - Copy.png" />
+    <Content Include="Images\FormImages\masterfrontalsm.png" />
+    <Content Include="Images\FormImages\masterIV.png" />
+    <Content Include="Images\FormImages\Master_frontal - Copy.png" />
+    <Content Include="Images\FormImages\Master_frontal.png" />
+    <Content Include="Images\FormImages\Master_frontalgrid.png" />
+    <Content Include="Images\FormImages\maximize.png" />
+    <Content Include="Images\FormImages\membermaster-pis.png" />
+    <Content Include="Images\FormImages\memberstudio-pic.png" />
+    <Content Include="Images\FormImages\minimize.png" />
+    <Content Include="Images\FormImages\morelist-pic.png" />
+    <Content Include="Images\FormImages\name-01.png" />
+    <Content Include="Images\FormImages\new-01.png" />
+    <Content Include="Images\FormImages\New-Room-32.png" />
+    <Content Include="Images\FormImages\New-Room-48.png" />
+    <Content Include="Images\FormImages\New.png" />
+    <Content Include="Images\FormImages\NewPhotoImg_x18.png" />
+    <Content Include="Images\FormImages\no-logout.png" />
+    <Content Include="Images\FormImages\OK.png" />
+    <Content Include="Images\FormImages\OpenDoorGreen.png" />
+    <Content Include="Images\FormImages\OpenDoorGreenOld.png" />
+    <Content Include="Images\FormImages\orange-info2.png" />
+    <Content Include="Images\FormImages\otherreport.png" />
+    <Content Include="Images\FormImages\paint-brush.png" />
+    <Content Include="Images\FormImages\passBack_0.jpg" />
+    <Content Include="Images\FormImages\passBack_1.jpg" />
+    <Content Include="Images\FormImages\passBack_1Old.jpg" />
+    <Content Include="Images\FormImages\passBack_2.jpg" />
+    <Content Include="Images\FormImages\passBack_2Old.jpg" />
+    <Content Include="Images\FormImages\passwords-pic.png" />
+    <Content Include="Images\FormImages\PEP-Inactive.png" />
+    <Content Include="Images\FormImages\pep.png" />
+    <Content Include="Images\FormImages\persdoc.png" />
+    <Content Include="Images\FormImages\persdoc25px.png" />
+    <Content Include="Images\FormImages\persearch.png" />
+    <Content Include="Images\FormImages\person.png" />
+    <Content Include="Images\FormImages\personal-dash1.png" />
+    <Content Include="Images\FormImages\personalinformation4.png" />
+    <Content Include="Images\FormImages\personalpic.png" />
+    <Content Include="Images\FormImages\personen.png" />
+    <Content Include="Images\FormImages\personen50px.png" />
+    <Content Include="Images\FormImages\personenOld.png" />
+    <Content Include="Images\FormImages\personenpic40em.png" />
+    <Content Include="Images\FormImages\personnel-04.png" />
+    <Content Include="Images\FormImages\personnelpic30em.png" />
+    <Content Include="Images\FormImages\picked.png" />
+    <Content Include="Images\FormImages\portal.png" />
+    <Content Include="Images\FormImages\portal50px.png" />
+    <Content Include="Images\FormImages\preview-02.png" />
+    <Content Include="Images\FormImages\preview.png" />
+    <Content Include="Images\FormImages\print-report.png" />
+    <Content Include="Images\FormImages\printer.png" />
+    <Content Include="Images\FormImages\Printer2.png" />
+    <Content Include="Images\FormImages\printerarea1.png" />
+    <Content Include="Images\FormImages\prj-06.png" />
+    <Content Include="Images\FormImages\PRJ.png" />
+    <Content Include="Images\FormImages\promptclose.png" />
+    <Content Include="Images\FormImages\PRP.png" />
+    <Content Include="Images\FormImages\pze-masterIV - Copy.png" />
+    <Content Include="Images\FormImages\pze-masterIV.png" />
+    <Content Include="Images\FormImages\pze-masterIVgrid.png" />
+    <Content Include="Images\FormImages\pze-masterIVsm - Copy.png" />
+    <Content Include="Images\FormImages\pze-masterIVsm.png" />
+    <Content Include="Images\FormImages\PZE.png" />
+    <Content Include="Images\FormImages\PZEMasterIVterminals.png" />
+    <Content Include="Images\FormImages\Raum25.png" />
+    <Content Include="Images\FormImages\REB.png" />
+    <Content Include="Images\FormImages\Recalculate.png" />
+    <Content Include="Images\FormImages\receivedata-pic.png" />
+    <Content Include="Images\FormImages\red.png" />
+    <Content Include="Images\FormImages\red1.png" />
+    <Content Include="Images\FormImages\redactive.png" />
+    <Content Include="Images\FormImages\redarrow2.png" />
+    <Content Include="Images\FormImages\redcamera.png" />
+    <Content Include="Images\FormImages\redgrid.png" />
+    <Content Include="Images\FormImages\redgrid2.png" />
+    <Content Include="Images\FormImages\refresh.png" />
+    <Content Include="Images\FormImages\refreshkrwfl.png" />
+    <Content Include="Images\FormImages\rotating.gif" />
+    <Content Include="Images\FormImages\rotating1.gif" />
+    <Content Include="Images\FormImages\Save.png" />
+    <Content Include="Images\FormImages\save50px.png" />
+    <Content Include="Images\FormImages\sc403 - Copy %282%29.png" />
+    <Content Include="Images\FormImages\sc403.png" />
+    <Content Include="Images\FormImages\sc4032016.png" />
+    <Content Include="Images\FormImages\sc403sm.png" />
+    <Content Include="Images\FormImages\search.png" />
+    <Content Include="Images\FormImages\searchDB.png" />
+    <Content Include="Images\FormImages\searchgreen.png" />
+    <Content Include="Images\FormImages\searchInner.png" />
+    <Content Include="Images\FormImages\senddata-pic.png" />
+    <Content Include="Images\FormImages\settingareapic.png" />
+    <Content Include="Images\FormImages\settings-new.png" />
+    <Content Include="Images\FormImages\smoking.png" />
+    <Content Include="Images\FormImages\sportstudio-pic.png" />
+    <Content Include="Images\FormImages\src100.png" />
+    <Content Include="Images\FormImages\src1002016.png" />
+    <Content Include="Images\FormImages\src100sm.png" />
+    <Content Include="Images\FormImages\stop-20px.png" />
+    <Content Include="Images\FormImages\stop-25px.png" />
+    <Content Include="Images\FormImages\stop-save1-01.png" />
+    <Content Include="Images\FormImages\stop-save2-02.png" />
+    <Content Include="Images\FormImages\stop-savex100.png" />
+    <Content Include="Images\FormImages\stop2.png" />
+    <Content Include="Images\FormImages\stopCustom20px.png" />
+    <Content Include="Images\FormImages\stopCustom25px.png" />
+    <Content Include="Images\FormImages\stopCustom32px.png" />
+    <Content Include="Images\FormImages\stopx100.png" />
+    <Content Include="Images\FormImages\Stop_100x100.png" />
+    <Content Include="Images\FormImages\switchplan-pic.png" />
+    <Content Include="Images\FormImages\switchprofile-pic.png" />
+    <Content Include="Images\FormImages\tablepic.png" />
+    <Content Include="Images\FormImages\terminal-info.png" />
+    <Content Include="Images\FormImages\terminal-info20x20.png" />
+    <Content Include="Images\FormImages\terminal-infoOld.png" />
+    <Content Include="Images\FormImages\timeboy.png" />
+    <Content Include="Images\FormImages\TimeboyIV.png" />
+    <Content Include="Images\FormImages\TimeboyIVsm.png" />
+    <Content Include="Images\FormImages\TimeboyIVterminals.png" />
+    <Content Include="Images\FormImages\timeboysm.png" />
+    <Content Include="Images\FormImages\TM 900bc.jpg" />
+    <Content Include="Images\FormImages\Tm4300.png" />
+    <Content Include="Images\FormImages\tm560bc.png" />
+    <Content Include="Images\FormImages\tm560bc2016.png" />
+    <Content Include="Images\FormImages\tm560bcsm.png" />
+    <Content Include="Images\FormImages\tm560tc.jpg" />
+    <Content Include="Images\FormImages\tm560tc.png" />
+    <Content Include="Images\FormImages\tm560tc2016.png" />
+    <Content Include="Images\FormImages\tm560tcsm.png" />
+    <Content Include="Images\FormImages\tm680bc-50px.png" />
+    <Content Include="Images\FormImages\tm680bc.png" />
+    <Content Include="Images\FormImages\tm680bc2016.png" />
+    <Content Include="Images\FormImages\TM680t.png" />
+    <Content Include="Images\FormImages\tm680tc.png" />
+    <Content Include="Images\FormImages\tm680tc2016.png" />
+    <Content Include="Images\FormImages\TM680tce.png" />
+    <Content Include="Images\FormImages\TM680tsm.png" />
+    <Content Include="Images\FormImages\tm900bc.png" />
+    <Content Include="Images\FormImages\tm900bc2016.png" />
+    <Content Include="Images\FormImages\tm900bcbg.png" />
+    <Content Include="Images\FormImages\TM900bce.png" />
+    <Content Include="Images\FormImages\tm900bcsm.png" />
+    <Content Include="Images\FormImages\TMEV43terminals.png" />
+    <Content Include="Images\FormImages\TMEVO28terminals.png" />
+    <Content Include="Images\FormImages\Tmflexmaster - Copy.png" />
+    <Content Include="Images\FormImages\Tmflexmaster.png" />
+    <Content Include="Images\FormImages\Tmflexmastersm.png" />
+    <Content Include="Images\FormImages\TMFlexMasterterminals.png" />
+    <Content Include="Images\FormImages\tmk-23px.png" />
+    <Content Include="Images\FormImages\TMK-Inactive.png" />
+    <Content Include="Images\FormImages\TMK-Info.png" />
+    <Content Include="Images\FormImages\TMK.png" />
+    <Content Include="Images\FormImages\TMK_Old.png" />
+    <Content Include="Images\FormImages\TmmasterIV - Copy.png" />
+    <Content Include="Images\FormImages\TmmasterIV.png" />
+    <Content Include="Images\FormImages\TmmasterIV0.png" />
+    <Content Include="Images\FormImages\TmmasterIVgrid.png" />
+    <Content Include="Images\FormImages\TmmasterIVsm - Copy.png" />
+    <Content Include="Images\FormImages\TmmasterIVsm.png" />
+    <Content Include="Images\FormImages\TmmasterIVsm0.png" />
+    <Content Include="Images\FormImages\TMMasterIVterminals.png" />
+    <Content Include="Images\FormImages\trainerfolder.png" />
+    <Content Include="Images\FormImages\tuer.png" />
+    <Content Include="Images\FormImages\Uebernehmen.png" />
+    <Content Include="Images\FormImages\Undo.png" />
+    <Content Include="Images\FormImages\unlockedpic40px.png" />
+    <Content Include="Images\FormImages\userimage.png" />
+    <Content Include="Images\FormImages\VIS.png" />
+    <Content Include="Images\FormImages\visitorapplication-pic.png" />
+    <Content Include="Images\FormImages\visitorcompany-pic.png" />
+    <Content Include="Images\FormImages\visitordata-pics.png" />
+    <Content Include="Images\FormImages\visitorlist-pics.png" />
+    <Content Include="Images\FormImages\visitorlist2-pic.png" />
+    <Content Include="Images\FormImages\visitorplan-pic.png" />
+    <Content Include="Images\FormImages\vox-leser.png" />
+    <Content Include="Images\FormImages\vox.png" />
+    <Content Include="Images\FormImages\voxio-50px.png" />
+    <Content Include="Images\FormImages\voxio-Out-1uber-putz-50em.png" />
+    <Content Include="Images\FormImages\voxio-Out-1uber-putz-50px.png" />
+    <Content Include="Images\FormImages\voxio-Out-1uber-putz.png" />
+    <Content Include="Images\FormImages\voxio-Out2-uber-putz-50em.png" />
+    <Content Include="Images\FormImages\voxio-Out2-uber-putz-50px.png" />
+    <Content Include="Images\FormImages\voxio-Out2-uber-putz.png" />
+    <Content Include="Images\FormImages\voxio.png" />
+    <Content Include="Images\FormImages\voxio_basic1-uber-putz-50em.png" />
+    <Content Include="Images\FormImages\voxio_basic1-uber-putz-50px.png" />
+    <Content Include="Images\FormImages\voxio_basic1-uber-putz.png" />
+    <Content Include="Images\FormImages\voxio_easy-uber-putz-50em.png" />
+    <Content Include="Images\FormImages\voxio_easy-uber-putz-50px.png" />
+    <Content Include="Images\FormImages\voxio_easy-uber-putz.png" />
+    <Content Include="Images\FormImages\voxio_IN-50em.png" />
+    <Content Include="Images\FormImages\voxio_IN-50PX.png" />
+    <Content Include="Images\FormImages\voxio_IN.png" />
+    <Content Include="Images\FormImages\web-04.png" />
+    <Content Include="Images\FormImages\WEB.png" />
+    <Content Include="Images\FormImages\workflow-03.png" />
+    <Content Include="Images\FormImages\yellow-edit.png" />
+    <Content Include="Images\FormImages\yellow1.png" />
+    <Content Include="Images\FormImages\yellowcamera.png" />
+    <Content Include="Images\FormImages\yellowcamera2.png" />
+    <Content Include="Images\FormImages\yellowgrid.png" />
+    <Content Include="Images\FormImages\yellowgrid2.png" />
+    <Content Include="Images\FormImages\yes-logout.png" />
+    <Content Include="Images\FormImages\zb702in.png" />
+    <Content Include="Images\FormImages\zb702in2016.png" />
+    <Content Include="Images\FormImages\zb702insm.png" />
+    <Content Include="Images\FormImages\zb703in.png" />
+    <Content Include="Images\FormImages\zb703in2016.png" />
+    <Content Include="Images\FormImages\ZB703insm.png" />
+    <Content Include="Images\FormImages\ZBBI402-1.png" />
+    <Content Include="Images\FormImages\ZBBI402.png" />
+    <Content Include="Images\FormImages\ZBBI4022016.png" />
+    <Content Include="Images\FormImages\ZBBI402sm.png" />
+    <Content Include="Images\FormImages\zf1700.png" />
+    <Content Include="Images\FormImages\zf17002016.png" />
+    <Content Include="Images\FormImages\zf1700sm.png" />
+    <Content Include="Images\FormImages\zk-mastersm - Copy.png" />
+    <Content Include="Images\FormImages\zk-mastersm.png" />
+    <Content Include="Images\FormImages\zk4000.png" />
+    <Content Include="Images\FormImages\ZKmasterIVterminals.png" />
+    <Content Include="Images\FormImages\ZkTerminal.jpg" />
+    <Content Include="Images\FormImages\zoom1-01.png" />
+    <Content Include="Images\FormImages\zoom10-01.png" />
+    <Content Include="Images\FormImages\zoom2-02.png" />
+    <Content Include="Images\FormImages\zoom20-02.png" />
+    <Content Include="Images\FormImages\zut-05.png" />
+    <Content Include="Images\FormImages\ZUT.png" />
+    <Content Include="Images\FormImages\zutdashboardpic.jpg" />
+    <Content Include="Images\FormImages\Zutrittsplan.png" />
+    <Content Include="Images\FormImages\zutrittsprofil.png" />
+    <Content Include="Images\FormImages\zutrittsprofil50px.png" />
+    <Content Include="Images\FormImages\Zweispaltig.png" />
+    <Content Include="Images\TreeView\assa-04.png" />
+    <Content Include="Images\TreeView\auto-data-15.png" />
+    <Content Include="Images\TreeView\brwtrmn3.png" />
+    <Content Include="Images\TreeView\calender1.png" />
+    <Content Include="Images\TreeView\clock-icon.png" />
+    <Content Include="Images\TreeView\clock-nav.png" />
+    <Content Include="Images\TreeView\communication-03.png" />
+    <Content Include="Images\TreeView\communication-icon.png" />
+    <Content Include="Images\TreeView\configbg.png" />
+    <Content Include="Images\TreeView\connection-settings.png" />
+    <Content Include="Images\TreeView\dashboard-02.png" />
+    <Content Include="Images\TreeView\dataauto-icon.png" />
+    <Content Include="Images\TreeView\datafox-02.png" />
+    <Content Include="Images\TreeView\datafox-icon.png" />
+    <Content Include="Images\TreeView\datamanual-icon.png" />
+    <Content Include="Images\TreeView\door-icon.png" />
+    <Content Include="Images\TreeView\door-nav.png" />
+    <Content Include="Images\TreeView\etz-branch.png" />
+    <Content Include="Images\TreeView\evo4-3.png" />
+    <Content Include="Images\TreeView\fingerprint-icon.png" />
+    <Content Include="Images\TreeView\fingerprintpic.png" />
+    <Content Include="Images\TreeView\general-01.png" />
+    <Content Include="Images\TreeView\hardware-icon.png" />
+    <Content Include="Images\TreeView\kaba-03.png" />
+    <Content Include="Images\TreeView\kalender-nav.png" />
+    <Content Include="Images\TreeView\lang-nav.png" />
+    <Content Include="Images\TreeView\language.png" />
+    <Content Include="Images\TreeView\manual-data-16.png" />
+    <Content Include="Images\TreeView\mobile-nav.png" />
+    <Content Include="Images\TreeView\mobile.png" />
+    <Content Include="Images\TreeView\mobileErfassung.png" />
+    <Content Include="Images\TreeView\password-nav.png" />
+    <Content Include="Images\TreeView\rights1.png" />
+    <Content Include="Images\TreeView\servicestudio-icon.png" />
+    <Content Include="Images\TreeView\servicestudio-nav.png" />
+    <Content Include="Images\TreeView\settings-01.png" />
+    <Content Include="Images\TreeView\settings.png" />
+    <Content Include="Images\TreeView\settings_Old.png" />
+    <Content Include="Images\TreeView\synel-05.png" />
+    <Content Include="Images\TreeView\terminals.png" />
+    <Content Include="Images\TreeView\tm560.png" />
+    <Content Include="Images\TreeView\TMK.png" />
+    <Content Include="Images\TreeView\virtualgrp.png" />
+    <Content Include="Images\TreeView\virtualterm-icon.png" />
+    <Content Include="Images\TreeView\virtualterminal.png" />
+    <Content Include="Images\TreeView\zeiterfassung-icon.png" />
+    <Content Include="Images\TreeView\zeitgroup.png" />
+    <Content Include="Images\TreeView\zeitgroupasp.png" />
+    <Content Include="Images\TreeView\zeitgroupnet.png" />
+    <Content Include="Images\TreeView\zeitgrp-icon.png" />
+    <Content Include="Images\TreeView\zk-icon.png" />
+    <Content Include="Images\TreeView\zkt-01.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="MasterPages\Main.Master" />
+    <Content Include="MasterPages\ZkTerminals.Master" />
+    <Content Include="MasterPages\DatafoxTerminals.Master" />
+    <Content Include="MasterPages\Primary.Master" />
+    <Content Include="Dlls\ZK sdk.zip" />
+    <None Include="Scripts\jquery-3.0.0.intellisense.js" />
+    <Content Include="Scripts\DatafoxTerminals.js" />
+    <Content Include="Scripts\Error.js" />
+    <Content Include="Scripts\jquery-3.0.0.js" />
+    <Content Include="Scripts\jquery-3.0.0.min.js" />
+    <Content Include="Scripts\jquery-3.0.0.slim.js" />
+    <Content Include="Scripts\jquery-3.0.0.slim.min.js" />
+    <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.0.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\Index.js" />
+    <Content Include="Scripts\Main.js" />
+    <Content Include="Scripts\moment-with-locales.js" />
+    <Content Include="Scripts\moment-with-locales.min.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\Primary.js" />
+    <Content Include="Scripts\ZkTerminals.js" />
+    <Content Include="Styles\DatafoxTerminals.css" />
+    <Content Include="Styles\Error.css" />
+    <Content Include="Styles\Index.css" />
+    <Content Include="Styles\Main.css" />
+    <Content Include="Styles\Primary.css" />
+    <Content Include="Styles\ZkTerminals.css" />
+    <Content Include="Error.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_GlobalResources\LocalizedText.de-DE.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalizedText.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LocalizedText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LocalizedText.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\Datacommunication.aspx.cs">
+      <DependentUpon>Datacommunication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\Datacommunication.aspx.designer.cs">
+      <DependentUpon>Datacommunication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\DatafoxTerminalsDashBoard.aspx.cs">
+      <DependentUpon>DatafoxTerminalsDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\DatafoxTerminalsDashBoard.aspx.designer.cs">
+      <DependentUpon>DatafoxTerminalsDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\TM680bc.aspx.cs">
+      <DependentUpon>TM680bc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\TM680bc.aspx.designer.cs">
+      <DependentUpon>TM680bc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\TM680tc.aspx.cs">
+      <DependentUpon>TM680tc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\TM680tc.aspx.designer.cs">
+      <DependentUpon>TM680tc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\TM900bc.aspx.cs">
+      <DependentUpon>TM900bc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\TM900bc.aspx.designer.cs">
+      <DependentUpon>TM900bc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content\ZkTerminalsDashBoard.aspx.cs">
+      <DependentUpon>ZkTerminalsDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content\ZkTerminalsDashBoard.aspx.designer.cs">
+      <DependentUpon>ZkTerminalsDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AccessProfileCtl.cs" />
+    <Compile Include="Controllers\EncryptionCtl.cs" />
+    <Compile Include="Controllers\TermKonfigMain.cs" />
+    <Compile Include="Controllers\TMKMain.cs" />
+    <Compile Include="Dtos\CommDBBookingsDto.cs" />
+    <Compile Include="Dtos\DatafoxTerminalInstanceDto.cs" />
+    <Compile Include="Dtos\DisplayBooking_DTO.cs" />
+    <Compile Include="Dtos\DisplayFunctionKey_DTO.cs" />
+    <Compile Include="Dtos\EmployeeProfile.cs" />
+    <Compile Include="Dtos\PermissionDto.cs" />
+    <Compile Include="Dtos\PersonalStammeDto.cs" />
+    <Compile Include="Dtos\ScriptRegister.cs" />
+    <Compile Include="Dtos\StandAloneReaders.cs" />
+    <Compile Include="Dtos\StatusDto.cs" />
+    <Compile Include="Dtos\TerminalAccessProfilesDto.cs" />
+    <Compile Include="Dtos\TerminalConfigUtilityDto.cs" />
+    <Compile Include="Dtos\TerminalConfigFunctionKeyDto.cs" />
+    <Compile Include="Dtos\TerminalConfigInfoTextDto.cs" />
+    <Compile Include="Dtos\TerminalConfigDto.cs" />
+    <Compile Include="Dtos\TerminalProfileTimeFrameDto.cs" />
+    <Compile Include="Dtos\TerminalReaderDto.cs" />
+    <Compile Include="Dtos\TerminalReadersDto.cs" />
+    <Compile Include="Dtos\TerminalReaderStaticDto.cs" />
+    <Compile Include="Dtos\TerminalsConDto.cs" />
+    <Compile Include="Dtos\TerminalZkDto.cs" />
+    <Compile Include="Dtos\Utils.cs" />
+    <Compile Include="Dtos\VirtualGroupTerminal_DTO.cs" />
+    <Compile Include="Dtos\VirtualTerminal_DTO.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\DatafoxTerminals.Master.cs">
+      <DependentUpon>DatafoxTerminals.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\DatafoxTerminals.Master.designer.cs">
+      <DependentUpon>DatafoxTerminals.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Primary.Master.cs">
+      <DependentUpon>Primary.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Primary.Master.designer.cs">
+      <DependentUpon>Primary.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\ZkTerminals.Master.cs">
+      <DependentUpon>ZkTerminals.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\ZkTerminals.Master.designer.cs">
+      <DependentUpon>ZkTerminals.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TerminalCommunication\ProtocolLogger.cs" />
+    <Compile Include="TerminalCommunication\TerminalInterface.cs" />
+    <Compile Include="TerminalCommunication\VirtualDataObjects\VirtualCostCenter.cs" />
+    <Compile Include="TerminalCommunication\VirtualDataObjects\VirtualDepartment.cs" />
+    <Compile Include="TerminalCommunication\VirtualDataObjects\VirtualFingerTemplate.cs" />
+    <Compile Include="TerminalCommunication\VirtualDataObjects\VirtualFunctionKeyItem.cs" />
+    <Compile Include="TerminalCommunication\VirtualDataObjects\VirtualLocation.cs" />
+    <Compile Include="TerminalCommunication\VirtualDataObjects\VirtualPersonal.cs" />
+    <Compile Include="TerminalCommunication\VirtualTerminalData.cs" />
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\CellInfoViewModel.cs" />
+    <Compile Include="ViewModels\CommDBMandantenViewModel.cs" />
+    <Compile Include="ViewModels\CommDBPersonalstammViewModel.cs" />
+    <Compile Include="ViewModels\CommDBRawBookingsViewModel.cs" />
+    <Compile Include="ViewModels\CommDBVorlauftastenViewModel.cs" />
+    <Compile Include="ViewModels\CommSettingsViewModel.cs" />
+    <Compile Include="ViewModels\DatafoxTerminalInstanceViewModel.cs" />
+    <Compile Include="ViewModels\GlobalSettingsViewModel.cs" />
+    <Compile Include="ViewModels\HardWareConfigViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\PermissionMappingViewModel.cs" />
+    <Compile Include="ViewModels\PersonalStammeViewModel.cs" />
+    <Compile Include="ViewModels\TabSystemDatenViewModel.cs" />
+    <Compile Include="ViewModels\TerminalAccessProfilesViewModel.cs" />
+    <Compile Include="ViewModels\TerminalConfigViewModel.cs" />
+    <Compile Include="ViewModels\TerminalConnectionViewModel.cs" />
+    <Compile Include="ViewModels\TerminalFunctionsViewModel.cs" />
+    <Compile Include="ViewModels\TerminalViewModel.cs" />
+    <Compile Include="ViewModels\ZBBIViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KruAll.Core\KruAll.Core.csproj">
+      <Project>{2c087803-5d15-4cfa-a463-6b2a021f89e9}</Project>
+      <Name>KruAll.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\LocalizedText.de-DE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LocalizedText.de-DE.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\LocalizedText.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LocalizedText.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6656</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6656/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
